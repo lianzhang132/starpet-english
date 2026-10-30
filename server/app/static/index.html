@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6fc">
+  <title>星伴英语 · 波波英语伙伴</title>
+  <link rel="icon" href="/static/assets/bobo.png">
+  <link rel="stylesheet" href="/static/styles.css?v=1.8.1">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="/static/assets/bobo.png" alt="波波">
+        <div><strong>星伴英语</strong><span>StarPet English</span></div>
+      </div>
+      <nav aria-label="主导航">
+        <button class="nav-button active" data-page="home"><span>⌂</span>宠物家园</button>
+        <button class="nav-button" data-page="course"><span>✦</span>英语冒险</button>
+        <button class="nav-button" data-page="phonics"><span>🔤</span>字母拼读</button>
+        <button class="nav-button" data-page="dialogue"><span>☏</span>情景对话</button>
+        <button class="nav-button" data-page="videos"><span>▶</span>故事学英语</button>
+        <button class="nav-button" data-page="growth"><span>♕</span>我的成长</button>
+      </nav>
+      <div class="streak-card">
+        <small>今日连续学习</small>
+        <strong><span data-bind="streak">0</span> 天 🔥</strong>
+        <p>明天继续来，火苗会更旺！</p>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <h1 id="page-title">早上好，小探险家！</h1>
+          <p id="page-subtitle">波波已经准备好陪你学习啦</p>
+        </div>
+        <div class="status-pills">
+          <span class="pill xp">⚡ <b data-bind="xp">0</b> XP</span>
+          <span class="pill stars">⭐ <b data-bind="stars">0</b></span>
+          <span class="pill cloud"><i id="cloud-dot"></i><span id="cloud-text">正在连接</span></span>
+        </div>
+      </header>
+
+      <section id="page-home" class="page active">
+        <div class="hero-grid">
+          <article class="pet-hero">
+            <div class="pet-copy">
+              <div class="eyebrow"><span>波波想对你说</span><small>轻轻摸摸它</small></div>
+              <h2 id="pet-message">Hi，小探险家！今天一起收集 3 颗星星吧！</h2>
+              <div class="button-row">
+                <button class="primary" data-action="quiz">开始今日冒险 <span>→</span></button>
+                <button class="secondary" data-action="feed">🍎 喂养与陪玩</button>
+              </div>
+            </div>
+            <div class="pet-stage" data-action="pet" role="button" tabindex="0" aria-label="摸摸波波的头">
+              <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div>
+              <img src="/static/assets/bobo.png" alt="桌面宠物波波">
+              <span class="tap-heart">💜</span>
+              <span id="pet-accessory" aria-hidden="true"></span>
+            </div>
+          </article>
+
+          <article class="daily-card card">
+            <div class="card-title"><h3>今日任务</h3><b><span data-bind="daily">0</span>/3</b></div>
+            <div class="progress"><span id="daily-progress" style="width:0%"></span></div>
+            <p class="today-plan" id="today-plan">波波正在准备今天的练习</p>
+            <ul class="task-list">
+              <li><i>○</i><span>听读 3 个单词</span></li>
+              <li id="task-lesson"><i>○</i><span>答对 3 道练习</span></li>
+              <li id="task-speak"><i>○</i><span>开口说 3 句英语</span></li>
+            </ul>
+            <p class="gift-hint" id="gift-hint">和波波一起完成今天的小目标</p>
+          </article>
+        </div>
+
+        <section id="pet-care-room" class="card" aria-label="波波的喂养陪玩与衣橱"></section>
+        <div class="section-heading"><h2>快速开始</h2><span>课程优先播放离线示范音（合成）</span></div>
+        <div class="quick-grid">
+          <button class="quick-card coral" data-action="cards"><i>🃏</i><span><b>单词闪卡</b><small>听读与翻卡</small></span></button>
+          <button class="quick-card cyan" data-action="listen"><i>🎧</i><span><b>听音辨词</b><small>耳朵热身</small></span></button>
+          <button class="quick-card purple" data-action="speak"><i>🎙️</i><span><b>跟读挑战</b><small>勇敢开口</small></span></button>
+          <button class="quick-card green" data-page-link="dialogue"><i>💬</i><span><b>情景对话</b><small>和波波聊一聊</small></span></button>
+          <button class="quick-card amber" data-page-link="phonics"><i>🔤</i><span><b>字母与拼读</b><small>从字母音到拼单词</small></span></button>
+          <button class="quick-card review" data-action="review"><i>🧠</i><span><b>聪明复习</b><small><strong id="review-count">0</strong> 项到期</small></span></button>
+          <button class="quick-card cyan" data-page-link="videos"><i>🎬</i><span><b>趣味英语故事</b><small>陪波波一起冒险</small></span></button>
+        </div>
+
+        <div class="home-bottom">
+          <article class="word-card card">
+            <div class="card-title"><h3>今日单词</h3><span>点击听发音 🔊</span></div>
+            <div class="word-list" id="home-words"></div>
+          </article>
+          <article class="weekly-card card">
+            <h3>词卡足迹</h3><strong>0</strong><span>已听读单词</span><em>每天复习，慢慢记牢</em>
+          </article>
+        </div>
+      </section>
+
+      <section id="page-course" class="page">
+        <article class="adventure-banner">
+          <div><h2>从会认单词，到敢说完整句子</h2><p>6 个主题世界 · 24 节入门课 · 练习常见生活表达</p></div>
+          <span>🚀</span>
+        </article>
+        <div class="world-grid" id="world-grid"></div>
+      </section>
+
+      <section id="page-phonics" class="page">
+        <article class="phonics-banner">
+          <div><small>BOBO PHONICS LAB</small><h2>看发音提示、听示例词、拼出第一个单词</h2><p>离线示范音优先播放字母名和完整示例词；音标和口形提示帮助找准字母音。</p></div>
+          <span aria-hidden="true">🔤</span>
+        </article>
+        <div class="phonics-toolbar" role="tablist" aria-label="拼读学习模式">
+          <button class="active" data-phonics-mode="letters" role="tab">A–Z 字母</button>
+          <button data-phonics-mode="sounds" role="tab">常见组合音</button>
+          <button data-phonics-mode="blend" role="tab">三音拼读</button>
+          <button data-action="phonics-quiz" class="phonics-quiz">🎧 听音闯关</button>
+          <strong id="phonics-progress">已听读 0 个发音</strong>
+        </div>
+        <div id="phonics-grid" class="phonics-grid"></div>
+      </section>
+
+      <section id="page-dialogue" class="page dialogue-layout">
+        <div class="scene-list" id="scene-list"></div>
+        <article class="dialogue-stage card">
+          <div class="dialogue-empty" id="dialogue-empty">
+            <img src="/static/assets/bobo.png" alt="波波">
+            <h2>选一个场景，和波波开口聊英语</h2>
+            <p>不用怕说错，波波会给你中文提示和温柔鼓励。</p>
+          </div>
+          <div class="dialogue-active" id="dialogue-active" hidden>
+            <div class="buddy-row"><img src="/static/assets/bobo.png" alt="波波"><div><b>波波 · Bobo</b><span>正在陪你练习 · 放轻松</span></div><button data-action="end-dialogue">结束</button></div>
+            <div class="speech-card"><span id="scene-emoji">🛝</span><h2 id="dialogue-line">Hi! My name is Bobo.</h2><p id="dialogue-hint">先听一遍，再跟着波波说。</p><button data-action="hear">🔊 听波波说一遍</button></div>
+            <p id="speech-result" role="status" aria-live="polite"></p>
+            <div id="recording-meter" hidden><meter min="0" max="1" value="0" aria-label="麦克风声音大小"></meter><span>准备录音</span></div>
+            <div class="speech-tools"><button data-action="cancel-speech" hidden>取消本次</button><button data-action="replay-speech" hidden>▶ 听听我说的</button><button data-action="retry-speech" hidden>↻ 重试识别</button></div>
+            <label class="audio-consent"><input id="audio-consent" type="checkbox"> 家长同意：本次录音临时发送至学习服务器识别，不保存录音。回放仅在本页内存中，切换页面或进入后台即清除。</label>
+            <div class="dialogue-controls"><button class="hint" data-action="hint">💡 中文提示</button><button class="hold" data-action="speak-line" disabled>🎙️ 点击跟读</button><button class="known" data-action="next-line">下一句 →</button></div>
+          </div>
+        </article>
+      </section>
+
+      <section id="page-videos" class="page" aria-label="故事学英语"></section>
+
+      <section id="page-growth" class="page">
+        <article class="level-banner"><div><h2>英语小探险家 · Lv. 1</h2><p>学习获得经验，向下一级出发！</p><div class="level-progress"><span style="width:0%"></span></div></div><img src="/static/assets/bobo.png" alt="成长中的波波"></article>
+        <div class="stat-grid"><div class="stat card"><i>📚</i><b>0</b><span>听读词卡</span></div><div class="stat card"><i>💬</i><b>0</b><span>跟读通过句子</span></div><div class="stat card"><i>🔥</i><b>0</b><span>连续学习天数</span></div><div class="stat card"><i>⭐</i><b>0</b><span>宠物星星</span></div></div>
+        <div class="growth-bottom">
+          <article class="chart-card card"><div class="card-title"><h3>今天的小目标</h3><span>0/3 已完成</span></div><div class="bars"></div></article>
+          <article class="report-card card"><h3>家长小报告</h3><small>根据实际练习记录</small><p>完成第一次练习后，这里会显示学习记录。</p><button data-action="report">查看练习统计</button></article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modal" hidden>
+    <article class="quiz-modal" role="dialog" aria-modal="true" aria-labelledby="quiz-prompt">
+      <div class="modal-head"><span id="quiz-count">第 1 题</span><button data-action="close-modal" aria-label="关闭">×</button></div>
+      <div class="quiz-reason" id="quiz-reason">新内容，先想一想</div>
+      <div class="quiz-emoji" id="quiz-emoji">🍎</div>
+      <div class="quiz-prompt-row"><h2 id="quiz-prompt">“苹果”用英语怎么说？</h2><button class="question-sound" id="quiz-read" data-action="read-question" aria-label="重新朗读题目" title="点击从头重听"><span aria-hidden="true">🔊</span><span id="quiz-read-label">再听一遍</span></button></div>
+      <p id="quiz-hint">它是红红的水果，读音以 A 开头。</p>
+      <div class="answers" id="answers"></div>
+      <div class="answer-result" id="answer-result" hidden><strong id="result-text"></strong><button data-action="next-quiz">下一题 →</button></div>
+    </article>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="/static/app.js?v=1.8.1"></script>
+</body>
+</html>

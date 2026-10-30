@@ -1,0 +1,52 @@
+# Local tools and generated output
+node_modules/
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.gradle/
+.hvigor/
+.idea/
+.vscode/
+.pi/
+.playwright-cli/
+build/
+output/
+local.properties
+.DS_Store
+Thumbs.db
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.hprof
+
+# Private runtime data, models, backups and distribution binaries
+server/data/
+server/models/
+server/downloads/
+backups/
+releases/
+*.db
+*.db-*
+*.sqlite*
+*.apk
+*.hap
+*.aab
+*.tar.gz
+*.log
+
+# Only authored teaching audio is versioned; do not add user recordings
+recordings/
+captures/

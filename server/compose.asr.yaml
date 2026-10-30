@@ -1,0 +1,21 @@
+# Overlay with compose.yaml so API and ASR share its existing default network:
+# docker compose -f compose.yaml -f compose.asr.yaml up -d --build starpet-asr
+# No host port is published; the API calls http://starpet-asr:8080/inference.
+services:
+  starpet-asr:
+    build:
+      context: ./asr
+    image: starpet-asr:whisper-1.9.5
+    container_name: starpet-asr
+    restart: unless-stopped
+    volumes:
+      - ./models:/models:ro
+    read_only: true
+    mem_limit: 2g
+    cpus: 2
+    pids_limit: 64
+    init: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

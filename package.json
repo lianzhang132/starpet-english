@@ -1,0 +1,17 @@
+{
+  "name": "starpet-english",
+  "version": "1.8.1",
+  "private": true,
+  "description": "English learning with a desktop pet for Chinese-speaking children; HarmonyOS 4.2 compatible Android APK and self-hosted API",
+  "scripts": {
+    "test": "node --test server/tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@deveco/deveco-cli": "^1.3.0-stable"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lianzhang132/starpet-english.git"
+  }
+}

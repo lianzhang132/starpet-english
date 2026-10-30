@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "reviewed": "2026-10-26",
+  "films": [
+    {
+      "id": "film-llamigos",
+      "type": "cc-by",
+      "publisher": "Blender Studio / Blender Foundation",
+      "url": "https://studio.blender.org/projects/caminandes-3/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Blender Institute / Blender Foundation (Production)",
+        "Pablo Vazquez (Director)",
+        "Hjalti Hjalmarsson (Animation director)",
+        "Torin Borrowdale (Music)",
+        "Sander Houtman (Sound design)",
+        "Ton Roosendaal (Producer)"
+      ],
+      "credit": "原片 Caminandes: Llamigos 由 Blender Studio 公开提供，许可为 CC BY 4.0；原片、原配乐和完整制作名单保留。星伴英语另配简短合成英语导读与中文提示，调整配乐音量和分辨率，增加学习活动及改编署名。原片没有英语对白，本版不是原作英语配音。Blender Studio 未对本应用作背书。",
+      "originalDownload": "https://studio.blender.org/download-source/files/26/263f328078fbebd508a0d3262f4fb4da5f16439f/263f328078fbebd508a0d3262f4fb4da5f16439f-1080p.mp4",
+      "licenseEvidence": "https://studio.blender.org/projects/api/assets/2417/?site_context=featured_artwork",
+      "originalSha256": "826513349ecf02d83b22f414514704e3bba10ff28fb45408a6cdf6cc57bacc06",
+      "adaptation": "Full original film, music and credits retained; added synthetic English learning narration, Chinese support and activities; adjusted music volume and resolution; appended adaptation credit card."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "starpet-course-voice-builder",
+  "private": true,
+  "type": "module",
+  "description": "Build-time-only local speech generation for fixed course text; never child recordings.",
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "kokoro-js": "1.2.1",
+    "sharp": "0.34.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "用桌面宠物陪孩子快乐学英语" },
+    { "name": "EntryAbility_desc", "value": "星伴英语主页面" },
+    { "name": "EntryAbility_label", "value": "星伴英语" },
+    { "name": "microphone_reason", "value": "用于英语跟读和口语练习" }
+  ]
+}

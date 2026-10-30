@@ -1,0 +1,38 @@
+// Official Blender Studio download, CC BY 4.0. Original film and credits remain
+// intact; the English learning narration is a StarPet adaptation, not source dialogue.
+const cue=(start,en,zh)=>({start,end:start+3.3,en,zh});
+export const OPEN_FILMS=[{
+  id:'film-llamigos',kind:'film',title:'羊驼和企鹅的莓果奇遇',titleEn:'Caminandes: Llamigos',duration:159,
+  level:'基础 · 亲子动画导读',
+  description:'一颗莓果引来一场雪地小闹剧，最后怎么变成了朋友间的分享？原片没有英语对白，本版另配简短英语导读；有追逐、滑倒和跌落的夸张情节，初次建议家长一起看。',
+  story:{takeaway:'跟着真正的 3D 动画看懂情节，试着问一句：Can we share?'},
+  src:'/static/videos/film-llamigos.mp4',poster:'/static/videos/film-llamigos.jpg',captions:'/static/videos/film-llamigos.vtt',
+  transcript:[
+    cue(1,'A snowy day.','下雪的一天。'),
+    cue(6,'Look! A hungry llama.','看！一只肚子饿的羊驼。'),
+    cue(13,'Oh! The ice is slippery.','哎呀！冰面滑滑的。'),
+    cue(21,'A penguin sees a red berry.','一只企鹅看见了红色的莓果。'),
+    cue(29,'Here comes a train!','火车来啦！'),
+    cue(40,'Where is the berry?','莓果在哪里？'),
+    cue(48,'The penguin has the berry.','企鹅拿到了莓果。'),
+    cue(58,'Look! What is down there?','看！那下面有什么？'),
+    cue(70,'A basket full of berries!','满满一篮子的莓果！'),
+    cue(80,'Can we share?','我们可以分享吗？'),
+    cue(89,'The little penguin runs away.','小企鹅跑开了。'),
+    cue(98,'The llama follows the penguin.','羊驼跟着企鹅跑。'),
+    cue(108,'They stop near the sea.','他们在海边停下来。'),
+    cue(118,'More penguins bring more berries.','更多企鹅带来了更多莓果。'),
+    cue(126,"Let's share.",'我们一起分享吧。'),
+  ],
+  interactions:[{id:'film-llamigos-ask',at:83.3,promptEn:'Can we share?',promptZh:'小伙伴也想吃，帮它问一句：我们可以分享吗？',resumeAfter:4},{id:'film-llamigos-share',at:129.3,promptEn:"Let's share.",promptZh:'最后大家都有莓果啦！邀请朋友一起分享。',resumeAfter:4}],
+  practice:[{en:'Can we share?',zh:'想一起分享时，试着问一句',start:80,end:83.3},{en:"Let's share.",zh:'邀请朋友一起分享',start:126,end:129.3}],
+  questions:[{id:'film-llamigos-hungry',prompt:'一开始，羊驼为什么追着莓果和企鹅跑？',options:[{en:'He is hungry.',zh:'因为他饿了，想吃莓果。'},{en:'He wants to go to school.',zh:'因为他想去学校。'}],correctIndex:0,explanation:'冬天食物不多，羊驼看到莓果很想吃；企鹅也在寻找食物，引出一连串小闹剧。'},
+    {id:'film-llamigos-ending',prompt:'最后的画面和一开始相比，发生了什么变化？',options:[{en:'Only one can eat.',zh:'只有一个能吃到。'},{en:'They have food to share.',zh:'大家有食物可以一起分享。'}],correctIndex:1,explanation:'开始大家为了少量莓果争抢，结尾伙伴们带来更多莓果，羊驼与企鹅一起分享。'}],
+  source:{type:'cc-by',publisher:'Blender Studio / Blender Foundation',url:'https://studio.blender.org/projects/caminandes-3/',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',
+    creators:['Blender Institute / Blender Foundation (Production)','Pablo Vazquez (Director)','Hjalti Hjalmarsson (Animation director)','Torin Borrowdale (Music)','Sander Houtman (Sound design)','Ton Roosendaal (Producer)'],
+    credit:'原片 Caminandes: Llamigos 由 Blender Studio 公开提供，许可为 CC BY 4.0；原片、原配乐和完整制作名单保留。星伴英语另配简短合成英语导读与中文提示，调整配乐音量和分辨率，增加学习活动及改编署名。原片没有英语对白，本版不是原作英语配音。Blender Studio 未对本应用作背书。',
+    originalDownload:'https://studio.blender.org/download-source/files/26/263f328078fbebd508a0d3262f4fb4da5f16439f/263f328078fbebd508a0d3262f4fb4da5f16439f-1080p.mp4',
+    licenseEvidence:'https://studio.blender.org/projects/api/assets/2417/?site_context=featured_artwork',
+    originalSha256:'826513349ecf02d83b22f414514704e3bba10ff28fb45408a6cdf6cc57bacc06',
+  },
+}];

@@ -1,0 +1,10 @@
+data/
+models/
+backups/
+releases/
+downloads/
+tests/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.tar.gz

@@ -1,0 +1,4 @@
+{
+  "apiOrigin": "https://your-api.example.com",
+  "apiFallbackOrigin": ""
+}

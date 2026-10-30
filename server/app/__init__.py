@@ -1,0 +1,1 @@
+"""StarPet English service."""

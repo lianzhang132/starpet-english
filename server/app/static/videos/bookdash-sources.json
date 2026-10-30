@@ -1,0 +1,650 @@
+{
+  "format": 1,
+  "reviewed": "2026-10-26",
+  "logo": {
+    "url": "https://bookdash.org/wp-content/themes/bd/assets/images/book-dash-logo-md.svg",
+    "conversion": "Unmodified publisher SVG rendered to PNG"
+  },
+  "books": [
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/come-back-cat/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Nicola Rijsdijk (Writer)",
+        "Karen Lilje (Illustrator)",
+        "Sam Scarborough (Designer)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-come-back-cat",
+      "title": "Come Back, Cat!",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/come-back-cat_english_front-cover_20140909.jpg",
+          "file": "00.jpg",
+          "sha256": "73566868ee2ccf39eaf281760b485a055876ff33c522a08682995602ec87a236"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409094.jpg",
+          "file": "01.jpg",
+          "sha256": "d262c0e81b895eae1c321710f243a5fd789361014cb617ecf7cce6e6ca705e5b"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409095.jpg",
+          "file": "02.jpg",
+          "sha256": "a68a96204a519e2721ff9e9739d715868500f8d49a947fc42153930699f50ce0"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409096.jpg",
+          "file": "03.jpg",
+          "sha256": "11b202ec7facf50fcb4501aef83864e320beca9524486a092365a88611cd76b1"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409097.jpg",
+          "file": "04.jpg",
+          "sha256": "d16196467fa240eaa2ea764962bdeb3de02b6e4e51e65186a9d7c1ad759a195c"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409098.jpg",
+          "file": "05.jpg",
+          "sha256": "3e8eab6835a1e80d40b7634b88b581c40d16f61b141bca576b302735032ba99a"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_201409099.jpg",
+          "file": "06.jpg",
+          "sha256": "60efc155010ec7d8fc67508fd9223519664b27d5d42c81836471b22a5f795243"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090910.jpg",
+          "file": "07.jpg",
+          "sha256": "d68696c8c365c59fdfbb4243f62ef0595046504d5162e51635f28fffa141299d"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090911.jpg",
+          "file": "08.jpg",
+          "sha256": "8bc44f9c1f4e66efaa0294cd4f0d7f5e66475512840fe2e84ca6a1e55121f38a"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090912.jpg",
+          "file": "09.jpg",
+          "sha256": "b258dd0614ef8fc724824ebee2160a0d8c24fef6319496250ca232f5850756d7"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090913.jpg",
+          "file": "10.jpg",
+          "sha256": "f0f246e6ac140b29e28b93a38c0284588d0a56fd6b053319bacc51a766259334"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090914.jpg",
+          "file": "11.jpg",
+          "sha256": "99a9a0ce6e68f49153135d3789761858723353e8fc18c17d8f4b1ab5b9af6e98"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_interior-spreads_2014090915.jpg",
+          "file": "12.jpg",
+          "sha256": "a47fa45e4db5a6ae51e3711cdd220cd6b3994d22ce212f82e1918cec673d27eb"
+        },
+        {
+          "index": 13,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/come-back-cat_english_pdf-ebook_20140909_Page_18.jpg",
+          "file": "13.jpg",
+          "sha256": "c4c0e504ad20fcbd5a5875668814c9334b3d6e1e3ce3cf7bfff3f97db024b810"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    },
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/fifi-and-teddy/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Tshepo Letsapa (Writer)",
+        "Alison de Villiers (Illustrator)",
+        "Fathima Kathrada (Designer)",
+        "Zanri Kritzinger (Editor)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-fifi-and-teddy",
+      "title": "Fifi and Teddy",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_cover-2.jpg",
+          "file": "00.jpg",
+          "sha256": "65ab498dc3ae8e768b975e133061d274f900179d40459727d1d45c11b7d0c7ff"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page4-scaled.jpg",
+          "file": "01.jpg",
+          "sha256": "9a4bf7ad8b56ee2551bf0ccba4e8ef4c90a2b13298dc2d1140604c3da5fa4460"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page5-scaled.jpg",
+          "file": "02.jpg",
+          "sha256": "bc55b204eacf74f91358acf794ac4d77bd459d2095e9878db2e33f96e0863e2b"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page6-scaled.jpg",
+          "file": "03.jpg",
+          "sha256": "44b098ce8ba38c3267048ef5db76b78ff82a521c549ea0edd784b46be6b330dc"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page7-scaled.jpg",
+          "file": "04.jpg",
+          "sha256": "d6e74c0a5d166d09cba93f044ceeda94fc3624a6cdebd40c62fd64d754765526"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page8-scaled.jpg",
+          "file": "05.jpg",
+          "sha256": "509e54d6cc07ce6b024260866368ec9303482354ba26be145f14cd50595b4153"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page9-scaled.jpg",
+          "file": "06.jpg",
+          "sha256": "15f41cbdf566f4159bf39895c71facf736a5bc8188aab23f621f0c6d870dec3a"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page10-scaled.jpg",
+          "file": "07.jpg",
+          "sha256": "fe97939fffd208aed8be29fc3db56fbba84e29110347f112c879b61e7575db51"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page11-scaled.jpg",
+          "file": "08.jpg",
+          "sha256": "78c7ff4c14deba7ae20241155943ddd899e48b81450510178ef0f4b84d6ccc61"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page12-scaled.jpg",
+          "file": "09.jpg",
+          "sha256": "61f91ee71ec2f3a40df40bf68e6571c6eb0bb08d388ea88ca936a9cca079c11e"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page13-scaled.jpg",
+          "file": "10.jpg",
+          "sha256": "683bfb9d1f68500128a91a928b7152d20d7f4b9c8ce925e04b572085595c4c0f"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page14-scaled.jpg",
+          "file": "11.jpg",
+          "sha256": "b72c4d7a61b4ff713d548b77714f714b64b3f29e1c2db4a1bdce0e3281c753ff"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2022/11/fifi-and-teddy_en_20221127_page15-scaled.jpg",
+          "file": "12.jpg",
+          "sha256": "563916448209bc0fa47aac6ed01b8fb1c2746137ebc3faff7f53873ef530c640"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    },
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/a-house-for-mouse/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Michele Fry (Writer)",
+        "Amy Richards (Uzzell) (Illustrator)",
+        "Jennifer Jacobs (Designer)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-a-house-for-mouse",
+      "title": "A House for Mouse",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_pdf-ebook_20140908_Page_01.jpg",
+          "file": "00.jpg",
+          "sha256": "25d41995ea53d95e67d70fe812299fbecf45fb7336ce7118248cee9ddc4f69b6"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409084.jpg",
+          "file": "01.jpg",
+          "sha256": "5e1ebbb01e2a01763542a7254efffdda64deeb03b4efb05c27ac3c6367468c26"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409085.jpg",
+          "file": "02.jpg",
+          "sha256": "1e07710f422ae3b21ddfeb9e5660bad95bdcb49a19c905c9a0c8bb51bde52a72"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409086.jpg",
+          "file": "03.jpg",
+          "sha256": "3b6159f1f657935cf8e8b72b46dc0f7d6619d981375ae59aca43a8d9746354ce"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409087.jpg",
+          "file": "04.jpg",
+          "sha256": "e4fa11cabc6276f518745d9889da264420975889db46f610a14d428c0f99093d"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409088.jpg",
+          "file": "05.jpg",
+          "sha256": "c9b268d6325567a79a1de4d42725173f2c94f4c1b88a3038cbbaf068ca00d47c"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_201409089.jpg",
+          "file": "06.jpg",
+          "sha256": "7772324f30aac7435243a89c17fd881a67e375dadce8cfe6738009da1e36a8b9"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090810.jpg",
+          "file": "07.jpg",
+          "sha256": "42dda1ede603cd982ae5c5f8b22cffc206da829ca98968922b915d392e84f70c"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090811.jpg",
+          "file": "08.jpg",
+          "sha256": "5063858fc3db309af157297fbc4433692ead5ebd9acbdbb6d9be65a09e7c33df"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090812.jpg",
+          "file": "09.jpg",
+          "sha256": "43111ed19928eb48a9ca5e7377512176a0fd882eed185141aba41b5f3118f40a"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090813.jpg",
+          "file": "10.jpg",
+          "sha256": "26304ce9e254d32703d344cb9230895f38e9814d6fa3d620d392b6ef63813cad"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090814.jpg",
+          "file": "11.jpg",
+          "sha256": "42dac88a8289828d0b341428d32df2e410fa7fbb704953dfd1ea3761b4201260"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2014/09/a-house-for-mouse_interior-spreads_2014090815.jpg",
+          "file": "12.jpg",
+          "sha256": "6ccc81b9e9e72ec4da127689593efee80806ab049fcd892731e804440194abd5"
+        },
+        {
+          "index": 13,
+          "url": "https://bookdash.org/wp-content/uploads/2019/11/a-house-for-mouse_pdf-ebook_20140908_Page_18.jpg",
+          "file": "13.jpg",
+          "sha256": "e3996fc7b856371362ff635a4d6d3a7ae1145dbbcd11c4788382cea4d2b86097"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    },
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/little-goat/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Mirna Lawrence (Writer)",
+        "Nicola Anne Smith (Illustrator)",
+        "Tiffany Mac Sherry (Designer)",
+        "Nabeela Kalla (Editor)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-little-goat",
+      "title": "Little Goat",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_cover.jpg",
+          "file": "00.jpg",
+          "sha256": "f9a300e806ec8d74b2af4000f51d9a99e6d4748a7b4a7f4b3ed70877275b9d40"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page1.jpg",
+          "file": "01.jpg",
+          "sha256": "09a7e87792dee21aa4eedadad6a3c4c2c16e7f92adc3d8c8cc32619185753e73"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page2.jpg",
+          "file": "02.jpg",
+          "sha256": "9c9f220e1b62718618c104433894b3b2c3b0170be4339f46438bfe9f234840d7"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page3.jpg",
+          "file": "03.jpg",
+          "sha256": "712f98a31a0a1ad18e2b5c534b732f572014c4ef98405c7795f2b634a6b2dbb7"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page4.jpg",
+          "file": "04.jpg",
+          "sha256": "ccca1788b530fa480624c22e2325a93c4758c9e600f1a363c9abe5cea414b63c"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page5.jpg",
+          "file": "05.jpg",
+          "sha256": "de571eb8bc1b0a2acc2326e571dad6a5284b2748b39186e2c9de635d287913e7"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page6.jpg",
+          "file": "06.jpg",
+          "sha256": "e828d8c6c9627b1b34ca4efcc901869fb351e0313f9b7b7a9060fa1dc5f7a2ad"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page7.jpg",
+          "file": "07.jpg",
+          "sha256": "2366b013698dd2a3a1012085db6e2dcc788929f66314867941daed8e0d9f2f8f"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page8.jpg",
+          "file": "08.jpg",
+          "sha256": "6cf25a32fda0f40cf0031abc55a3cd4c99578c836a776ae69a3d07526c34cfeb"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page9.jpg",
+          "file": "09.jpg",
+          "sha256": "3c082f8ff0a926ad78bc5517ebf9ada7f52c7c063287e1178511ff3586c7b136"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page10.jpg",
+          "file": "10.jpg",
+          "sha256": "fe0aa4e8f8886a6077401665de5347d1ecc852c3dd521aa93594592f577dab9a"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page11.jpg",
+          "file": "11.jpg",
+          "sha256": "4aa9d974b3858fe0765131c9b604cb0b5801aea5fa7348f32044f0e7af12b481"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page12.jpg",
+          "file": "12.jpg",
+          "sha256": "a5de1f382b8ab995e01d4d1684366ad4fd226904c817d2099998b6bbc54f4aee"
+        },
+        {
+          "index": 13,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page13.jpg",
+          "file": "13.jpg",
+          "sha256": "cb8626291d277fa5ec49495dae19414993d9e38c53cf9ba68f354b5ef8bb3b0a"
+        },
+        {
+          "index": 14,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page14.jpg",
+          "file": "14.jpg",
+          "sha256": "5aa140a891445f583400965b09ec5e250c1e1c6295bacf12e045e4e9ddda36b1"
+        },
+        {
+          "index": 15,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page15.jpg",
+          "file": "15.jpg",
+          "sha256": "b08af2fc807be6b83d50fbd951c8bac1d9737c96c46c8d53e4781c9f1efaad3b"
+        },
+        {
+          "index": 16,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page16.jpg",
+          "file": "16.jpg",
+          "sha256": "ae5c3997a188f941e4fdbb3a4159f38e572caef3c16b417d8c4970351d83ed2e"
+        },
+        {
+          "index": 17,
+          "url": "https://bookdash.org/wp-content/uploads/2017/02/little-goat_english_20170208_page17.jpg",
+          "file": "17.jpg",
+          "sha256": "4bf1709cc850440c638d53836b2b574ee649d8b854e6cdfa1e51c741936ef06c"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    },
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/sleepy-mr-sloth/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Paul Kennedy (Writer)",
+        "Graham Paterson (Illustrator)",
+        "Nick Mulgrew (Designer)",
+        "Arthur Attwell (Editor)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-sleepy-mr-sloth",
+      "title": "Sleepy Mr Sloth",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth.jpg",
+          "file": "00.jpg",
+          "sha256": "feead7bffc088b6a5f776a6deb735d5e8afda3510e2b77947338c31e86ec80b4"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411114.jpg",
+          "file": "01.jpg",
+          "sha256": "9b3829ab50d2fa0961654704a2adcd5d6c82a2e47e323df7d7ad28e0b9e3a4c7"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411115.jpg",
+          "file": "02.jpg",
+          "sha256": "1daa4b77863627dd50d85a1e47ac94bb3dbaa298e76128ecda91baff0054930c"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411116.jpg",
+          "file": "03.jpg",
+          "sha256": "20c69faae86fa25d859fc07262a219631b39b523daedcb7a700968168ad1fbb3"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411117.jpg",
+          "file": "04.jpg",
+          "sha256": "e26008007996dad4619dc016a6461adcf9b56866f9b23eced8f1dcffb72f0f4c"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411118.jpg",
+          "file": "05.jpg",
+          "sha256": "e05348640319d929f2eb62453d865a8c9e7d773c4ee33faba1ff36aae0214d55"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_201411119.jpg",
+          "file": "06.jpg",
+          "sha256": "af3d9b55f669ee4492ee72c2ba1092e8deead8190795b3f9a178fcf47230e7d6"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111110.jpg",
+          "file": "07.jpg",
+          "sha256": "c659e2fe542e95459246fb8a111b0d219cf3971e91b3b69dd7a62a1fb1a4efd2"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111111.jpg",
+          "file": "08.jpg",
+          "sha256": "23cf9132e93d32246839e05a9399ba4356d04a61cc6f6fe1f774e406e3422a4f"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111112.jpg",
+          "file": "09.jpg",
+          "sha256": "9ccf9e63fc050035185e87558abdd63d29d487f4a4ebb71ba82d556997b5b4d7"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111113.jpg",
+          "file": "10.jpg",
+          "sha256": "170d3dd80a1f19d08ae728b6d52d3615a4c3398be55a697bb85dad4dabc39cbb"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111114.jpg",
+          "file": "11.jpg",
+          "sha256": "39b430a5c56f302bffe71a158794dda2d87d9fb8ded3624db83c7e2bbfd033af"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_interior-spreads_2014111115.jpg",
+          "file": "12.jpg",
+          "sha256": "9450709e25de604a1341178c01cf971406828fd4d38a59415d99d0400a99d6c2"
+        },
+        {
+          "index": 13,
+          "url": "https://bookdash.org/wp-content/uploads/2014/07/sleepy-mr-sloth_english_pdf-ebook_20140708_Page_18.jpg",
+          "file": "13.jpg",
+          "sha256": "0d5c8b22f198ac7f16c99db9345530a75f381e2e93b127bafaf8514489fbd511"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    },
+    {
+      "type": "cc-by",
+      "publisher": "Book Dash",
+      "url": "https://bookdash.org/books/hippo-wants-to-dance/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "creators": [
+        "Sam Beckbessinger (Writer)",
+        "Megan Andrews (Illustrator)",
+        "Marisa Steyn (Designer)",
+        "Ester Levinrad (Editor)"
+      ],
+      "credit": "原作由 Book Dash 以 CC BY 4.0 发布。星伴英语保留原作插画，改编为简化英语讲述的有声绘本视频，新增中文提示、轻缓转场及学习活动；英语讲述为离线合成音。原作不是星伴原创。",
+      "id": "book-hippo-wants-to-dance",
+      "title": "Hippo Wants to Dance",
+      "images": [
+        {
+          "index": 0,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_01.jpg",
+          "file": "00.jpg",
+          "sha256": "b708feb15ed3c9ae9fd9e18a4fcb5452fb2c61b1b4bea6a86cfb846ece3483a5"
+        },
+        {
+          "index": 1,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_05.jpg",
+          "file": "01.jpg",
+          "sha256": "c835eb6dd2b2e3f977785f3e5c6b61d509afee1c4cb494914ee67921751fa182"
+        },
+        {
+          "index": 2,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_06.jpg",
+          "file": "02.jpg",
+          "sha256": "9c126604d3fdcb3cbf650f8077f94e0112e8d4e0e51f5f936622197c0ef72c4f"
+        },
+        {
+          "index": 3,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_07.jpg",
+          "file": "03.jpg",
+          "sha256": "e78322826ae927b8c337651f892f274a574b2a7c712ad762c29ad25b32240005"
+        },
+        {
+          "index": 4,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_08.jpg",
+          "file": "04.jpg",
+          "sha256": "b76e23c3226b9a650b8103cb38cd1cd2496b39bc8b2f0c29d4788f7d61dee91e"
+        },
+        {
+          "index": 5,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_09.jpg",
+          "file": "05.jpg",
+          "sha256": "e865650991ecd9b737766a6bac4dfa2c3226c2eb9f6fd0cb863bc926f9e96658"
+        },
+        {
+          "index": 6,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_10.jpg",
+          "file": "06.jpg",
+          "sha256": "ec82f3e0a4a2b87f0ca14fb274f9ee15f7e1874210586d6e67f2a2f69be1bdec"
+        },
+        {
+          "index": 7,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_11.jpg",
+          "file": "07.jpg",
+          "sha256": "9531edc8b41c051e6193d6e746e2ff443316945134c959f53356c61ba505145e"
+        },
+        {
+          "index": 8,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_12.jpg",
+          "file": "08.jpg",
+          "sha256": "85a9897aed2095574bc2f3e983407ccbe722101421d783958e016556e0beea37"
+        },
+        {
+          "index": 9,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_13.jpg",
+          "file": "09.jpg",
+          "sha256": "c564313a6707fdad39ea2232b7c21faaf8a78059e0fc336db3b09f6d15c9d91a"
+        },
+        {
+          "index": 10,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_14.jpg",
+          "file": "10.jpg",
+          "sha256": "141ab75b9ccc853cb711bd42036a92bd65de0b6d272740c4a1f5c36c9f6bfe48"
+        },
+        {
+          "index": 11,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_15.jpg",
+          "file": "11.jpg",
+          "sha256": "15714bbcc74fabfc302f020d32b4f0fb52e8a7948329e713cde1721f01bed9fb"
+        },
+        {
+          "index": 12,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_16.jpg",
+          "file": "12.jpg",
+          "sha256": "2fe37b7754e7f9adb28af55b0d5f9b0dd62e0dbc4bd2da0d4970c9e3d932f998"
+        },
+        {
+          "index": 13,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-dancing.jpg",
+          "file": "13.jpg",
+          "sha256": "7a3680d1aed3f9e4ecfd58df477083cbbc61b068da8c3b066988f222127ba9ed"
+        },
+        {
+          "index": 14,
+          "url": "https://bookdash.org/wp-content/uploads/2016/03/hippo-wants-to-dance_english_20160324_Page_18.jpg",
+          "file": "14.jpg",
+          "sha256": "460cdf9c4f686f47091797d226ba7d4d0e9e59cc6d170a346a224253c615ee3d"
+        }
+      ],
+      "adaptation": "Simplified English narration and Chinese translation by StarPet; original illustrations preserved; added gentle page transitions and original learning activities; synthetic Kokoro voice."
+    }
+  ]
+}

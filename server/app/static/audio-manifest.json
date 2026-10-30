@@ -1,0 +1,2175 @@
+{
+  "format": 1,
+  "id": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "revision": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+  "voice": "af_heart",
+  "dtype": "q8",
+  "speed": 0.94,
+  "clips": {
+    "A": {
+      "path": "/static/audio/en-us/ae215619625b66df44d4ab63139e958e5dba6ff0c50d45773ba5afec8d2d5d09.wav",
+      "durationMs": 1300,
+      "sha256": "1bdcb17f983460e75e3fcd6d35f29778454d127da59d82834f028ab1c92cd056"
+    },
+    "A basket full of berries!": {
+      "path": "/static/audio/en-us/22882bfd5aad2df9c5143193739359b1239b2808bc9cc53b285e6129687824e4.wav",
+      "durationMs": 2175,
+      "sha256": "80ea44203e62c430ee06c819736d86ccef67b6495f0a42ca212d9a59ca1d06f6"
+    },
+    "A bird is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/4741f2d317f8a977d81ce3b9ce6fe4d249f36a6b2d17788a78e80a81d03c84a2.wav",
+      "durationMs": 2950,
+      "sha256": "4910ff18c701c1229a705c7027df785976244b654e30c7ba18cf61484e5d12ec"
+    },
+    "A bird says, how do you do?": {
+      "path": "/static/audio/en-us/9979dbb4c8bb5b93d39ece80174659133b8944ae27e5bdd43b822cce0e26ab03.wav",
+      "durationMs": 2400,
+      "sha256": "ffdbd883d493b2d17a34363f3b1baaf5bcf501bca8bcb33e67f0762184e4ce59"
+    },
+    "A bird.": {
+      "path": "/static/audio/en-us/d1512f8315110f8b61b8f95778fb19b7b859ac61002de63321337453ddd9ac3f.wav",
+      "durationMs": 1550,
+      "sha256": "4e9979951b771c2f257ab6baaeea15c064f5ff6d6205434ba6eca3d963964866"
+    },
+    "A cat is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/97c7d77c8815a07f9c3639532ed14fdf5ce6d00ebc889adf30ab3b55e94c1a7d.wav",
+      "durationMs": 2975,
+      "sha256": "9060f63e6f854bbd69d3077d500aa5c4a0b39412d3f03787d204e5a840a7ccb6"
+    },
+    "A cold fish tank.": {
+      "path": "/static/audio/en-us/4231d206836764ed582eba7bb7519613fc5e5221650288b8a010b5adce54b004.wav",
+      "durationMs": 1900,
+      "sha256": "d9e70b2f72fcf7b743742efa6c3cdaec95e9e3c6d6d18480c98da52ca41e2b87"
+    },
+    "A dog is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/ac07c71f955d5b584e9fd7b3c9134c06dce9119f3a6bc790c9cef461916ab99c.wav",
+      "durationMs": 3050,
+      "sha256": "d37949aa75cb073c1e64d8bec51438492bb89b4aab0cd76f8ccbc0d528dd0efe"
+    },
+    "A fish is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/aaa9dad9aa8f204d454ec016d41d3408d8df76006b7293be9cc15ae0c9d702a0.wav",
+      "durationMs": 3050,
+      "sha256": "eb1559dc054f41f332435cb1ec9c074f8bc79abadcd01b53794fd800d0f78aaf"
+    },
+    "A fish.": {
+      "path": "/static/audio/en-us/0542bf6e404ea5931345267ccb0aec2a7b6f3673f9814ae037045429635a1df5.wav",
+      "durationMs": 1550,
+      "sha256": "a9517c678f906a84a95acb48b5bd257df85ec1e3bf1518d1d601e65f16b30cf0"
+    },
+    "A lion is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/db638adf188e0a3acd86aba6a055a483c42deb59cb8aa1d8604966e31094c274.wav",
+      "durationMs": 3100,
+      "sha256": "15e6c9d75e8cbdc67ac1f9b09d88359b799f526c78a85da32d6523974de52024"
+    },
+    "A little bird is here.": {
+      "path": "/static/audio/en-us/9a8fff5875d5da4d5be6fca16b8755e01b908bf9c9bdc8a53b2326d545a9852f.wav",
+      "durationMs": 1950,
+      "sha256": "3898a5ecb16958f52e0f21c2c0952abea9286bd52f74707b5bd4ff8317fcb1c0"
+    },
+    "A little grasshopper starts to dance.": {
+      "path": "/static/audio/en-us/201b5664cf4cac262d8b5253e167cbc8d22ea6dc99ec701730daae35be30a3d4.wav",
+      "durationMs": 2500,
+      "sha256": "8383685ee1b547ebcf1645e9c8b80360182efd29831a18f4fcfe4fd9f089612f"
+    },
+    "A panda is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/0d3a9ce9f2951587a2cc59d96d2218bca31acea17137f96aa499a5e5e51987fe.wav",
+      "durationMs": 3100,
+      "sha256": "47699a454ea399c26dacc721abbc4e803f15adf288556d783990bac35f572e20"
+    },
+    "A penguin sees a red berry.": {
+      "path": "/static/audio/en-us/546c598a03660defb65cb9721c929d62074e2d24bd6262ef67483950729b64c5.wav",
+      "durationMs": 2300,
+      "sha256": "d57c7ee4e6f3aecfc931f107d413b9e5890f311e1d978760bab15fcb309ad785"
+    },
+    "A rabbit is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/ccca36903630471d776a1e4db0a2ee9fdf8c97b024caa0f02efd80c6e40c504c.wav",
+      "durationMs": 3050,
+      "sha256": "ec42d0dd9e171b21f0efe88652b469bc7680ae9355e25594b3e86c51e015c9ff"
+    },
+    "A snowy day.": {
+      "path": "/static/audio/en-us/5d85118a66e3528fe2ac815e6b2f9dd9f06cc0f34e9a5f26a0c7fb50ecf746e7.wav",
+      "durationMs": 1800,
+      "sha256": "37b21df0c8de067b8757d13e9c1d23f1c6188a209e8f718ae048490c27157ca9"
+    },
+    "A tiger is a wonderful animal friend!": {
+      "path": "/static/audio/en-us/0c53e3963545af777dc2e198c0f78ead3dfdbd115ec016ae6af87f77700f07f7.wav",
+      "durationMs": 3150,
+      "sha256": "8ddde7f752fe7f623d0521ca1a8a78a89ec59b349215fb25d8899b86187d6a10"
+    },
+    "A warm little space.": {
+      "path": "/static/audio/en-us/509b219b45faaf647214e073790fa40a3de72a90cace97c427912f81e60ab4ee.wav",
+      "durationMs": 1900,
+      "sha256": "7e0d205a212d4712700fbbf2b2e3654a5b803d425cd2f76dd97b6ef394493a32"
+    },
+    "An apple and a banana!": {
+      "path": "/static/audio/en-us/3c9f1aae4a7de339908dda212fa2a5e04b89c15f5c7bdff95cce905f9454226e.wav",
+      "durationMs": 2025,
+      "sha256": "87e4b0b01e6ac2c75662af703a9444b447c53f57680e758bda312bf9bbaeffe9"
+    },
+    "B": {
+      "path": "/static/audio/en-us/04db7e6bede50f9f157ac3d36e8cf7316368deae0b597bffa5fa94504485f5ca.wav",
+      "durationMs": 1350,
+      "sha256": "25750699be359b8c8ff73a267e30244900877d27b37da3d7401e9650dc74ea09"
+    },
+    "Bobo": {
+      "path": "/static/audio/en-us/861f1787764588ce5f0bbdb4b2678d28c9c24577971f6fd13fb24e893cf445af.wav",
+      "durationMs": 1450,
+      "sha256": "84a2cced93e6669ad577616803f96cbc1d7f6977ec02154b6ef595607299e4cd"
+    },
+    "Bobo has no food left.": {
+      "path": "/static/audio/en-us/7868cd395a1eaf3954d96fd30917099df53f3775d69c699b8201f51946222ffa.wav",
+      "durationMs": 2375,
+      "sha256": "63738333d9d8d7ece0ffe98344594186d10a6b076678d99b39bcd461040bef58"
+    },
+    "But the cat runs outside!": {
+      "path": "/static/audio/en-us/069a483183a37f9d8470674c4d884c91489173f98eba318e903e6c6ec4eb87a1.wav",
+      "durationMs": 2200,
+      "sha256": "1fe2a73d991dc3beae61aae7cebc07ebe8fb844f5d371cf39bd33c2055209085"
+    },
+    "C": {
+      "path": "/static/audio/en-us/50d5f864c3d896d6f2a13510ddba9137151cf885bcb6cedc9ccdec893bd9eb4b.wav",
+      "durationMs": 1350,
+      "sha256": "fe8994a781ef51e7f0b70261360864cfa5cf90d6237fd6160eac89532df398d1"
+    },
+    "Can we share?": {
+      "path": "/static/audio/en-us/e08ee21ea350897415fe1c5205c916753ab8ccd046825457d2e610a9f38b37d8.wav",
+      "durationMs": 1575,
+      "sha256": "ce4591b012d00adb65bb6e38ac09815d3b7d6054bcd84ca50c58a78a091e62be"
+    },
+    "Can you help me, please?": {
+      "path": "/static/audio/en-us/783b86bdff0e47ea07f488214574385c0c33560ee3f72e9e0a3fe0e55d7b9686.wav",
+      "durationMs": 1925,
+      "sha256": "6529d0b4173481006c82863a960d636a6cbca2c0fd4a3c39c3108673605c9602"
+    },
+    "Can you help me?": {
+      "path": "/static/audio/en-us/368484782c7a6277520e653a44e2536c155a90b67bd4926c551a7bca4f564af3.wav",
+      "durationMs": 1650,
+      "sha256": "dfbeb9df00b06a63c477391189542aa344ecad23e33f06c6063453d1f7b26bb9"
+    },
+    "Cat? Where are you?": {
+      "path": "/static/audio/en-us/53ed90599709daba5f58fe0df08cefab9aae29936563288da02c9ab9389819fb.wav",
+      "durationMs": 1900,
+      "sha256": "e9fb8b2b52e28a98285621d678a9f2d2fa27e0ba681b0043b6f3c1558a24f0d8"
+    },
+    "Come and sleep with me.": {
+      "path": "/static/audio/en-us/0c5f9cf351a0806dac9093b15c7e5a5c942ef5b996ea2009442f9a3c506f02af.wav",
+      "durationMs": 1875,
+      "sha256": "443322c44208a90404eef121aad3cf1dfb3a89acaa5e3ffeeb78c3e24ec7fade"
+    },
+    "Come back, cat! Play with me.": {
+      "path": "/static/audio/en-us/e8578b33caef3e09441b212e2873622af9b9a584e6122b826d00247f28baaf7b.wav",
+      "durationMs": 2275,
+      "sha256": "3f52ec6f42bc5d374f025ae487a8d9e44b676bdb6751744d80704e4ab5e9cb5b"
+    },
+    "Come back, cat! Stay inside.": {
+      "path": "/static/audio/en-us/062fc386f42c2924b05a8ea4a794ab43bf5eb22cb2ff7209cd0ba7df85629d97.wav",
+      "durationMs": 2375,
+      "sha256": "be48c9338b11b867956a680dfeb3a2515ae99e4fc35e57295c323eccc296052b"
+    },
+    "Come back, cat! That is too high.": {
+      "path": "/static/audio/en-us/1e9016394f41440a44a1b9474ce54bceb9b900642024a1959781564c3168f5f4.wav",
+      "durationMs": 2550,
+      "sha256": "a51efeb13341e71b25c5e7dff32b79097de149fff44a7117f336a5b116f01ae9"
+    },
+    "Come closer, little cat.": {
+      "path": "/static/audio/en-us/1267676bdb67b8c6cd2f4d8ea96aa7cfc5331688cc9ec196da9cc05323592b53.wav",
+      "durationMs": 2125,
+      "sha256": "20832ca4765bb2ff9003469af5d0474c8aa10226172b776917d6126a5aea53f3"
+    },
+    "Come down, little balloon!": {
+      "path": "/static/audio/en-us/0967979cdcb88aefae50597e8629997fe88bcad54bcd4305a430cffa9d6468db.wav",
+      "durationMs": 2100,
+      "sha256": "40b144b1dc4733e80eb2cd0c59dedf229931c97e3097008ade73fb0e636b5f0d"
+    },
+    "Come in, little cat!": {
+      "path": "/static/audio/en-us/b66edf90c7ce5947791b87adc5c85e41a8e770f1471074e7ce891ad20c94a447.wav",
+      "durationMs": 1750,
+      "sha256": "a4280a917b2f26e9f46f8fd8ef9c11c3b18a34cbdcd1a0970fc213bd8f676e25"
+    },
+    "Come in, little duck!": {
+      "path": "/static/audio/en-us/ce1733290a7481922b697fc268cb6b14e9ef8250fef8928a866b4ad081a2a90f.wav",
+      "durationMs": 1750,
+      "sha256": "df27510fbe400150d1b8d693b514b2461b295f3fdfcb97a9a741327b2bb42e9d"
+    },
+    "D": {
+      "path": "/static/audio/en-us/5d8d1d69f953c316147e0e2c16a2824858f3c78d46e7d9001a2e84bb6fedc351.wav",
+      "durationMs": 1400,
+      "sha256": "aa7f92822bb8d5e229d09e3d27f9782a5a5789b71ecabbfe595921ca81fc25e6"
+    },
+    "E": {
+      "path": "/static/audio/en-us/9007f3cff1804ccb6c86579262f8b49c32b0361690e84d63f86acf99fa508a71.wav",
+      "durationMs": 1300,
+      "sha256": "0f80e2f2e68f281534eacaf12b2419c61b97a05f020cbbc6ecdd12aa4508509f"
+    },
+    "Excuse me, where is the park?": {
+      "path": "/static/audio/en-us/3d32f0bb36ecd119d0ad71ddf9ce2389a4074ace50aa2818dced044af9417513.wav",
+      "durationMs": 2425,
+      "sha256": "4c3a5ef6d3dc2653c2ad962a8dd71267bda2e6f5c01d3abcd4d37b5ac900be66"
+    },
+    "Excuse me, where is the shop?": {
+      "path": "/static/audio/en-us/638bc4e872583dbb69744a2eb046bf179314948e4b4b2e9431e82f4009a766be.wav",
+      "durationMs": 2425,
+      "sha256": "7680c82bd5668b1ea9108a775276d82c40d7c7626aa90b0225dd6046a374dde4"
+    },
+    "F": {
+      "path": "/static/audio/en-us/22ae93be95a39c0b26919100db25b515283f93ddcb0a4e8b28cbbe5881ddd3de.wav",
+      "durationMs": 1250,
+      "sha256": "d966a0f642f17427b1ce6a95622281c332b550973f9bf405ed906a300323bbd0"
+    },
+    "Fifi gives Teddy a big hug.": {
+      "path": "/static/audio/en-us/88f9e9cccc6aeda20a60d55c874974b5bf1a561c2447d29c3e381ab1f0d13785.wav",
+      "durationMs": 2375,
+      "sha256": "c9d305c45d167c89d502e9fb77a50b6e5d25dfd74de0ecf8f1a2f3751f28f2d8"
+    },
+    "Fifi loves her teddy bear.": {
+      "path": "/static/audio/en-us/8d30bd5d754cfd38b817cace60919665c070e1f39c198962c30c08d92938d420.wav",
+      "durationMs": 2325,
+      "sha256": "b6a666d72a62032e880c65ecc09c7abf876a24ff5a8c06b560476c3c60f91753"
+    },
+    "Fish says, come and sleep with me.": {
+      "path": "/static/audio/en-us/9baeb1e90a4bc1afd2914e6f98c244d4aa14be5e1d0c90eea4ca19b4c39c780e.wav",
+      "durationMs": 2525,
+      "sha256": "def13c3edd9d30bc5209c37521bae536452837fd99ff36b7716b0e7834096e3a"
+    },
+    "G": {
+      "path": "/static/audio/en-us/78ecdea07315b1815a62ce5a35398ee8eb872e3669f623301b6cf002692e5579.wav",
+      "durationMs": 1400,
+      "sha256": "7beda8f9002f640d544a09c5a98cb659de5673e478c00362f32b6215f4678a9f"
+    },
+    "Go straight and turn left.": {
+      "path": "/static/audio/en-us/1691db0010e7595ef8cc86a3b3d409ca0a845dd3b15c409f67949cd17d02afd3.wav",
+      "durationMs": 2200,
+      "sha256": "96f5c8babd3296cc1bab0155c44769f09b8719818febf848ccd59ab099bd0e5f"
+    },
+    "Good morning!": {
+      "path": "/static/audio/en-us/75ce5487a197fd46470ff5cd79880eeadb6b47cd0b944808343de0259867008a.wav",
+      "durationMs": 1625,
+      "sha256": "455786adfddb5b4c9acd886dc7b6feda77cd53720453abf729fa3a72c83de062"
+    },
+    "Good night!": {
+      "path": "/static/audio/en-us/a66f97984d108f65be91c37a272860bb999fe2c5c1e0d827c52556f5b384dce2.wav",
+      "durationMs": 1550,
+      "sha256": "4ad60413d06d2bf54e3b7dd33a732b05508718adc6aaeb2e586577d1fb0fa940"
+    },
+    "Good night! Everyone is happy.": {
+      "path": "/static/audio/en-us/911560836cf3d8da77f7be81db55fcef576228c5963ce0d1da03cfd4d09b10d4.wav",
+      "durationMs": 2525,
+      "sha256": "ed3ea1aac91d7e361f49aa447e2b759f93b7b6b202d41b0631ff1869bf48dc0e"
+    },
+    "Good night, Mum!": {
+      "path": "/static/audio/en-us/f7dd645bd5e5af95118d8b38cc2bcf06a35bc390d9edc8e54641f582daa0980c.wav",
+      "durationMs": 1725,
+      "sha256": "4dd82bb354328059f7c82c7845ce0babbef19854caaed7c64181efe4b46675d2"
+    },
+    "Good night, little mouse.": {
+      "path": "/static/audio/en-us/fc2a3050777f1173d114a7a061d66ad2be3bd5fea7883d731e2bfaeb64db32a3.wav",
+      "durationMs": 1950,
+      "sha256": "f2618e1aedeff40a1996ac69f3c0cb4d9ed232fce6a5e3f2f194ede5f4ce54f1"
+    },
+    "Good spotting! You found a bag.": {
+      "path": "/static/audio/en-us/9edcdf2ddcccafa2cbf088f31fcd58ea5a12fc2119694b3d4dc0d1a807d4cdf3.wav",
+      "durationMs": 2550,
+      "sha256": "f10ce039fbaa15769bbe14d9ebcf30b4207cba80715c59bdce828b41fe5b6019"
+    },
+    "Good spotting! You found a book.": {
+      "path": "/static/audio/en-us/d28a3e26e335d1ee8fb7eaeeddff7854e7cc00fc7839e314bd1bbbed7ea1a071.wav",
+      "durationMs": 2500,
+      "sha256": "c45c76e62da386bee989627bbdeca7568b74c54e9c6bacaa7c2783d75f44dd6e"
+    },
+    "Good spotting! You found a car.": {
+      "path": "/static/audio/en-us/4806fe4d5eafcc72e3377588bf63bc6e5411b37147637908bd5ad97da0106e3c.wav",
+      "durationMs": 2525,
+      "sha256": "d822fac7f3fec268da0908f7a8b7c4bed87097070b048207376a299bd773611e"
+    },
+    "Good spotting! You found a flower.": {
+      "path": "/static/audio/en-us/4bda013513fc4236c36447b72de586f38c6dcb4d59146a2edc0eef91677d79fc.wav",
+      "durationMs": 2650,
+      "sha256": "5b69331cce86aaa5e2f37861cfbcd7371e52fc2d7a7774ca306e7a88d871bcbf"
+    },
+    "Good spotting! You found a pen.": {
+      "path": "/static/audio/en-us/e7638295df6da52d68a8d27e2197c9b29bd2b3a62976673bb8f75eb157fd223c.wav",
+      "durationMs": 2550,
+      "sha256": "e4e5d26bb3176ed470a9728f2ce6df4735dbe61a8535c8589e8927d3371b5fe3"
+    },
+    "Good spotting! You found a shirt.": {
+      "path": "/static/audio/en-us/35710b35cbed6d9b57c604b71fc631e76c3ce86ae76b289164ccb5f175e62e21.wav",
+      "durationMs": 2550,
+      "sha256": "7155dcf8556a7e5248318ac86356832b9ac80ab422ce134a90af92bf23d9eab4"
+    },
+    "Good spotting! You found a toy.": {
+      "path": "/static/audio/en-us/c3ef6e26986d8c219756fda2830fc99e95ada43c1577025b32948742ea0070c5.wav",
+      "durationMs": 2600,
+      "sha256": "dfe4884d51cb61ccb55a1634f215ef183663ac5406b0b3b6267ff14e89f7a54a"
+    },
+    "Good spotting! You found the sky.": {
+      "path": "/static/audio/en-us/37b56c4b4e212b84554148594f4bac083a01d8075451f0a248005bb5b3e5ff79.wav",
+      "durationMs": 2600,
+      "sha256": "fb989cc097748ef262035dafa41e55cb315735b5a9480730bbe1854039046ec8"
+    },
+    "Goodbye!": {
+      "path": "/static/audio/en-us/e2948344d9a675bc4968de5f443c6b564dfd0b91d33d0d1551b55c8bf0e9dbbe.wav",
+      "durationMs": 1525,
+      "sha256": "7ac48f5b4ca213ee281be9fe847d43ca0641f9ec393627a3c5d491506cd91983"
+    },
+    "Great choice! Here is your juice.": {
+      "path": "/static/audio/en-us/0cd1f1b64d9758b2b76b0c6a11b1fa02c389daf1695283cceb1880e98564581c.wav",
+      "durationMs": 2550,
+      "sha256": "dc42dc771bd3bfe330e94297db067e77313b87694573ddf985df20c58ede49a3"
+    },
+    "Great choice! Here is your milk.": {
+      "path": "/static/audio/en-us/d8d32c89890275867087c947af4dc86424392ee7b5128c0645824ea2e4aae2c6.wav",
+      "durationMs": 2475,
+      "sha256": "b2739f40b4297db9bb24ea881fe608a800561f2e0d386b5d29de14a6f5006b22"
+    },
+    "Great choice! Here is your tea.": {
+      "path": "/static/audio/en-us/7308bdd55dcf198f4d3dbf6153a17b297c3ea03a707e114ca432e31fce522e4a.wav",
+      "durationMs": 2475,
+      "sha256": "0350c4478051cb03a02a6717c4c2127117f19dbfda9a79e02c0c4d176f4e9144"
+    },
+    "Great choice! Here is your water.": {
+      "path": "/static/audio/en-us/7ae2a6ff372404830a6e72832c23f9795c52165c875e80f88746500cbf385ee6.wav",
+      "durationMs": 2575,
+      "sha256": "b691ab0c540c87999751b0b28ae7869401a1ec0784a9cd7ca3f0b7076c109f50"
+    },
+    "Great job!": {
+      "path": "/static/audio/en-us/3f89a2e6df7154fa7fb82ba749ddf6b04d479e3fc41f009a91a75455c13d9e4b.wav",
+      "durationMs": 1725,
+      "sha256": "288db98e8355a4095bfdf0488f5a00068a45e41a20f259727f8dd7f5f98bc08f"
+    },
+    "H": {
+      "path": "/static/audio/en-us/ae63103b4195ac245b9e7d4787f50f7a2c4945e00941bc59fc2e8238fb13af86.wav",
+      "durationMs": 1375,
+      "sha256": "33d3fc12d41f6078a0ec7d71e8ea9f745c5239d2a188d86d878ca0a16d3be93c"
+    },
+    "Have a nice stay!": {
+      "path": "/static/audio/en-us/0ea45ebc2313d40f199e8b100687f62c4696e23a00d43fb5ec03f8abd0440df1.wav",
+      "durationMs": 1775,
+      "sha256": "bde3f06339b3f5bc6f329364575c11e59e669349fa1ad7ca42624c0f8fba92a7"
+    },
+    "He cannot find a quiet bed.": {
+      "path": "/static/audio/en-us/76bed18266559fb5852e6e3f15a94b675948350257e5937a8bd323c190a2a6fa.wav",
+      "durationMs": 2250,
+      "sha256": "18f5e2b9a5de65ff062dda80e3164c59039f019dc980ee1fc667034811b40d3a"
+    },
+    "He is hungry.": {
+      "path": "/static/audio/en-us/06cf0b007b5d455b71d31bc808f88006ae4f7b6274cd6bc2a82ef65bb47e971c.wav",
+      "durationMs": 1725,
+      "sha256": "3a4cdc4c9911e0245263fe32f48c7cf6fe0076d091987d6dd4ca65407fc82459"
+    },
+    "He keeps running.": {
+      "path": "/static/audio/en-us/abe483a4030fbc2f983c89b0d2878992d2644d62853ff07f2184408997a3fe8b.wav",
+      "durationMs": 1725,
+      "sha256": "139f2b9a5957e2f81ee3fecd2bac06cd9b6fdb6c2ad3c48c57ef7f92f978dd1a"
+    },
+    "He sleeps on a good branch.": {
+      "path": "/static/audio/en-us/3c5cd71b2f2e3b556e5e6ec0ca063bc494dd9b64df5a987046402342a9c8128a.wav",
+      "durationMs": 2200,
+      "sha256": "ea2c9256f5ca9b1555283003b633db2cdb8b5571c16ab42a1ce870d82d855f10"
+    },
+    "He starts dancing with Hippo.": {
+      "path": "/static/audio/en-us/5cce702a0cee411865b536c6980ed634e36fc2ce2b822ceb94fce1a3b6c76352.wav",
+      "durationMs": 2350,
+      "sha256": "3c9a50e95a198ad03c6f45c658e36e9711fe3c5537bce89dcb881e1c4693c4a6"
+    },
+    "He takes away the music.": {
+      "path": "/static/audio/en-us/9469511748ba1ebbfc4b0b3b3b53c493b51dc9125094a70ec477657b03ef0b8a.wav",
+      "durationMs": 2075,
+      "sha256": "b84d3368584cea0e58b04912ad80334f6211acd7e3eac69694049ec92edca822"
+    },
+    "He wants a banana.": {
+      "path": "/static/audio/en-us/a348cc2c9dc48fcdf7a25d3618f77c5348cf31c3e271f5bf5d07e7b71267ceca.wav",
+      "durationMs": 1875,
+      "sha256": "367ee0c342badf0c4855c81a091afe22606f94f719f40f829feb61f119ebe7ac"
+    },
+    "He wants to eat every leaf.": {
+      "path": "/static/audio/en-us/85de1df717383f0cd223d36a9c6f20c910e8b1489836fa648122d0f4817a7a28.wav",
+      "durationMs": 2325,
+      "sha256": "5751a8a2a8e4ca567ee3fa523bd433b85b70d01d6d3ca47365ead4f610168129"
+    },
+    "He wants to go to school.": {
+      "path": "/static/audio/en-us/1b8399c1ee96269acc7b3738c012310399f1f9454ed96baef8838ee4d34602c1.wav",
+      "durationMs": 2075,
+      "sha256": "08a2a29bcbac6a6bac89fb5d153ebcb577c7a062532a7c5fe20e02bbe46357f3"
+    },
+    "Hello!": {
+      "path": "/static/audio/en-us/ba9a1bbe7b042a37fdce3e29720fd303e673f5ba0d7f13e2a326c83afd88c568.wav",
+      "durationMs": 1475,
+      "sha256": "4fe7d1ed9cd0bb56395df0f00337d819e896d68a164bef4fb0bef4303c74b18d"
+    },
+    "Hello! I am Bobo. Let's speak English together!": {
+      "path": "/static/audio/en-us/e74707f5ef41c2467ea47c89bc46fbee20d5aad24276f6e0c89f10c2e6f8b24f.wav",
+      "durationMs": 3625,
+      "sha256": "0640746077855dc89174475a26f87c97812141369808e9ea3e68dd5559370222"
+    },
+    "Hello, I have a reservation.": {
+      "path": "/static/audio/en-us/efd921a9114ec574dd3ee74b7d2b98b549c09a78e8a6a56efad09cc5f57a3102.wav",
+      "durationMs": 2425,
+      "sha256": "b5dc50204dfd2c204b028baae16d042298b6a0006e5571200c9b914895e34aab"
+    },
+    "Hello, cat! You are back!": {
+      "path": "/static/audio/en-us/fec8ebec18f61a3b3b13a2577ea5ded9edee377647aedb5ef1230f61356cbcde.wav",
+      "durationMs": 2175,
+      "sha256": "633fd55e5860ff183db7bfad151c1bce9160cd926ad814e65538c5a369cbf043"
+    },
+    "Hello, little mouse!": {
+      "path": "/static/audio/en-us/32eaa2db5fb0a8f294577903689dc6d311fba6e67925a213bbba012c1a7f307c.wav",
+      "durationMs": 1825,
+      "sha256": "2311bac66a0ca3fe61e68c3b3394ba7018e625f70ddd51ea4f27cc857c70ceb5"
+    },
+    "Here comes a train!": {
+      "path": "/static/audio/en-us/b439a1df697c0e762ccca77d10e8c3b46ae068e78b52f7987ca04ffb29ffe965.wav",
+      "durationMs": 1875,
+      "sha256": "5882b0eaa2be586293c8aeaebc857d069cf169476a2ba1653d2ceb77a254eb90"
+    },
+    "Here is a little space for Mouse.": {
+      "path": "/static/audio/en-us/22a0fc7f75b8d6641d247f1b7ee4b0dd00ae13259c953238767af1542ee79463.wav",
+      "durationMs": 2375,
+      "sha256": "b622f5847ecef07ea711a127f4f2c6bad936e4affb97fd338d51638c63661eac"
+    },
+    "Here is an apple.": {
+      "path": "/static/audio/en-us/27d8dd3cccc314e62a74419d64c8509a742a45f9837e9919be058f0800c4cb4e.wav",
+      "durationMs": 1825,
+      "sha256": "92a46c8b7a3e38077665caf52255156204ea5fe63b3e0c923b3172dedcd135fe"
+    },
+    "Here is my ticket.": {
+      "path": "/static/audio/en-us/5919e3b2f6dbc3343fd06b1f9954b4185ae1095ecc6dbef8c63dc2767a977966.wav",
+      "durationMs": 1925,
+      "sha256": "53cf363d48bcc8533b99861fa6ec486a55415a158690aec69d36f088a271bb65"
+    },
+    "Here is your balloon!": {
+      "path": "/static/audio/en-us/3ef833faa9105be86883ba7c9aff8a203306b7c15aefeb359db8b87051de5c00.wav",
+      "durationMs": 1825,
+      "sha256": "9b27f5c1d0d45edd59dd8c8246f4d319159728ffe8def48954e98f63b0621d06"
+    },
+    "Hi! My name is Bobo.": {
+      "path": "/static/audio/en-us/b45d9ea957777e1b007f187056091d8644db0e9e44d97b2698c2cdc4ef792100.wav",
+      "durationMs": 2175,
+      "sha256": "addeaa24b33fed2251922c69c7046d8ed3b5115fb6f08fefa2949ccfd83ad5a8"
+    },
+    "Hippo dances in the field.": {
+      "path": "/static/audio/en-us/2bd1e37ec36fe2eafc5c0c6aacf53caee6cd27816c20c9e8ff19aa994bddca5b.wav",
+      "durationMs": 2225,
+      "sha256": "812cea2751c9bcac2c1ef79356de83efd465e13952689e33d929d34f6448284a"
+    },
+    "Hippo dances in the water.": {
+      "path": "/static/audio/en-us/5933b7b3288195804a5fb516ed2122cbb901df8c7e9c2ae0d6069718d3f2575f.wav",
+      "durationMs": 2275,
+      "sha256": "3acbfdfc7e4fa096621a1087d530401ee3f4a10b787ae27abb1e7e01e6b3f9dc"
+    },
+    "Hippo slides in the mud.": {
+      "path": "/static/audio/en-us/1ef120f3cd28b0bc12552ec7f3966eadd12259edaf2c6f9626d083db193902f5.wav",
+      "durationMs": 2125,
+      "sha256": "241fb7057ac8a99e4f8e96dc09a68fbc3bdaf4dc1e44423094ed65ee13c46c91"
+    },
+    "How about this branch?": {
+      "path": "/static/audio/en-us/ca8081fc89512d77e9868cf60c486f6c2f91eb29160c3c66a925b3d07a65f843.wav",
+      "durationMs": 1850,
+      "sha256": "f5ea7629ba09a4c2256a5f255c4d8f0762925ba4847ef325677ea6ae3bf8bc9b"
+    },
+    "How are you today?": {
+      "path": "/static/audio/en-us/eb2a97822472b483130f6466036cecdce752273baaae61a51692b374818d5033.wav",
+      "durationMs": 1700,
+      "sha256": "ce7516c68c73803e059b695f5da9d598ec9009a6ee42e24e508f67cfe6e003bd"
+    },
+    "How much is this apple?": {
+      "path": "/static/audio/en-us/f1b090beae0d368fdf4f72bf2a4094b072445fa157d4da798aab25915e8f96fa.wav",
+      "durationMs": 2100,
+      "sha256": "c19a57ff5ed503353073921b6195d879b27baf917b6a75ed6c7fd76f41bcd324"
+    },
+    "How old are you?": {
+      "path": "/static/audio/en-us/2bca0aed05cd48ec4aee71255498d8c430fb75b9454f7b292a79cdae60001675.wav",
+      "durationMs": 1725,
+      "sha256": "c93cba2dd1ee8482a32f8eccf5649026b3716da2a612ef92d0856b9202795be1"
+    },
+    "I": {
+      "path": "/static/audio/en-us/10f13b555c45006fc7b79e9156be18c4530838d85596323d0233133f59cd3658.wav",
+      "durationMs": 1400,
+      "sha256": "2ec52e9aeeb77ff4d338b28883f5c76bbc1f96f3b4b3b3cc910b2a32ca342a5b"
+    },
+    "I am hungry, too.": {
+      "path": "/static/audio/en-us/8155bbca98eef8c15b668f8f06e42340a28320463828298e0c7038d9e67ca1be.wav",
+      "durationMs": 2025,
+      "sha256": "c7f20c2f2d04e2b6fae1b88c24874af85e3c73ed8d624e9929b98bde66c8bde5"
+    },
+    "I am sleepy. I need a bed.": {
+      "path": "/static/audio/en-us/ec3fa6c91d87c5f2defb0584ed6e3a951677337ed3db41f1c791c41773ce8a6b.wav",
+      "durationMs": 2575,
+      "sha256": "ec82a666b4bd8d366ccb51889ec7669a743d83c5035175911b5ad7f3eeb5c1dc"
+    },
+    "I can climb and swing.": {
+      "path": "/static/audio/en-us/35ae8639e8dc8bdb2b6b58732ee4f90854bd45baa9661a4ab4f12ba7435aee71.wav",
+      "durationMs": 2100,
+      "sha256": "0e4f2ccabe72a2c73a3b7a39e207dad5e73c8e2408b1e3f504c62bcf4d54b5fc"
+    },
+    "I can see a cat.": {
+      "path": "/static/audio/en-us/01fff522282ab3fe2a4aba2fb63c05162b60dd18e7ae6b9025d43e0a336abf1b.wav",
+      "durationMs": 1825,
+      "sha256": "db18d013603a04705012dcd0d00bf93088f51d39cd14fd8ea768d0b544ff3981"
+    },
+    "I cannot reach it.": {
+      "path": "/static/audio/en-us/a9508874c96bfaedc3ab7cc629cd71e1c7c02ba8bf467c9d7c68309cc8c7ef61.wav",
+      "durationMs": 1750,
+      "sha256": "92887d75f700b15edb7f3b63fe27b9312082855efc41afbab26ef9598833f810"
+    },
+    "I didn't hear you. Please try again.": {
+      "path": "/static/audio/en-us/dd067ce885e138853dd177be9cd896e59e909499fb9fcc229cb8610ef573e5f4.wav",
+      "durationMs": 2775,
+      "sha256": "b6d0718a02753b19ec28491181fe96a04700752666665b7a9ff6537ef745508e"
+    },
+    "I do not like fish.": {
+      "path": "/static/audio/en-us/e31478033f8a856492f6b7512e70baaad31fa20337969fc16b99341c77ec1656.wav",
+      "durationMs": 1850,
+      "sha256": "a07f6fc2c582889b4043bd05a3a6aa1f8b4cdb39c5159bd8cbab5ca64e5db04b"
+    },
+    "I go to school by bus.": {
+      "path": "/static/audio/en-us/4ef255e6758bb68b555bc0eaf9cfc224fa52b8d8b6904aad2eb1d79a3ba9581f.wav",
+      "durationMs": 2075,
+      "sha256": "763172bd5636d6637a933a725c16aa868407887b57d66506942677991c6f9368"
+    },
+    "I heard you. Try one of the example answers.": {
+      "path": "/static/audio/en-us/693d5676bedaa804e8d06b12e6ff5329b16966c22e0abaf1ab973ab1dfb394c9.wav",
+      "durationMs": 3450,
+      "sha256": "02dc597bc73bfde1fafc6999aa040e5c86e367e2c2cd22ae29c8f67634c4fc46"
+    },
+    "I like apples.": {
+      "path": "/static/audio/en-us/e694b14a8e3266e0e40004030803bdf588957db1af1ac79fb8ad014cba53777e.wav",
+      "durationMs": 1825,
+      "sha256": "ce396911d4c380d3647c5e486c971de79c2850210d5ebda621a736596e95956d"
+    },
+    "I like black, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/f78fcb00ec14959e18a3017c12c82dc0fe53bda4aacea931cce8c0aad603f03f.wav",
+      "durationMs": 3425,
+      "sha256": "2495112b07acad8ef6b0603b051afa4b1793991e28cdd846d6bfbf7d87cd3a8e"
+    },
+    "I like blue, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/3f9b00e4bca4868a010c75c9cda9ebd9d9d7a088a6568524250bcb54ddea5ffc.wav",
+      "durationMs": 3300,
+      "sha256": "e79fdb7cc0bc23704b025af7cdd2d8232f49f66613db689f8e6f868b271f4ad1"
+    },
+    "I like brown, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/dea1eb640787ba95dc56d9a16113a34433883a51a09bfd6374b027c977834a2e.wav",
+      "durationMs": 3500,
+      "sha256": "518af3b3f20ded86f711fe474d98deb5e01be6a5879c9c812474e4ed06e7412d"
+    },
+    "I like cats.": {
+      "path": "/static/audio/en-us/9841257dbddc681c824aacf5f11758b6b725c73c97374da3702c1880c36d66e0.wav",
+      "durationMs": 1725,
+      "sha256": "d163b6b05fa33cff70d230eb25ed4d221c1f02eafb0d707cd080315e47938edd"
+    },
+    "I like dogs.": {
+      "path": "/static/audio/en-us/92ef49bbc507856d43b168dc4c93d7a0bb11fa9db12c87a0c9999b44c445348b.wav",
+      "durationMs": 1775,
+      "sha256": "9ff5358db1e331ab51ab3af8f4ca84ee269df6c7bfdbd064171989b1a58cb9eb"
+    },
+    "I like green, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/8ffcdb7b21821b3f41f919805d80ce401be425e60ff2b8fcbe5c43ed9e770217.wav",
+      "durationMs": 3500,
+      "sha256": "c039757fecf2cfa077bcaae371315b5811c521f86118c1d3273b25288b03452c"
+    },
+    "I like orange, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/0abb64cf2bdc44146aa103230543bf38ec4402e7721413fc1a910ab0c7bfbca9.wav",
+      "durationMs": 3600,
+      "sha256": "c062d67e8d94713eed72c48877816847f7a0a6ca07a15f65904d5b0e43acd71f"
+    },
+    "I like pink, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/04f83cf7d5c35a95c2e5e3bed2f104b4b364ca0d5b76ecd1121d2dcc3de2cb6f.wav",
+      "durationMs": 3425,
+      "sha256": "408d71e8dcaace6e6ef1c6316f9eff7dcb4b16d736ae62ad45fdeb680103851e"
+    },
+    "I like purple, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/b7926de141794ba4d4548d4e1a8f0e78a1865921662be5ac0e30eef1b38d8ab8.wav",
+      "durationMs": 3525,
+      "sha256": "e9c5cdbf201c316a304a8bb84a11688e3e49ce35b9af09455ad289229fcdb880"
+    },
+    "I like red, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/1b92efd8d24dfa6a8feb8f2ef7850c1e0dc2916b3ebc74fe3adc0141a4b67dbb.wav",
+      "durationMs": 3425,
+      "sha256": "696d4dd79d246b2a6a6ea89c5f63068d4df2f856e7cdc0a828abfca979fe4855"
+    },
+    "I like white, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/89aa64d0b0b327461815d1228f6da0e905882f60e5bbc7b3f31b52e8c615e86e.wav",
+      "durationMs": 3350,
+      "sha256": "62c865fa9290f5276e6c56568bfd36ed705b217542e220f9399fa7cd5a0e46fa"
+    },
+    "I like yellow, too! Let's be color detectives.": {
+      "path": "/static/audio/en-us/2cb98affc042ed823fc81613438fc04ee6b905279ac7a82b8215b88a9c2f37cf.wav",
+      "durationMs": 3450,
+      "sha256": "44e095ad2f016307d7a2405e2434d8ca31b87d2c380195faa15420b2eeeb6c34"
+    },
+    "I want to dance!": {
+      "path": "/static/audio/en-us/9a20691b487b5a13177e18cf84e419a790c83077d03bb675b53f021f20165b08.wav",
+      "durationMs": 1750,
+      "sha256": "c1732b63b3204752f2b791006d14de6c71e3ab49ba5310ffe68ae0a379b1509d"
+    },
+    "I went to the park today.": {
+      "path": "/static/audio/en-us/a0b24527909a7813eac2e33cb6db82c6e4ab611bda5927c936bbb70ab67412c1.wav",
+      "durationMs": 2075,
+      "sha256": "b6acd562d226d20bc965161363061ad5216f580a4b7f045975261d7d7397a0bc"
+    },
+    "I will try another branch.": {
+      "path": "/static/audio/en-us/0c355610ef9fa00a19883a8c077307c57bcbc1a46a3771ec9ab3b80f3da29367.wav",
+      "durationMs": 2100,
+      "sha256": "5d1413e101478e7b74ced9599e81f0471ab1a9a941dddf0148cf6a875032684b"
+    },
+    "I would like noodles, please.": {
+      "path": "/static/audio/en-us/c10771fc5b494cccf7511a0188d9737e77b6c86784529aeea235b1eefea6bc50.wav",
+      "durationMs": 2275,
+      "sha256": "b9de9b0cae42295afd007f39180de811244d53892e3ca204fa237ecee8d7126e"
+    },
+    "I would like noodles.": {
+      "path": "/static/audio/en-us/317579ee38aad13b92b46184abed734900b2489f2c0e63c5c95bbf9f61db70c0.wav",
+      "durationMs": 1950,
+      "sha256": "d4441e9f31d5034ba8115b10129c318b0705ea1de25da194fca945450e31c494"
+    },
+    "I would like some milk, please.": {
+      "path": "/static/audio/en-us/e20dd34345f951549ea0e4bae7c9d5a841655deabde765b5545fdfdc1da00037.wav",
+      "durationMs": 2250,
+      "sha256": "a089313669884604d8b1b0b12c235702d3711f90f2a9a55972e3b357e09dfbfa"
+    },
+    "I would like some milk.": {
+      "path": "/static/audio/en-us/28c32ead7a61f5336428df5f2df98f9bcae54eacadb89e6d8bce6da8655cf546.wav",
+      "durationMs": 1950,
+      "sha256": "dae3416735162e37f32718d3e1e08716af7ca649a5456019a23c8bda0c2de4e0"
+    },
+    "I'm happy to hear that! Let's play together.": {
+      "path": "/static/audio/en-us/a0ad654022491ef639a1e8a88d85f66355c9f0abb9d5544e7b416d9c3ccb5e61.wav",
+      "durationMs": 3225,
+      "sha256": "3b8f63277d66ae4a6962b6c9b8ffbc3e03226030712c39e7335ddc94b556f039"
+    },
+    "In the basket.": {
+      "path": "/static/audio/en-us/f50915733c48a01ff7e2175f96cc5a657234836d3316cf1dacdf15c3ce8e0e1b.wav",
+      "durationMs": 1775,
+      "sha256": "f6fff72c045e13e208940aa17be9a8556ce499eac5ca3475ed9d4238f6c7ac31"
+    },
+    "It is cold and wet here.": {
+      "path": "/static/audio/en-us/9690895edd3e724467225a6f25db96f7d0db08550a4478be6d806330771c4b95.wav",
+      "durationMs": 2150,
+      "sha256": "000e887be82ea995b178324ac8970ccebd8aca2cb11c47c58b2b6c6934f5dbe8"
+    },
+    "It is eight o'clock.": {
+      "path": "/static/audio/en-us/16649174c13bd741b1dbc71f05384767a1f8309dd09a53c14241db4809186097.wav",
+      "durationMs": 1900,
+      "sha256": "c30e34110c9588d65fe3127dd375a97d5397c9d8b9afc82bd0d76c1a2e0dc41c"
+    },
+    "It is my balloon.": {
+      "path": "/static/audio/en-us/5297714607c07dc70d8710107bba27237d6228a7094faa15a880ab5c868ed626.wav",
+      "durationMs": 1900,
+      "sha256": "bcdad06811fdf64acd2e9650173116825c61892a98b32d90fee7763ae6d54eca"
+    },
+    "It is nap time now.": {
+      "path": "/static/audio/en-us/8b6ec4076243bfead0c756f506161b051b0c5f0c8b221e39d46cd9aab4513dac.wav",
+      "durationMs": 2000,
+      "sha256": "6bf9da755d0c64bcaf071440fa06a97487fa0036b150dc5c4a3bf8962dd92d9a"
+    },
+    "It is too high.": {
+      "path": "/static/audio/en-us/ffea002ac1327ae1a9776f837e6de29b723352f7edfcc1202e8824b80531b213.wav",
+      "durationMs": 1750,
+      "sha256": "fe5141f1d9b7faa986842762676051daa94bb930195d953e30e0fccbd739c5bd"
+    },
+    "It is too noisy here.": {
+      "path": "/static/audio/en-us/ba9cff6be4c3198d7b21368e0e9f6d4ed7c89845c8dd48c3a7acfecb9d2140fd.wav",
+      "durationMs": 1925,
+      "sha256": "5c5949e5c9a2085ac4de39364b26b3fa0a235067dd4c9cec582e4ba1e7f1d4aa"
+    },
+    "J": {
+      "path": "/static/audio/en-us/221b6f03b7fe25e28becd1b5b46da0ddc3949a85b1ac52af73704ee7a9d3ab15.wav",
+      "durationMs": 1375,
+      "sha256": "f34f84186bc977bda202e8738e6bb9b38430b8ec3ba89a5cd3469d4d94795d06"
+    },
+    "K": {
+      "path": "/static/audio/en-us/4a73dc57a0d0618e83af0c7a063effa9e8c63e1593f3c7b92cc3d67092e90591.wav",
+      "durationMs": 1325,
+      "sha256": "374dcdd88a39ba903f168de6eaf124e736e3439e0be3f47ae00449e979925217"
+    },
+    "L": {
+      "path": "/static/audio/en-us/5921cf8fc203cf143a8831a9e4375c09783fcdc261eed88e65ae7104e9b19c08.wav",
+      "durationMs": 1325,
+      "sha256": "badcd6ecb89f9ea08002b8e9af399bc90dbbf90419f7bf64efb8fc2aae69f5a0"
+    },
+    "Let us play football!": {
+      "path": "/static/audio/en-us/1dd0ee9798c4210ce24d3bf5044565291b3665a8e49c1d92741d283044593161.wav",
+      "durationMs": 1900,
+      "sha256": "56a5b7f1e7865585fa77dc7217d2f11915fa56a4899f1cc3da1c22223f287e6f"
+    },
+    "Let's dance together!": {
+      "path": "/static/audio/en-us/f237015fb3d2ce5a976343dc7b62ddf8e162de15c2b689a8d7821d5662815372.wav",
+      "durationMs": 1950,
+      "sha256": "fdb37b50fce925b64f1bff54e3c61182ac5b21b61fa146f6f2b035e867ae8a6b"
+    },
+    "Let's go for a walk.": {
+      "path": "/static/audio/en-us/440b3829dcf5f698898fa97e7a87b194ded48ed050192446bddea28d9ea0392d.wav",
+      "durationMs": 1925,
+      "sha256": "136a550746744d5b6b8d8aae06c57af0c410e2afe0ddba4242a19224050118b3"
+    },
+    "Let's have a picnic.": {
+      "path": "/static/audio/en-us/9bc794c753fa82640b07fde2f35eaa86d5d7e2775fbcf6a155eec8f1e24cf813.wav",
+      "durationMs": 1875,
+      "sha256": "7bc0d744aedb09ad89a9f9cffb3f9498f91f1c0736f2605dae2aeceb9f2197a1"
+    },
+    "Let's share.": {
+      "path": "/static/audio/en-us/359f09030b0d82f9c3aeae89283aaea29fb92d2c67b76fcf61c9859212194d43.wav",
+      "durationMs": 1550,
+      "sha256": "df0526f5166b4c1b4ef1c4da78c148086984a6c7f74020a4c0fcbe1143005d38"
+    },
+    "Listen and repeat.": {
+      "path": "/static/audio/en-us/5f6092eb54bd1e07b69da894b0962be741938d77ffe2de656a65da0370931341.wav",
+      "durationMs": 2025,
+      "sha256": "a5547ca99c3e773f11332999a9ad36317b3eedc9302de67f94f657caefad093b"
+    },
+    "Little Goat eats the sweet grass.": {
+      "path": "/static/audio/en-us/1dcf7086de77b039fe04ff9d2dfbdb213706c3ad09dac313fc8523f3a680c69c.wav",
+      "durationMs": 2625,
+      "sha256": "673218b13cb9744778461d7ec8c5e04ba12ff4c533609549dcf32b40465076b6"
+    },
+    "Little Goat has walked far away.": {
+      "path": "/static/audio/en-us/cc3c2be6ad19fe8503a82c3fc2edf63548a22a13df0b7a978e3fa7809a580d0d.wav",
+      "durationMs": 2575,
+      "sha256": "e8ca4a092aebdb2334beb49f345feba12ddda0e03cc290f39809371e6941597d"
+    },
+    "Little Goat is at school.": {
+      "path": "/static/audio/en-us/d635b182b8a38af4a01174ce519e6a668f411e7b1394823f76bd5d19ba597c56.wav",
+      "durationMs": 2050,
+      "sha256": "b772dbcc354f1f5e4a67de3d8f687773841abff819af4a829917e3a3e9fc3c67"
+    },
+    "Little Goat is fast asleep.": {
+      "path": "/static/audio/en-us/f7183d6ec63408e2021093755dbf2c6b1ccadad250794b076fc9f3af1978d5d4.wav",
+      "durationMs": 2300,
+      "sha256": "dc80b0064e2ac6d992edab3d7da1429a7919e2124ce8bef2d91cc5032ae339e4"
+    },
+    "Little Goat keeps walking.": {
+      "path": "/static/audio/en-us/124952bfe24541d822fbdb5b531ebf0f946f5c3d6ce3146bffd80e9e5cf75e05.wav",
+      "durationMs": 2175,
+      "sha256": "d67b0be70fcfdb32f4d320e886a23e5f9477a1f7efa96d84ffccbd8f713bff00"
+    },
+    "Little Goat looks for sweet grass.": {
+      "path": "/static/audio/en-us/95f9c1eac7ffb126548f95997792afd547d4bcdce330265d4b256c6032d2d0e3.wav",
+      "durationMs": 2500,
+      "sha256": "5c9c35c66bc64a3febb7939e9c2cc9ecbbe3b426d2357f27dae0e0ac86aafffa"
+    },
+    "Look! A hungry llama.": {
+      "path": "/static/audio/en-us/3df128d5dbb1235cda144158b8ed0e9268c6eb76f145b28881c7933a5c0c4e60.wav",
+      "durationMs": 2100,
+      "sha256": "79f5521ca8ea934c8573c814d3ffdfec9881e325dec87f11b13ad6ded2884554"
+    },
+    "Look! A red balloon.": {
+      "path": "/static/audio/en-us/ba8f72a31b4bbb2d5172e11d658fab0282a1f9209360b55a43ee198151ebeb32.wav",
+      "durationMs": 2050,
+      "sha256": "5378341b420041578df8959db75c5921273569a28006f3fc0f4ffbfa89b8711e"
+    },
+    "Look! A tiny green plate!": {
+      "path": "/static/audio/en-us/66bd804c4230af1a14cedebafbd5ca8aa92f0c5db3ffe510237d9c19e48d4f71.wav",
+      "durationMs": 2300,
+      "sha256": "5c54ff2dd01dbb3f6cbce8600c16d746ced1d8576e1c9fecabac7d6e398faf00"
+    },
+    "Look! It is warm near the fire.": {
+      "path": "/static/audio/en-us/87eb8a8020a2a77532e57f80534782eaccc778a6fb1d8f2d8a8fb9819fd362b6.wav",
+      "durationMs": 2550,
+      "sha256": "aa246c1231ddbb4c24bd4a072a0305d06867177f12048067201427058613bd2b"
+    },
+    "Look! Teddy has had a bath.": {
+      "path": "/static/audio/en-us/c478ae1bf67a2369f3ba3549288a8d6824a0a9aca39978f70cb12be048dbd3b9.wav",
+      "durationMs": 2175,
+      "sha256": "05ca015dcf7607195ca49bea433de5c4d8eaf63394ff36d6fc80fc161483ee30"
+    },
+    "Look! What is down there?": {
+      "path": "/static/audio/en-us/2dbc3a20971b4c33a7bf25496fcb72495de4b629aaa2db70a62101a869b017bc.wav",
+      "durationMs": 1950,
+      "sha256": "847dcdd180ec4ecc10b9d4c94b78e01eb6578a491fb4fcec7e0db3aba2e57e46"
+    },
+    "M": {
+      "path": "/static/audio/en-us/bde47e0a65b840329a819a91ee24969d1013bc923735e152f269a26adf8606bf.wav",
+      "durationMs": 1400,
+      "sha256": "3e1b034b828faabf1a272fe5a269344807392951e03fdc50788c683a09da039a"
+    },
+    "May I have the menu?": {
+      "path": "/static/audio/en-us/a3261a6ead8b506194917d1ccedb83943b1333b005576d94bce4dbfda5addf88.wav",
+      "durationMs": 1950,
+      "sha256": "9ebf40b0dafd39d3dc0996020c695d4c8bab8edcfff33ece2ffd0bf5b0049b8c"
+    },
+    "May I have the room key?": {
+      "path": "/static/audio/en-us/fefdcf904e676a99d1f4d87d62c3862e5ed39af090b31ecaab7efbea85890b5b.wav",
+      "durationMs": 1950,
+      "sha256": "e13728e9073ee224bd5c2e7a07dfd3ec56dd9c7b49000356b7d90b3f65de4673"
+    },
+    "May I use your pencil?": {
+      "path": "/static/audio/en-us/3f4bb7acbfc25e2c8d137582243a6798a851081f98f50a128b48ba4d9cfdc233.wav",
+      "durationMs": 2075,
+      "sha256": "35af180f820ea456c8e8d4748758b72659985ee1512e8001d8c52b320624c504"
+    },
+    "More penguins bring more berries.": {
+      "path": "/static/audio/en-us/22395897ab961af2c4bc02b802c3c0f4547789e9bf3a42a9333d467f18acae9e.wav",
+      "durationMs": 2350,
+      "sha256": "8f449b731ace75b7b37037361fcefa49c96650a577044006ffd0112603563a65"
+    },
+    "Mother Goat crosses the bridge.": {
+      "path": "/static/audio/en-us/9fff5e8de1a9b32b3795f98ebb7e1994f7fd2e4cdd70a9ae7185c3cfcc081c20.wav",
+      "durationMs": 2400,
+      "sha256": "e642972b625ef1507afc539f74bb45071c5345a270ce8edb8779b71a76a1175b"
+    },
+    "Mother Goat is far behind.": {
+      "path": "/static/audio/en-us/1bd9686995f90c5a705454d18a3f1ca35753c39ec4aaa66c7bd5a969353ac8f1.wav",
+      "durationMs": 2350,
+      "sha256": "0ac52bb95756e3eceb2f59972a5609a8a5e65da23c53221e3e722b6ef121db21"
+    },
+    "Mother Goat looks for her.": {
+      "path": "/static/audio/en-us/45523731749979a96e8a88a78851a4720e82461d4d34d60851abfd914298d4bf.wav",
+      "durationMs": 1975,
+      "sha256": "1b5c284b5ab04a072842a527db63b16c639a694093d0804f85fc543c57b67144"
+    },
+    "Mouse has a muddy dream.": {
+      "path": "/static/audio/en-us/fa24e943876efecd672f7309547e7c5fb4cfaf9d3fa7f6c259f4bb8aa564dc2b.wav",
+      "durationMs": 2150,
+      "sha256": "782b7d6b78b01e7d521e2d140cbee7bc7046b3fc2114ea9a71a3dd0437ad50d3"
+    },
+    "Mouse is looking for a new home.": {
+      "path": "/static/audio/en-us/d4a172fac5925435de3c998fe180da5593beae814e6fe0c7792b4d65ee6daab7.wav",
+      "durationMs": 2500,
+      "sha256": "4d245d950a4917ed170002f9f14dc5b86450d9b51614c58628d5fae993d767f0"
+    },
+    "Mouse wants a warm, dry home.": {
+      "path": "/static/audio/en-us/7106ae085ec8bf8a18b42d39551bd9fc13e39bf9264f95ff91cc132390215000.wav",
+      "durationMs": 2675,
+      "sha256": "44d35e4915a8da14e4fc657714afdfd541acf6d60629c3f31404d3b416f93b43"
+    },
+    "My name is Lily.": {
+      "path": "/static/audio/en-us/81a599a834aa0b8f38692ada1a061a93ef5b23073c91ee7579f4aae16e8cd3ea.wav",
+      "durationMs": 1875,
+      "sha256": "883f058a1e210c75de9a1601a58915955172275a1934763ffc92a361be6b9da5"
+    },
+    "My teddy bear is missing!": {
+      "path": "/static/audio/en-us/72662706032aa32b57680ab50d26ec8f85ef7812cf12695d7b907a93a44c46f9.wav",
+      "durationMs": 2100,
+      "sha256": "fe44e0d13271ead0ac7ec905252e89f86a658db8549dceb10e91ec478a4e32b8"
+    },
+    "My umbrella is big.": {
+      "path": "/static/audio/en-us/8ba2d683373b50269f270a6026aa8e6a6b663be4ddfcee0023d99963484d3493.wav",
+      "durationMs": 2025,
+      "sha256": "1f75b8eedd4043bc04126d5757597043fb7dfa675d60c0e8d3730fe63cf909b4"
+    },
+    "N": {
+      "path": "/static/audio/en-us/d22fd0bacb60d446fa3c1040af8120f5ccf95a827ce0ee9796d2af2d1d1d014c.wav",
+      "durationMs": 1400,
+      "sha256": "45de732047d2e130da347d0bd0f14f516807ade3c8c1c2619596cb7b2295a55f"
+    },
+    "Nice to meet you!": {
+      "path": "/static/audio/en-us/f188c01ad77e9f4b0b325be025ee2ac4c8f7b7c46730fd6c302a9fed5e0a9fda.wav",
+      "durationMs": 1850,
+      "sha256": "bfdcce4e747b6747eb0d761afcf11a17bb817752fef48e469e52011c8c93878b"
+    },
+    "Nice to meet you! You can call me Bobo.": {
+      "path": "/static/audio/en-us/5ee4fc1dd12cc5c9757de07730f40c8e605021cecf3530ccc5b00bee7e045a59.wav",
+      "durationMs": 3125,
+      "sha256": "b27d799fa06bc15386a70a811df5f35abe31b832c8f452b218fa5a6eaa59fd48"
+    },
+    "No one wants to help.": {
+      "path": "/static/audio/en-us/8e16e922e0be5c8d643e561fba19d4ea1a36c5c391cda0038ef6d0b6d036bf13.wav",
+      "durationMs": 2050,
+      "sha256": "fa3e8638c7c511970d02e9b1c0385a5159507883f8285232e426d5e3314dcd6d"
+    },
+    "Now Hippo feels sad.": {
+      "path": "/static/audio/en-us/efc60cebe04508489ffdbcfb1a2fbed95a1bc51187ad69c58ee0ff7e822032de.wav",
+      "durationMs": 2050,
+      "sha256": "98e00706a5c88d36a33c1b0bb891a3a9c0cb82f0025449d5397df709f57a11ac"
+    },
+    "Now Mouse has cosy dreams.": {
+      "path": "/static/audio/en-us/c54458d69b7ce0c86d2859467ac70d9ebadad45d2189c1c10e54c5a88357969e.wav",
+      "durationMs": 2475,
+      "sha256": "f5d3d763fa6dda7d6bc38c8bbec62dea9fe599fe7c404bab36ef2bf194df4ded"
+    },
+    "Now everyone is dancing!": {
+      "path": "/static/audio/en-us/f30b3ff5871d91887f18a6280217bd49a61759fcd6d3e34aa9eb472a01943c35.wav",
+      "durationMs": 2250,
+      "sha256": "18b335dce2546a330a2f50b71f2cecb7857a6b0b533a7bff564f5e7b7120031f"
+    },
+    "O": {
+      "path": "/static/audio/en-us/fa78c65bfdb7f3746416ef5da539af0af4530446f18eae30bdc0af9fa9c596cb.wav",
+      "durationMs": 1350,
+      "sha256": "4a3d8a948f907f24694c26fb761b3215a263e1104e371e4b3b791403581a462a"
+    },
+    "Oh no! A giraffe is eating here.": {
+      "path": "/static/audio/en-us/09a2486f716d8d324a913b1f75347e4f7743f7c7e6a4922cc71f4a7e64d16b01.wav",
+      "durationMs": 2750,
+      "sha256": "2d3f3f98940ccf838f774facab7979b00dfdb9ab41f67a158094b89268e14884"
+    },
+    "Oh no! There are bees here.": {
+      "path": "/static/audio/en-us/bd91ce3bd83024f126500b80d53ee811924be1af562968d67cc72dd90b82fbee.wav",
+      "durationMs": 2250,
+      "sha256": "afef14442fcb1d3587f2c21c5cc833f6190808a1ab350ee86ef64008d8b82944"
+    },
+    "Oh! Here comes the rain.": {
+      "path": "/static/audio/en-us/f538dada1a0fa932cc91025179514e24895d5d255b56be05fad68b02e68b65bc.wav",
+      "durationMs": 2175,
+      "sha256": "ce2808755a4bf232e7073abfe7e27e90303fc1786fd43665ee7d26d834f6eaf0"
+    },
+    "Oh! That is a snake!": {
+      "path": "/static/audio/en-us/758e8b3648c5fef1ddcf47b213f7e704b3e4c7b9ad3cde2b39d0da66ffbd46b5.wav",
+      "durationMs": 2000,
+      "sha256": "8a313b1ff0d2cbb667d40b786e0241975d0918353a1034125e26883238912389"
+    },
+    "Oh! The ice is slippery.": {
+      "path": "/static/audio/en-us/1fafe0b2f468e007d5f6a3ccafe0bc2798c1c7f00c4794154c71228028d01a61.wav",
+      "durationMs": 2025,
+      "sha256": "c8ba94a99e556a9e42136c231bf4105f14c66064b79ce54e38549fd089a759dc"
+    },
+    "Oh! There is dust everywhere.": {
+      "path": "/static/audio/en-us/5149d6e419863f8df2d68e040b20beb3b446d366ea795cad9e535180c0486bd1.wav",
+      "durationMs": 2375,
+      "sha256": "392623879c5e07113374aebb376353c8dc3ad7513e4459504ddae5122950268e"
+    },
+    "Oh! Up it goes!": {
+      "path": "/static/audio/en-us/a62ebb558516ab904bb0cfc9808bf98f0be9856a3b82f74d4aa23ea58e6ba046.wav",
+      "durationMs": 1875,
+      "sha256": "782fa0d309a957dfc3e6b565f5aca127764aae2e8ef3420361a070f174a40a89"
+    },
+    "Oh! You are on the chair!": {
+      "path": "/static/audio/en-us/b2701a681b4e47fbc8a9555d3acba6404ad5e72ef480fb73b4e7db3b3e37341d.wav",
+      "durationMs": 1925,
+      "sha256": "a123136db84b73531458aca6e97503201ce2831abfdc0bd256d5c5dc30aae671"
+    },
+    "On the chair.": {
+      "path": "/static/audio/en-us/5106e1c1d65df68f7f5ecc27563a01bf0d540a2b56e70ccdb0308ce34762bd1b.wav",
+      "durationMs": 1675,
+      "sha256": "1fd488c8471098166118af7dbf70371712262344857421343ec7aa4e09943de5"
+    },
+    "Only one can eat.": {
+      "path": "/static/audio/en-us/be5f2aa648c2017a6626cd00382fd0ec576e0596847105dcf57370cba2fa9fbf.wav",
+      "durationMs": 1925,
+      "sha256": "fe34775250f26f181e61e2c9fbedaa429b4d0d93c82d69d6880338232dbbec59"
+    },
+    "Oops! That is my hat!": {
+      "path": "/static/audio/en-us/a6363c478f42b9fee2aeb5a4232e50714428b1840345984167ea3ca878c77286.wav",
+      "durationMs": 2075,
+      "sha256": "ac7d51771f72c92f6bbe8fa207f1efcce0ae5f57b6846f213384db538af05e31"
+    },
+    "Open your book, please.": {
+      "path": "/static/audio/en-us/9708dfc83ee094a60c9ef29d83b6e3faf38b4641414d729e70f3a632ab39bbb4.wav",
+      "durationMs": 1975,
+      "sha256": "d972f957877c3d40c63d70efc1c96cb0d3ee48c254cfafec2e888eb0f279780a"
+    },
+    "P": {
+      "path": "/static/audio/en-us/642fe2b8121650c3d71757a56ab6422b0f837526feca7511811d15f1c2a13b50.wav",
+      "durationMs": 1425,
+      "sha256": "01ac5a1c7cc44d73c33985d93ce8082e60e3168716ff3fee78782121314a3e67"
+    },
+    "Parrot says, come and sleep with me.": {
+      "path": "/static/audio/en-us/e73ea55fb75835c4df102f8482cdf1e2b8a36a1c0c64b8e0a2c1987658897153.wav",
+      "durationMs": 2700,
+      "sha256": "ced1045e2b616d21531c510e5883f1402cd2f8339104491aba22a6ec66518c6b"
+    },
+    "Please be careful!": {
+      "path": "/static/audio/en-us/b91611bf14f717ada81088d2aa4f12b84bd0e582fd4d1c80286ffa15aca38e71.wav",
+      "durationMs": 1850,
+      "sha256": "9094232cd3ca9118f6c984c198bccb276ab1febf5f2c41b2ad583c0d2d8fe22a"
+    },
+    "Q": {
+      "path": "/static/audio/en-us/9a4ffa99cded7b898d88f3b974673acc309361e142b58945a6059296baf36f80.wav",
+      "durationMs": 1375,
+      "sha256": "7cfa6f9735195faab33e21deda1b4b8bc51c9844d5f59cd039f94ac78a245a1e"
+    },
+    "R": {
+      "path": "/static/audio/en-us/47d4bb57b4d4e5948a00f37f071593db3f8e4559881966eeb8b2a3ccce934ca5.wav",
+      "durationMs": 1325,
+      "sha256": "abf2fddcbc011a77c6c5149ce9d833d5fa59ff94e796ed1f3033805c544da781"
+    },
+    "S": {
+      "path": "/static/audio/en-us/efdc6cfa949e10a65aeacfc43d15cf7718eeda5e591536601ec3bd9c36ef851d.wav",
+      "durationMs": 1300,
+      "sha256": "d3dc220065021a10826f3eeacd6e6f666c2966686f03f28ea3fe14b0cae1f176"
+    },
+    "She cannot find her teddy.": {
+      "path": "/static/audio/en-us/5935459514370ea231ee846a54b53e2d337eb26c7da542b73228edc93626f618.wav",
+      "durationMs": 2100,
+      "sha256": "35ea34c7081d6d1c9e817d3aa7a48ed7ffafc5d4a8c001974c580a0fe715e06d"
+    },
+    "She does not listen to the river.": {
+      "path": "/static/audio/en-us/a1613782ad724442827d4581795836ac65793f5b08f33ebed17bcb0b26481841.wav",
+      "durationMs": 2275,
+      "sha256": "0bd7786eb7d25578b328fb2ca65e72a1fe4bc81c37717aa9916516418e92ec06"
+    },
+    "She feels happy.": {
+      "path": "/static/audio/en-us/790197abbdf91bb99968d6d3a1c8d8d02885ac77f81c05888a52482e06caa4b0.wav",
+      "durationMs": 1800,
+      "sha256": "31f7dab701d24aba38b78b36d99acbb0201b2be7b45822fbd27c547e8666f730"
+    },
+    "She is still looking.": {
+      "path": "/static/audio/en-us/832eacc720e7140a21c7fccb5be1e36dc6b687baf0f3acf4beacfbfd9a4e299c.wav",
+      "durationMs": 1850,
+      "sha256": "33573db807f89920b870337268eaf678e4babf5206d8273b6b75cbaf456d70fc"
+    },
+    "Sit in your basket. Stay here.": {
+      "path": "/static/audio/en-us/a1eabdb49fbd3f1e4bb9fe99dfffa1b5c44056fbaf1d43dad5b45001ebce0d79.wav",
+      "durationMs": 2625,
+      "sha256": "7061a4db13b0a529c85ca276ed449edd93e0e5ff31bcdf93355ad1eb222f35b9"
+    },
+    "Splash! I like the rain!": {
+      "path": "/static/audio/en-us/c0fd2cdcd96a75e07fd27516b6f4436b8499fc2047d38051f3a61eea5dada67c.wav",
+      "durationMs": 2125,
+      "sha256": "cddd00c8576ae9ba4ba09b41b5d0c5b3e18cad2d4ca2d6f7ba64678bf8ccc3d0"
+    },
+    "T": {
+      "path": "/static/audio/en-us/19ad4a8f03d77dabf89f0b27a5174173fba6bc39bf1ac5662e2aef52ea644e18.wav",
+      "durationMs": 1425,
+      "sha256": "5a2853dee16129f389f5757f6086085ee640f9ff7111c79e92646f71b7c6d8ee"
+    },
+    "Teddy goes to school.": {
+      "path": "/static/audio/en-us/70eb1ff2e4b41b44325dc49bc57fab71df4eb14f9d3e5a5e178f1afc99023bc7.wav",
+      "durationMs": 1900,
+      "sha256": "68d48aed8f4c66241461007c52b67f32ca0352be61592cd24b50164a41b310fb"
+    },
+    "Teddy has had a bath.": {
+      "path": "/static/audio/en-us/a22e5df1a56a29a0c69753546e0a3ff8555edc2eac782c684a7160f359c50011.wav",
+      "durationMs": 1900,
+      "sha256": "efa180678f463b3e8e643a508327526355bca33ddc26bf476c6e17f826024095"
+    },
+    "Teddy is not on the bed.": {
+      "path": "/static/audio/en-us/a7636ff33d6946dfdb990de44ea240805e4b59cfb45049866a0e9a97ef04ad8c.wav",
+      "durationMs": 2100,
+      "sha256": "b55de482efd0d062aecab374d8eaadefaca31c91fb0fa39d139b4805e4b48b38"
+    },
+    "Teddy is not outside.": {
+      "path": "/static/audio/en-us/8c81539e4b007c998455dc0d466ea6c83277a182ae67914a94ee22a49d15c312.wav",
+      "durationMs": 2075,
+      "sha256": "9fe4dd3044005c5d7d3e97e59eaf3b1b69c9cedf98a30d632cd04be2e861c197"
+    },
+    "Teddy stays home when Fifi goes to school.": {
+      "path": "/static/audio/en-us/e1c6f37d2997852b12c04272d568d8b375147cdb903d9486a9f9c186bef60f93.wav",
+      "durationMs": 3000,
+      "sha256": "1275bd4fc4b7bc76b2a4bb11f7279f4a534652bdf9d70c2002c615e796b388e7"
+    },
+    "Thank you for telling me. I'm here with you.": {
+      "path": "/static/audio/en-us/0b8f87ca6b33feecef86b1f04c66b5d9c70b367053f38f5ac803de9f055eaa05.wav",
+      "durationMs": 2950,
+      "sha256": "2564b14031fe6ac10a0634d41095db65f85616e0fb3849cf309d3dcd5d734862"
+    },
+    "Thank you for your help.": {
+      "path": "/static/audio/en-us/09ece2e0d4c58b914135d54a3bdcba6abd1b31b070a36962bc1021bb17404733.wav",
+      "durationMs": 1800,
+      "sha256": "ffb07aeb5af2b724c54b33fdbe80ffccd13ed1a28db68781c2dcc2f73b35cc72"
+    },
+    "Thank you very much!": {
+      "path": "/static/audio/en-us/ffbd8fb5b5d2cd5ec03f9352c6a100d1bbdd943468b62982f6496d6515e021d0.wav",
+      "durationMs": 1875,
+      "sha256": "956a372f5b232167e96f3aaea57ce1c40542460acf6f9a85a06664dfa755fd9c"
+    },
+    "Thank you!": {
+      "path": "/static/audio/en-us/ab1f355e15dd3199f358ff94b517be3e41e8c7b55bd2726af3dc5aaf363e76a9.wav",
+      "durationMs": 1525,
+      "sha256": "eb028ad7c2035cc32b459634a891cd61b4472951058c98f47f169c7c8a720a94"
+    },
+    "Thank you, little bird!": {
+      "path": "/static/audio/en-us/1c3df0e9bad7d7b0735ead6c351b0ed90459caf15873bcbd8b9e26ee346a4376.wav",
+      "durationMs": 1875,
+      "sha256": "e7c7fdf7eecfc72b2bafb21ca7b00e7c1a39ff5a1dbd9f5c68b9206ddda1cf17"
+    },
+    "Thank you, my friend!": {
+      "path": "/static/audio/en-us/70bc4e9275728f29e33e04533643e34968c828d1c9c0ede5f0480681004af9b7.wav",
+      "durationMs": 1825,
+      "sha256": "f44d2cb2b3209b7f87320ee678c3be5923d7f59ec944cb5a05aa126967c6242a"
+    },
+    "Thanks for telling me. We can take a little break.": {
+      "path": "/static/audio/en-us/c190a5cfcf6bb85d0aa6556a9889a17e656dbf32bb8a701af78f662a8c6deb59.wav",
+      "durationMs": 3300,
+      "sha256": "039614fe16bde20f780770d7c6979d06385ac5ec6708daa26118a65d4e621170"
+    },
+    "That is not your friend, cat!": {
+      "path": "/static/audio/en-us/19554761b89272a9879a6a3ea1d0d6687f3acdddea3cf612542a330ca371505a.wav",
+      "durationMs": 2175,
+      "sha256": "cc39951064626a4eeaa9c42bd2328db98efce298f261e96972db07ccc4faa5cc"
+    },
+    "That is not your wool, cat!": {
+      "path": "/static/audio/en-us/7d71f03f54bb397c2fcb147cd6aec274f8a2551e4d930c7d333d6a12d7a14f1d.wav",
+      "durationMs": 2050,
+      "sha256": "9c70fe6c98c2705a6321e77e83dfd87f6793279e9ab1e5af788fd20163e7777b"
+    },
+    "That sounds lovely! Family can make a day special.": {
+      "path": "/static/audio/en-us/748c31677a9b7c154c31402ef3fe69c54f8755a25b11c65f3a213a6df2b27ce5.wav",
+      "durationMs": 3575,
+      "sha256": "31e72e491369aa4a6a556860c83c01310ed2e9a81394637e9e3aba6d1dd12a34"
+    },
+    "That sounds lovely! Friends can make a day special.": {
+      "path": "/static/audio/en-us/9de2c950fb352827af27dc2d3deace21d5d07cee9382f79cc97175cd408278f4.wav",
+      "durationMs": 3575,
+      "sha256": "ee15e78245de059b1a39aee1776a77440a6edb99ad120037497b9bf788ee23cc"
+    },
+    "That sounds lovely! Music can make a day special.": {
+      "path": "/static/audio/en-us/fd9affa125f41260f0c0c67a6aec154193a41291f1f3144825026fe9bc5150f2.wav",
+      "durationMs": 3575,
+      "sha256": "b70885aa698e9ec0be0d5d8be6b7d7a412c69f9e34410a7021156edd8b192533"
+    },
+    "That sounds lovely! Pets can make a day special.": {
+      "path": "/static/audio/en-us/2d6f3ce9e781868b13937e54667d3a8b80b8b61888aaf5b5a798dd4699627720.wav",
+      "durationMs": 3425,
+      "sha256": "c362344b085619db25e1a4780ea128af92199b7100e5d4c4a0ef5afae368a230"
+    },
+    "That sounds lovely! Playing can make a day special.": {
+      "path": "/static/audio/en-us/63b7e0a9268746f6d34a2482f2e3d7b2edc0b7772775e0ac7c20feb5cb0869b0.wav",
+      "durationMs": 3575,
+      "sha256": "f88feb6e4af84d05522a1adace010bd15dfbcd8d06fbe315eeeaff01f9608a7a"
+    },
+    "That sounds lovely! Reading can make a day special.": {
+      "path": "/static/audio/en-us/f78e47e29b539f64fff27eff4714607c2a7f9e6ab5debef54ffa41f7f31ebf35.wav",
+      "durationMs": 3625,
+      "sha256": "5c676cb2769f42dd126db67a067d47e551e52c8888f764bbf3766dfe4076d0e9"
+    },
+    "That's my question! Now tell me your answer.": {
+      "path": "/static/audio/en-us/d8714f9b7d5f2f3235143319795d5d9c65c04c81271344783ca3dfb7b358858f.wav",
+      "durationMs": 3225,
+      "sha256": "962c93c82631a2f6066da20ca2652d3b3e3c5c4a6b15e68bd9aa38c94e9a1d94"
+    },
+    "The animals keep asking her to stop.": {
+      "path": "/static/audio/en-us/b1b34d27817a19d8ec236fc97e7733354f88878f1f5e50b92a31c114a762400a.wav",
+      "durationMs": 2750,
+      "sha256": "2e0f6e87a1e899320cecebb784fa36cfcb404b3e67b99532de97af817a6dbcd3"
+    },
+    "The apple is a ball.": {
+      "path": "/static/audio/en-us/942b38ecabab419782d9096600d200c8bda19b72ed05e7d33d35fac870618ca6.wav",
+      "durationMs": 1875,
+      "sha256": "7edd9fd1daeacc634cca5a475991053e7910855e6de2d26ecbd135603eaa8451"
+    },
+    "The bird eats the balloon.": {
+      "path": "/static/audio/en-us/c9dede66f1ce26c9e9153ce8c36c08d096b0172c6b62cc79553b932a04f7923b.wav",
+      "durationMs": 2100,
+      "sha256": "594342c3e0f521690a92890fed685db4c99796db8c8632d36b02022edebeb3a8"
+    },
+    "The bird knows where she is.": {
+      "path": "/static/audio/en-us/454b8f34e78774ca209fbe25489ec7f88afd6fcebffbd2e05851c6b2b776c7d0.wav",
+      "durationMs": 2100,
+      "sha256": "540d257ea704d917c35cd701522d7df4cb8052451a2944d120bcb214a3448034"
+    },
+    "The bird wears his hat.": {
+      "path": "/static/audio/en-us/da82e737f2120a05488f25fe1b4472c865df8c387a7a16827306c1e85f7e3877.wav",
+      "durationMs": 2050,
+      "sha256": "0fd8c99b926ff95292681fb64cccd896b71e4f742893dd5a0ee61425060bd41b"
+    },
+    "The book is on the desk.": {
+      "path": "/static/audio/en-us/40914205acdbcc2aff8161534035b9ca99bb1e902a288ae5f64552f25b03b5c6.wav",
+      "durationMs": 1975,
+      "sha256": "6a18548eab5061645963dbc6fcec01325974933f37e78871eb2419d7cd3ea68e"
+    },
+    "The cat is a bird.": {
+      "path": "/static/audio/en-us/f9e90d58f85232b2425f313ebbbe112730ea9d94f6f5a80a5852296a7fff2ef4.wav",
+      "durationMs": 1900,
+      "sha256": "29311e80ad938d4c7f8d41fdb212b7ad509fbb50d95a3077e7f951764a618a9b"
+    },
+    "The cat is sleeping.": {
+      "path": "/static/audio/en-us/25d3ad28f7c470b61592b92d391d7c4d2c3f050feba782d65ff89fd2cefb85df.wav",
+      "durationMs": 1825,
+      "sha256": "717dbbab93fa6700086a019e00c63089028fbb2c0757429b11c271eb2da0d439"
+    },
+    "The cat is wet.": {
+      "path": "/static/audio/en-us/d745104454e4824f1af38f814ea2121807d1a1e24457fa4f9af90ca5cee77634.wav",
+      "durationMs": 1675,
+      "sha256": "41600cf4154a17cb9df9d00d7dc76e24155270d41afdb1da49c5418c733094a2"
+    },
+    "The cat keeps exploring.": {
+      "path": "/static/audio/en-us/b22b5e63d2919515cf946f3f3f28b5ed180e9373152b7f86fa54d4ed27aaac23.wav",
+      "durationMs": 2075,
+      "sha256": "9ae4888ad63c4c4a2d9788894bde73c2954fe11ed8dcfabb6e2190c48ca880fe"
+    },
+    "The cat wants an apple.": {
+      "path": "/static/audio/en-us/0aa9c6409d48138b71b25a3bfc7fbf4863691d19ccbb67818ab0900cd3bd6d36.wav",
+      "durationMs": 2000,
+      "sha256": "1bfde70570eb3189b3b588c2faca2655aee8fec58eafe079a6f636418bd0978e"
+    },
+    "The duck likes the rain.": {
+      "path": "/static/audio/en-us/d33b836c7c82b1d5dbf15f7bd5a14e4dd195b88b4ccdea1639a6df266bf3df85.wav",
+      "durationMs": 1975,
+      "sha256": "00ff8fd904f323eddc0f051afc4f431d24de19cfac2a5010e17d051eeb2f525c"
+    },
+    "The little cat is wet.": {
+      "path": "/static/audio/en-us/a91789894c6ac1f0c4134b5b9f90b75912943ce8081c0a3d76dd7abe18e92d7d.wav",
+      "durationMs": 2000,
+      "sha256": "5dc4088068429be85edfc6c775250ed5081b497992eede2180aeb91a447b2cec"
+    },
+    "The little penguin runs away.": {
+      "path": "/static/audio/en-us/ce38242213a258907e17bb631d960fa2109e189e2f7bfd986baa39ba04fe3c3d.wav",
+      "durationMs": 2425,
+      "sha256": "b49b70e86629aa8dc927bbb90a44f285c1779976a1b5af7df1624c8e5cafa480"
+    },
+    "The llama follows the penguin.": {
+      "path": "/static/audio/en-us/3716f3685f646df572d55b3ea9da5b0aa28c5df023675508fcb9167104c9c0bc.wav",
+      "durationMs": 2450,
+      "sha256": "8eaf7d6a278d2e546b8249a6d51eb0ca7097c69c94030cbc8798ca6825c92224"
+    },
+    "The mouse is hungry.": {
+      "path": "/static/audio/en-us/b13101ddd369a21a59baa32a792106b50a8c20fcb43e575aed92730d88170f90.wav",
+      "durationMs": 1950,
+      "sha256": "4339c1a366f11c11007823b92e6541bd110b97f995f330a0191c86619a718fc1"
+    },
+    "The other animals come to look.": {
+      "path": "/static/audio/en-us/8f418f2d15127965f215ab87e773b91490e7c9767560bbcaf68bcffaa01be2c0.wav",
+      "durationMs": 2375,
+      "sha256": "f54210b3fb752eb19d21650440a04782ed2a8a63fb9f2f1226cbf9947aae1711"
+    },
+    "The other homes do not suit him.": {
+      "path": "/static/audio/en-us/d5a473630bcb546862f8ee6b84efea3d40eb967e53f14b6a150c146f716fe550.wav",
+      "durationMs": 2350,
+      "sha256": "abe223b3c197a8e6a8beb96ecdb96e41746f7b5f5864fe3ac2ad38adab1f7372"
+    },
+    "The penguin has the berry.": {
+      "path": "/static/audio/en-us/fdda5cfd553908a7a3b173499146cea5b7df317b972a5474c132a651c972e3e4.wav",
+      "durationMs": 2075,
+      "sha256": "e946fb8ccc7a3c6ff7fce04dab660dbdfcb6f814a45d32d987ac0cef68309c78"
+    },
+    "The umbrella is too small.": {
+      "path": "/static/audio/en-us/29b7b01fd62671a82eb99fe915fd316644f08ad40355b4100dbca9a66374b9d7.wav",
+      "durationMs": 2250,
+      "sha256": "62164d7e667cdceee88b1232ce5e3e1065adfddd96cd6c60f6f6b1c8602951b8"
+    },
+    "There is room for you.": {
+      "path": "/static/audio/en-us/aace041c8f1398a3a5ab0f1ff6c04fe0017eeea7d2385054c31c2da64a828db5.wav",
+      "durationMs": 1875,
+      "sha256": "397a8ddf307ff6a762578c0709282130c6050ee1ada89a2fefc6a7a7b5233894"
+    },
+    "There you are, Teddy!": {
+      "path": "/static/audio/en-us/5bdea979bcf0ab4a74df2e213c1074d52c77a30d4de5a17ae7047c35d3be140d.wav",
+      "durationMs": 1800,
+      "sha256": "f59d3bfa39e4e57ce35bcc1cf126e4105067592a8239cb1e72dc9641521966c4"
+    },
+    "They become picnic friends.": {
+      "path": "/static/audio/en-us/7dd4b6f1f13ad35563f087132c07f781664d4d9e2642810a74681591e45d7d4b.wav",
+      "durationMs": 2225,
+      "sha256": "963a7e8e1d64436dff04eb0cfe4ea15a28cb009256cb03992b0de75d31279523"
+    },
+    "They eat and play together.": {
+      "path": "/static/audio/en-us/ace5e2cb50b3cd356ff2f3f7e61d34f4cb3e3b5e5d19e10ff3ca6a7b2dcf1d95.wav",
+      "durationMs": 2225,
+      "sha256": "ed9e5e9c5ec024176d262a992d19221d8cbaea43f04d748d2e75b751119ef76e"
+    },
+    "They have food to share.": {
+      "path": "/static/audio/en-us/07d64f864b742ddc83b8c7b2780e3241c4ea730571cff70a2b7638e2dc026942.wav",
+      "durationMs": 1875,
+      "sha256": "d46cbfaa265e0e5ee8644a0f4a2b5090754de0e15a4c3b7658d02332a9bf2ec2"
+    },
+    "They sleep together every night.": {
+      "path": "/static/audio/en-us/9fe99a0423c8e21bffb4e89d0c50090686d87b617cb5ab30464de0efada282fc.wav",
+      "durationMs": 2450,
+      "sha256": "145a1d8f7d031cb93d479e4451ed1f054e6e2a3c5dbbd569f2c809d977a8af2b"
+    },
+    "They stop near the sea.": {
+      "path": "/static/audio/en-us/71c2b53259ac4d425ef117dca3fdd1dc10418c83e5028d87cb3a5e41316ec676.wav",
+      "durationMs": 2075,
+      "sha256": "33c17eac5dbcf863acea3e838c4432152d20d762e76dad4143f819f77c439b39"
+    },
+    "This bird is very noisy!": {
+      "path": "/static/audio/en-us/807ee168c5b6029e4c2784fb15b2d829111e0f176d5a9ab378497b9b1ba9e5b2.wav",
+      "durationMs": 2200,
+      "sha256": "83b7698529b4a1cda9c6f9d3a49bc8f891d1164aa619b3c04f508f8dc879b5f7"
+    },
+    "This branch is just right.": {
+      "path": "/static/audio/en-us/a48a6747d2f082b01e631e8b704dd7200678d03e1fde808f75d3aa13ce414c97.wav",
+      "durationMs": 2200,
+      "sha256": "95d703b9a4015357da24cc3a5dcb48d4fa0bf3ee4b4006966108f47b53a84c46"
+    },
+    "This branch looks lovely.": {
+      "path": "/static/audio/en-us/8f0e046ee174d56a86f406f6a7710e5b2251534de0a95345c703f1c3662f7325.wav",
+      "durationMs": 2125,
+      "sha256": "e463c0de1cb2c086758e574201aa92c35bafaeaabc0256e06e6c2cceb08fd74b"
+    },
+    "This house looks nice.": {
+      "path": "/static/audio/en-us/69ce925477ee6ab4226799db1d0940b65916a555d0d2bfa550ce96928c48ea77.wav",
+      "durationMs": 1950,
+      "sha256": "052695604bd8955dce74aed51cb51d24a5ba0b063cabcfa0e918e2280d6ff56b"
+    },
+    "This is my mother.": {
+      "path": "/static/audio/en-us/639c4a824f54bfd6a4180d44f59b30e63207a0354129eca5260f37c438e4d8aa.wav",
+      "durationMs": 1925,
+      "sha256": "370a84197a2d16919fb5456b45e5dcc8ad338582b074c702d24b69d050784658"
+    },
+    "This looks like a good branch.": {
+      "path": "/static/audio/en-us/fbb8f605dfca22418dce2b1584229b5f081cf7c64e15787e29064b75b804e268.wav",
+      "durationMs": 2225,
+      "sha256": "47385822238ab175aa7629993ecb82111f7557628b332e1ca9e40cda1c35d1ca"
+    },
+    "Try saying: I am eight years old.": {
+      "path": "/static/audio/en-us/3898678816723002c62754d6998c8b2ed989812bf2e57d773ff1d2787869a4a6.wav",
+      "durationMs": 2825,
+      "sha256": "da35b8ebfc9b1358d313916bbe602d4b3a2b1ef8972462e2f9363485fc3ef2a0"
+    },
+    "Try saying: My name is Lily.": {
+      "path": "/static/audio/en-us/a0c735ff27f5de200c92538c5b881b5e39d77fb6805272bc0dcf3e1abafd6e1a.wav",
+      "durationMs": 2700,
+      "sha256": "34575d2ba7ce9a07f1c0a414f6d3e11c8c6d47ca9f034dff04455aef789d7c63"
+    },
+    "U": {
+      "path": "/static/audio/en-us/15dae79a1027eb417451cedcf0d37c5a20257f72a1d57712ea02a39a4177f0ce.wav",
+      "durationMs": 1350,
+      "sha256": "5461f5d1af10f1cc91de895f4ba85739caebfbcb80a36c44179cbfd9c5e4c513"
+    },
+    "V": {
+      "path": "/static/audio/en-us/8ca4c081907f81e9e265644cceaa06d297ee518fd5b170f1e1f93cc8eec4d8b4.wav",
+      "durationMs": 1350,
+      "sha256": "0eec6e2baeb63e9b010887e6d1f68ac8c448d78c06b5647abf75ffc29f380efb"
+    },
+    "W": {
+      "path": "/static/audio/en-us/33b439c5f303d665546e2d657d6f7b3316d0136e7d06fc1fb014e77dd83e6dcf.wav",
+      "durationMs": 1500,
+      "sha256": "8b53c26899db53622300f7762461c6a18f94744ef4556c1ddb2f382d100bc9be"
+    },
+    "Wake up, little goat!": {
+      "path": "/static/audio/en-us/33cc7e9d421b17a6dd556b5dd08145afd5cb7f5c78fbf288d8444efbc8dfa293.wav",
+      "durationMs": 1850,
+      "sha256": "cf0069e7207251b20b8b1c316ef47d3bf2c8f4630bf4f5a9f7969dec172ad7f8"
+    },
+    "We are dry together.": {
+      "path": "/static/audio/en-us/63e5d3dbb326e4784e8a50ab0e1c0bd2f47615361678f125f6b9f191139fc26c.wav",
+      "durationMs": 1875,
+      "sha256": "bdf571ba791a11e429d5f95c05d1611f6a8fa01abca2f4fe5b8ee0411ff9f848"
+    },
+    "What animal do you like?": {
+      "path": "/static/audio/en-us/872261a584eb0fb8434ef537c3df5aee24bf304f2116e1e312754faba4bf9cc2.wav",
+      "durationMs": 1950,
+      "sha256": "600116c51b999e221f571f202235adf1883b01384936557b8129a8ed7234086f"
+    },
+    "What can it do?": {
+      "path": "/static/audio/en-us/9856cb283139556f45da5484ce177f828913089b2fd3ce36b0c88ba20530a7c9.wav",
+      "durationMs": 1625,
+      "sha256": "46ef90f49ec7eca691874916e17ff83a698bf48a4ea1bfc16d6040094ef1c98f"
+    },
+    "What can you see in that color?": {
+      "path": "/static/audio/en-us/fd7c1b158cc0c13cadb5d22164e4d32e16afcd8abb2db550878ce4ebca9c65c1.wav",
+      "durationMs": 2075,
+      "sha256": "a0bbe2cffa9d30670ae87f94ce675fc6a0cc757c9ee00275e1ac0a28564989d5"
+    },
+    "What color do you like?": {
+      "path": "/static/audio/en-us/69adfef044a6489e590ebda44794ef5af9b90e7457be24c9f14679f298d4eeef.wav",
+      "durationMs": 1875,
+      "sha256": "b061d80979296dca93a6ae88e81b6b54eef240976280e05a2464a9f980977bff"
+    },
+    "What have you got, cat?": {
+      "path": "/static/audio/en-us/601b47ae93ecc09ca9cac95c580f20ea56a77b93d74d29140a8c26965f653ce7.wav",
+      "durationMs": 1825,
+      "sha256": "17e4f5c13270d0a1e9910c075e12292ee1086b127a560423d0e95696c43b3f51"
+    },
+    "What is in my basket?": {
+      "path": "/static/audio/en-us/7807b2fb28da069a206f8268b3d46c430d526f873ebb9f3f57a720fa6075752c.wav",
+      "durationMs": 2000,
+      "sha256": "7067e5b93eb34e26f7c1c6cf52241d57b0dcdef897d309f9b58410e0fdec789d"
+    },
+    "What is wrong, Fifi?": {
+      "path": "/static/audio/en-us/a7ad0c76067bf3efc89d37ff6de76d86b9e8df786dc1cb18fa5a330ed1930a74.wav",
+      "durationMs": 1900,
+      "sha256": "dc79e77590ff5b857d817d113cb779f99d99e1fa87fb8de8bacec74ee383bd27"
+    },
+    "What is your name?": {
+      "path": "/static/audio/en-us/ef352c67b8aee35833fcf24a8f51295dfb5fc5e904d936e44c138e803522bf6f.wav",
+      "durationMs": 1675,
+      "sha256": "2b2245b99126f07cb4a723afcf9eff39b60038458660b229f9f4621f88a2eeb8"
+    },
+    "What makes you happy?": {
+      "path": "/static/audio/en-us/a3b1f69556b0f2226fc481aa809a38acff9e534869c49a2e221244988e479051.wav",
+      "durationMs": 1775,
+      "sha256": "13671dbb6576e66eee3892ed9eebc9696b268ade64b9df5bd25dfee06eaa469f"
+    },
+    "What would you like for breakfast?": {
+      "path": "/static/audio/en-us/0cce17ce31875740f3c4b682177ec5daf3381654421a3876df9d25d6bc803d86.wav",
+      "durationMs": 2225,
+      "sha256": "3ccac1332e2e2d03b4de0257787c63a917ff8e113519068ee0d6c85aae1bdde3"
+    },
+    "What would you like to drink?": {
+      "path": "/static/audio/en-us/202c07df2c1fb7e7ce619b232c22807b483def591a2c27aed43a94a1af50b24c.wav",
+      "durationMs": 1875,
+      "sha256": "d1a5e98d804e8d7edccba7d8b74bca4358345dd810287ead04b93f6a957430cc"
+    },
+    "What would you like?": {
+      "path": "/static/audio/en-us/7ec7668670ac98572b03dd24fb9fe3bc61bdc43f9377f1753eabf7d89542f44e.wav",
+      "durationMs": 1575,
+      "sha256": "f97e758850f1e5e6aaf20ad7502e3b9716318064263423315a2fa19876f5d9bf"
+    },
+    "Where are you, little goat?": {
+      "path": "/static/audio/en-us/8897deb53739bf782cc3777e7188f9be74f3ff503ac2514e588aee2b25b32258.wav",
+      "durationMs": 1950,
+      "sha256": "fa2d74a91167edce977bc26a0b3399f710a09e1a99a63a8d7212f05480808bb2"
+    },
+    "Where is Teddy?": {
+      "path": "/static/audio/en-us/5cf335ebfc0d39ea6f10e9fffc5d0476f4206b75c0287689e702c442158a7413.wav",
+      "durationMs": 1700,
+      "sha256": "4c55279c149ebaf21016ada03a574c840f0a5387122ae6a38cac99d29d3a75df"
+    },
+    "Where is the berry?": {
+      "path": "/static/audio/en-us/40ca23930373b9c664562efcfd74de47131f8e2c9865e319182d40b0cfe7570c.wav",
+      "durationMs": 1800,
+      "sha256": "17fcc1fe6b445282d3544ebffaf4750494ca0de274567f8ff59a4589fc9744fb"
+    },
+    "Where is the park?": {
+      "path": "/static/audio/en-us/f2dceef404e95bb9570d3543861bf850fb5f5a312a9a633bf8eb0d2d3f1cd849.wav",
+      "durationMs": 1750,
+      "sha256": "176434d85786d15983859d0cf400a11ac6afba3a01fba6ed2fd123d50545fd1e"
+    },
+    "Why do you keep dancing?": {
+      "path": "/static/audio/en-us/1683d378dbda49aa9911fd4b4186c602712c26b68fb95f7d62bab19267264077.wav",
+      "durationMs": 2000,
+      "sha256": "acaa0eb0c43cee9d1abfdc94af3970c500a53ed0624a15fd1d4db6d647e68382"
+    },
+    "Would you like some?": {
+      "path": "/static/audio/en-us/39d32d4f9b8c359eb4d4a24f0a7b53e1f87171eb8ec1d8f357f75b578a151b16.wav",
+      "durationMs": 1725,
+      "sha256": "8074498c89c24be048fef69807cb735616432fd37855d12b6cbd4bab23816926"
+    },
+    "Wow, 10! You are a great English explorer!": {
+      "path": "/static/audio/en-us/e64475fc24100773cef3655aa78083a91cef4767119f02edad9307f1a5ca9503.wav",
+      "durationMs": 3350,
+      "sha256": "7594976a65993410e57b675f66d62943c96f7f3daf5cfcaa7929fdc58b9ed987"
+    },
+    "Wow, 11! You are a great English explorer!": {
+      "path": "/static/audio/en-us/909f8c4bad36bbadfaa856785dfb6ebf842e288cc8d2f5379e48595df0374568.wav",
+      "durationMs": 3550,
+      "sha256": "abc669de1938094952335b8ad791c94be47db055e05356481f70190df3cf5c09"
+    },
+    "Wow, 12! You are a great English explorer!": {
+      "path": "/static/audio/en-us/2dabcee87c7adcd0bb35e64b9b51f3fdb8bf9b3360e0918904f3656ce81a6e16.wav",
+      "durationMs": 3525,
+      "sha256": "6aa3cea67ccf0e3256d3bcf9497c7397896dc9bd49481c08778ac9b383859bfe"
+    },
+    "Wow, 13! You are a great English explorer!": {
+      "path": "/static/audio/en-us/60c499ce25b2e454dc6409844bd7abdd6a16dd789936f378891f9cd79503437e.wav",
+      "durationMs": 3675,
+      "sha256": "7bc47b265ce2aa8c834cfc0712576dcc0f9af54d4fc002c3966bab2239a55831"
+    },
+    "Wow, 14! You are a great English explorer!": {
+      "path": "/static/audio/en-us/d320e5a90299453847f32fcddb6c58ba541d714ab9e16a7e7b7db3e38f340e71.wav",
+      "durationMs": 3625,
+      "sha256": "3f12850ab15c3f05517d24908a9f3cbb0d4d2dd839ee16824d1fc9a68f2fcf27"
+    },
+    "Wow, 4! You are a great English explorer!": {
+      "path": "/static/audio/en-us/9d00189fe783b0caaf2bf4931d6002aafcaebafde6e323d730219ded5bd48824.wav",
+      "durationMs": 3400,
+      "sha256": "05d2daa060ea91ee64a14d81535c611150dc6c91293886eea6717638825270cb"
+    },
+    "Wow, 5! You are a great English explorer!": {
+      "path": "/static/audio/en-us/d2230ad1f4cf345b1bd73ac62fae8c1ebf23a39cab7833588b3fcd8691cae576.wav",
+      "durationMs": 3425,
+      "sha256": "019b7aa805231833f31c7e82e4b2663d0f1cdf1855438409c908540d2d7380aa"
+    },
+    "Wow, 6! You are a great English explorer!": {
+      "path": "/static/audio/en-us/c61a3602a2b987452979079c82573b987660033384d49499bcfeb3442860848b.wav",
+      "durationMs": 3425,
+      "sha256": "b2acfb07df8cdd97fcadee9490a9943bde6a14196df6f2f045cea8f2c6f8c5e8"
+    },
+    "Wow, 7! You are a great English explorer!": {
+      "path": "/static/audio/en-us/861154579c415b95b74f449f91f8d01a6832c20d2f5aecaefdaae55813855828.wav",
+      "durationMs": 3425,
+      "sha256": "cb607101c3be866f79f2f06f644010c4bf840ac9afddd0a5d490c707d3c262b4"
+    },
+    "Wow, 8! You are a great English explorer!": {
+      "path": "/static/audio/en-us/168d0e5d3dbd7baa986cd5e52b065f6865b468976345157612ef9aaa5d3bd664.wav",
+      "durationMs": 3250,
+      "sha256": "eca76eb9314f1c91817b5e724cea5ab2e371dcbfc860b6e80e6b0dbb8bba39e6"
+    },
+    "Wow, 9! You are a great English explorer!": {
+      "path": "/static/audio/en-us/dd976f603100d3c5a8c7b06719194c3703ea308fd1184af677968ecafff1e7e2.wav",
+      "durationMs": 3400,
+      "sha256": "5271e80880c9d6f9d388fc6ec411a6d0a6b49adba898c0aae8e72a61e258ca8c"
+    },
+    "Wow, eight! You are a great English explorer!": {
+      "path": "/static/audio/en-us/c01afb1b5fa0e72e0c28495f7523fef9587aecc378f19cc2c8784facd3a971c7.wav",
+      "durationMs": 3250,
+      "sha256": "eca76eb9314f1c91817b5e724cea5ab2e371dcbfc860b6e80e6b0dbb8bba39e6"
+    },
+    "Wow, eleven! You are a great English explorer!": {
+      "path": "/static/audio/en-us/5493ee9c9b45d3d049a6870b2da36bedf99a28e118fba674dc0e594a4a11c6fb.wav",
+      "durationMs": 3625,
+      "sha256": "3cf6335239d6d5d0c35a14353dca3d6dbfe6b47c7b913a87272b31c681428df2"
+    },
+    "Wow, five! You are a great English explorer!": {
+      "path": "/static/audio/en-us/40616acae12506a6e98d2e11e2ad2418c8bce8442de8b6574d61bb6876452a40.wav",
+      "durationMs": 3425,
+      "sha256": "019b7aa805231833f31c7e82e4b2663d0f1cdf1855438409c908540d2d7380aa"
+    },
+    "Wow, four! You are a great English explorer!": {
+      "path": "/static/audio/en-us/23921be69fccceec89f505a3f6dab6a293a961003af173b2a3b7da3f4dfc9ceb.wav",
+      "durationMs": 3400,
+      "sha256": "05d2daa060ea91ee64a14d81535c611150dc6c91293886eea6717638825270cb"
+    },
+    "Wow, fourteen! You are a great English explorer!": {
+      "path": "/static/audio/en-us/71c01295600b4a87d66f4fc24e2fddbadd2c8de408fdd2f9fec46d29bce25817.wav",
+      "durationMs": 3625,
+      "sha256": "3f12850ab15c3f05517d24908a9f3cbb0d4d2dd839ee16824d1fc9a68f2fcf27"
+    },
+    "Wow, nine! You are a great English explorer!": {
+      "path": "/static/audio/en-us/4d80587169e7478d83d8bdab6f30b35c3b81c342813b2bcb0ed895700ba689bf.wav",
+      "durationMs": 3400,
+      "sha256": "5271e80880c9d6f9d388fc6ec411a6d0a6b49adba898c0aae8e72a61e258ca8c"
+    },
+    "Wow, seven! You are a great English explorer!": {
+      "path": "/static/audio/en-us/3d73df3fa8dcdff5136b08df73c6576f1b55b6d4adc27b2338ec5e4d1ca5ab2f.wav",
+      "durationMs": 3425,
+      "sha256": "cb607101c3be866f79f2f06f644010c4bf840ac9afddd0a5d490c707d3c262b4"
+    },
+    "Wow, six! You are a great English explorer!": {
+      "path": "/static/audio/en-us/6d6b791ddfa0c79f55cabb230cbf866dba29df73067797f5abb923c5a9f68c93.wav",
+      "durationMs": 3425,
+      "sha256": "b2acfb07df8cdd97fcadee9490a9943bde6a14196df6f2f045cea8f2c6f8c5e8"
+    },
+    "Wow, ten! You are a great English explorer!": {
+      "path": "/static/audio/en-us/fe860507a04728bf8400de516b1926e5dfda4db925cf99c70c232f2ae3a5715f.wav",
+      "durationMs": 3350,
+      "sha256": "7594976a65993410e57b675f66d62943c96f7f3daf5cfcaa7929fdc58b9ed987"
+    },
+    "Wow, thirteen! You are a great English explorer!": {
+      "path": "/static/audio/en-us/cf503c29c3ec16b9b3ece96f5cc3390be1a4a2791fbd5d6aeea6e9a359d8787b.wav",
+      "durationMs": 3675,
+      "sha256": "7bc47b265ce2aa8c834cfc0712576dcc0f9af54d4fc002c3966bab2239a55831"
+    },
+    "Wow, twelve! You are a great English explorer!": {
+      "path": "/static/audio/en-us/dec6ae33b992942df8a1f1843656e5d1227c6b6aaeef664a34ec21756233aa97.wav",
+      "durationMs": 3525,
+      "sha256": "6aa3cea67ccf0e3256d3bcf9497c7397896dc9bd49481c08778ac9b383859bfe"
+    },
+    "X": {
+      "path": "/static/audio/en-us/44014e9a1df4527bbec4f164c252276d9e68db5d3dc3051284899d52906eec0a.wav",
+      "durationMs": 1275,
+      "sha256": "81bf6eb4ddc3bdf7cd0a91f49cae8fc8bb2d7ce3cd9f3af7d6a00f6d3efa44ef"
+    },
+    "Y": {
+      "path": "/static/audio/en-us/8d09eb550e75e61e93d83076c68f12c8451e22f52a466ad33a7123968d2ce1af.wav",
+      "durationMs": 1400,
+      "sha256": "07aef8988c2e008e099a99e985b60c028a682fc8e429cac582b510fea789db8b"
+    },
+    "Yes, please! Let's share.": {
+      "path": "/static/audio/en-us/e651aeffbeade4f9d5649f9c26ac71af76dd9d3bc7b080384091883903b3f761.wav",
+      "durationMs": 2125,
+      "sha256": "3a3bc6a5919b91069f98d49822266eed1687b8b3cdb769297512cd600c22afe5"
+    },
+    "You are making me wet!": {
+      "path": "/static/audio/en-us/f36debcc415438fc36e1942df0864a8fa4488203fadc93c286e1f0732c57a873.wav",
+      "durationMs": 1875,
+      "sha256": "90a58831c2d0ea060483f99b4066639b5861adafdd48dd9ff8b5cfd1062cc07e"
+    },
+    "You said: It can climb. Thanks for sharing!": {
+      "path": "/static/audio/en-us/7048709e25546b873f4329c4b8586679b858f45273c9b819757eb04036a13985.wav",
+      "durationMs": 3250,
+      "sha256": "f8ecf211f7045b11d5053f9b64172e3b8b7939e0eace31cbcfebc30222830d56"
+    },
+    "You said: It can fly. Thanks for sharing!": {
+      "path": "/static/audio/en-us/a2ad96c39e6c4eaa895a5cdcc14d68394f7ccca0cbd87f0eebc562a8ced7f23d.wav",
+      "durationMs": 3200,
+      "sha256": "1464ccb6835d14af6219516fe1fb36edc0a37bee22b40ee0ed71e6603b40c727"
+    },
+    "You said: It can jump. Thanks for sharing!": {
+      "path": "/static/audio/en-us/7b908e6a3470baba58b31af044dce7d9a89d40bcedfa47436dd555a94de784fb.wav",
+      "durationMs": 3325,
+      "sha256": "f76340a20e24c9b295c6840cd0cc8413cb125102f9874e421ac319a6de392336"
+    },
+    "You said: It can run. Thanks for sharing!": {
+      "path": "/static/audio/en-us/60ace38e50260881c53bc81789b1ae5cef0b8816fc2a0811a7ace3fca412c0ac.wav",
+      "durationMs": 3225,
+      "sha256": "4d1393f8322bbd9a9acd12ed1dc82c3c2a2398fafdfec08fcbd161c3a3733359"
+    },
+    "You said: It can swim. Thanks for sharing!": {
+      "path": "/static/audio/en-us/5faedb04842501a764a3da1d3959449d35e384d3e9adeb05c84a1bb0467af220.wav",
+      "durationMs": 3250,
+      "sha256": "ec10f2aa3697aa00bf90b98cf683b31a95fad9a62b3e0b534d88bdd4afe8a411"
+    },
+    "Yum! Bread is a tasty breakfast.": {
+      "path": "/static/audio/en-us/3a17c96f2289f11b37dcf252303a9d29421d815963fea1aabe64dd2dde5de306.wav",
+      "durationMs": 2825,
+      "sha256": "957eca6db6438ed82807948e14f1a109247a7c79ee7a3e1afef557bfd7fd0753"
+    },
+    "Yum! Eggs are a tasty breakfast.": {
+      "path": "/static/audio/en-us/d817127802a2de2c91261ba777548ef26cc81115a91716631a5a55579d3fb36f.wav",
+      "durationMs": 2825,
+      "sha256": "bd66490b7b0a9a172bc7b5a712d3512c12c4bdda6bf7e31d78889f17f348134a"
+    },
+    "Yum! Fruit is a tasty breakfast.": {
+      "path": "/static/audio/en-us/e0f295d71869c1b8f102ecefe98dedd38b369335818ca8f1d9dd9376177bd13b.wav",
+      "durationMs": 2800,
+      "sha256": "c0dff0eb6e87063e3fa1a4495acea3d07621c7db929704a4c0cea9e9eef3b427"
+    },
+    "Yum! Noodles are a tasty breakfast.": {
+      "path": "/static/audio/en-us/967a24b02ea2e86822ad5c512d3c5a4c5fde593446c15b6d96f72745a8ac59d4.wav",
+      "durationMs": 2975,
+      "sha256": "7e519eb9f181e1e09f6bbe5782611662c3df4f9bdabc201a9ccb96826088eacb"
+    },
+    "Yum! Rice is a tasty breakfast.": {
+      "path": "/static/audio/en-us/d86501cc7f076983828ebc3cec25d7587251b2ddf0d85769fd54b25066a12d08.wav",
+      "durationMs": 2850,
+      "sha256": "8e0cfadcba09484ff8a4c69b49b18a3399b943c906fd40b0be64bd04fb7f0f88"
+    },
+    "Z": {
+      "path": "/static/audio/en-us/9019157aeb8324a4b4837140fda5786b607982881874d0103ec6e1c51cf3245f.wav",
+      "durationMs": 1375,
+      "sha256": "65bc7965c5a41c6558b9ac4ce2b97338f8bc4ce81e2589ccd03c9e0c8c15babe"
+    },
+    "airport": {
+      "path": "/static/audio/en-us/5986133c2a3c93704c4e8c5f4ae52a408bf7a4db197749a32591add6b6dd3030.wav",
+      "durationMs": 1475,
+      "sha256": "4dc21fa660d472f3e5db487d36590f781e6f500c0a3efc1f27385098e6b3e935"
+    },
+    "apple": {
+      "path": "/static/audio/en-us/7b06603a7fd130c885841a895cff5ce4945946047ebcd4734555cc5518da74d1.wav",
+      "durationMs": 1475,
+      "sha256": "1766229dbd057c288235f3a11707df613aa62c2d3888e995d24d3f21c7a886f8"
+    },
+    "bag": {
+      "path": "/static/audio/en-us/f45c8b3fc6576db8966fe88bbe1a833a4fa3c79ceaa392d0b9ec3b1d73e3d6bb.wav",
+      "durationMs": 1400,
+      "sha256": "510d55cf61af682c1ab7808e702082ac861b5a64a60265feaea00fca09944b61"
+    },
+    "ball": {
+      "path": "/static/audio/en-us/689664e007474e0045f52edcba108df16ed76abb36d692ca48dcd6c5e075db13.wav",
+      "durationMs": 1100,
+      "sha256": "ef2f94bafaa050d8cb66b5662f88a58fa6b3671288fd09905b73629daefaeb6a"
+    },
+    "banana": {
+      "path": "/static/audio/en-us/9fe7d4ebc639805b9017936294a35d76824ded9df03c16641208e8cd6b75c616.wav",
+      "durationMs": 1550,
+      "sha256": "c2f67b48462462a1c24c9acca3b739e5a8ec3eeb98213dfb503510518c693d64"
+    },
+    "bath": {
+      "path": "/static/audio/en-us/42d40d73f97ab0f8e710428c12d16e4b3cbbe6cf5a0248b1239ac10480833603.wav",
+      "durationMs": 1300,
+      "sha256": "f42bcf66cbc1c71813bac7735971697c887cb95219a41fecaaa56ba63f2cebfc"
+    },
+    "beautiful": {
+      "path": "/static/audio/en-us/ad00f21adb74da8f38d2c7e8460761078e43bde4702b3a1a5a0020aabf532081.wav",
+      "durationMs": 1500,
+      "sha256": "d5849b5f12479b04b20b9262159ae72fe71fcbeea8dd7211c40cbd546957d752"
+    },
+    "bed": {
+      "path": "/static/audio/en-us/04ea1c9b4e3cb0479ced45965fbe01e1874cd11b7d21eb65353ec499849e37d7.wav",
+      "durationMs": 1225,
+      "sha256": "15e4657f6d876996d325a6f1116ce915240a96ce2cdd0310cf2a711c51c17647"
+    },
+    "bike": {
+      "path": "/static/audio/en-us/a643a781926c89cb271b8b38b1c73bcfa9fe9bd576f085e87f0f5fa17ed75185.wav",
+      "durationMs": 1350,
+      "sha256": "f7dc2267813385f2c9da8b2078b046f07eeb9327fa3c29b246a8692feedca8ec"
+    },
+    "boat": {
+      "path": "/static/audio/en-us/108880c7f48817f1416a8b7f4f3e87416013aa599ffa85f88d818d79afc30462.wav",
+      "durationMs": 1350,
+      "sha256": "f0300a279ad42be53b75ec450b2f5acfdade541218ee49b723e4222a11c66324"
+    },
+    "book": {
+      "path": "/static/audio/en-us/4e52f2b01840f7539d0335f88b7a76d4e08333124175a39ddb0c5baa719c7f58.wav",
+      "durationMs": 1250,
+      "sha256": "3b402c4ed4f739bacb6713f2ef409088e5a2909813225903231bf73b7c71ddbd"
+    },
+    "bread": {
+      "path": "/static/audio/en-us/e5e2640e70feee3f5b44947a1621fbb7d0b655c00ecbc786577f08fa09c408aa.wav",
+      "durationMs": 1325,
+      "sha256": "b34144796738d6adb931d00770dfe245fa9f8334ab4c87c4a19f7a19f28289e2"
+    },
+    "bus": {
+      "path": "/static/audio/en-us/143c1c435e240e2a1a1a2eeed722abad40f34fdadd611d1a53f2727451641437.wav",
+      "durationMs": 1350,
+      "sha256": "f4a07489ea0217ccb4f0f8945e83dde0279b77807ea89504a2fb4bf3f3349b20"
+    },
+    "cat": {
+      "path": "/static/audio/en-us/c4877ccca5a1585018cb98b4f4480251b7e29100ae8b20cf49cd849e70d564d9.wav",
+      "durationMs": 1275,
+      "sha256": "62ca0dae743eea44f49c85fec7995135bdad13aaf5854f08e6eed01d53de195a"
+    },
+    "chair": {
+      "path": "/static/audio/en-us/d6af53865db8fe79f3805687ed82dba95f2edd4323c5cdad1baa8b1db6a79042.wav",
+      "durationMs": 1400,
+      "sha256": "76515aa7f584757eb68de263e500053910123b638a875f4ccd2794fd1e17e827"
+    },
+    "clock": {
+      "path": "/static/audio/en-us/76964851c8498942a86cc7665300cd63729e45bb7b8a348112c995687e34add6.wav",
+      "durationMs": 1300,
+      "sha256": "b9243c4184812b29c038802adf09d4140fea4bf34626c5d542587618e9b71983"
+    },
+    "cup": {
+      "path": "/static/audio/en-us/d527f29af9a20c707f0c39b5754ae7597d1a0dfd40f4115f3b425e9553882931.wav",
+      "durationMs": 1300,
+      "sha256": "c30011c761a145956636b806f5138d21c8cb64df2e272ec8dc4cbc18184058f5"
+    },
+    "desk": {
+      "path": "/static/audio/en-us/834d45451a3b661be08c05370a2e5cfdffbaa9349f185bf2b2c7765b314603f0.wav",
+      "durationMs": 1425,
+      "sha256": "14c126ec15211517239553b454994088b335dd8d343cdb83c96031e8f8ee8fc7"
+    },
+    "dog": {
+      "path": "/static/audio/en-us/941bd94772a651f14aca7f352a6a4a3589caa6c5920193869e40dbb83bdf402f.wav",
+      "durationMs": 1375,
+      "sha256": "78513e4e819df3f0e4b92b343657c62d851621070858c518b29c1401ea30d19b"
+    },
+    "duck": {
+      "path": "/static/audio/en-us/506e7044aa5bec8459b357a8eb70bad10a38ea3776c1891f82762147ed84cd3c.wav",
+      "durationMs": 1325,
+      "sha256": "9e77331c3c0d1779963947124ebcb012be339d7781d052259a708c20a1c5315b"
+    },
+    "egg": {
+      "path": "/static/audio/en-us/983efa3cc6a7cd7c4ba73f49a9321ca1240f252085e6a06e198c8edb18344db7.wav",
+      "durationMs": 1325,
+      "sha256": "b7de0fbc599a6665ad7110efb3c33e47ddd4a258a553674fcc3457d3fdbd9d9a"
+    },
+    "eight": {
+      "path": "/static/audio/en-us/66ce750b880ce495aedfb4eb84461102cae2e2602871ce2ab91f50d54a0dc8b8.wav",
+      "durationMs": 1300,
+      "sha256": "a0b725cd73df564b95ad299c6c3be751371deaf35967f80bce77d2ffc47bab67"
+    },
+    "family": {
+      "path": "/static/audio/en-us/28236c09997831d32ea4f166bc677383e2ca4c5ba5ccf26488c53128093f9fb2.wav",
+      "durationMs": 1500,
+      "sha256": "4ff38a5b2ff5ca8990469295cd4b0c05040d4fdd8f6b14dbe8502ea31f225582"
+    },
+    "fan": {
+      "path": "/static/audio/en-us/84357630e38f6b2f32e1756df4392d7a4787a9240ae47e3e15cc3c2b0cc07a21.wav",
+      "durationMs": 1450,
+      "sha256": "fe1c583c522676f45061e7ea947bb75c8378e47e87781e37686e676a7d2017cd"
+    },
+    "father": {
+      "path": "/static/audio/en-us/298a136116286a7d54f013c03ddb5972242856f4e6630a0c19d634d54c78916c.wav",
+      "durationMs": 1525,
+      "sha256": "57b4ad34223eab3cfe930a7a6d1d954f631623ff52942a159e96216cf4ded775"
+    },
+    "fish": {
+      "path": "/static/audio/en-us/6631b9510228c0366b7b96716fd61b9ce3bead03a295b7e8b168cf1560bfc6c1.wav",
+      "durationMs": 1425,
+      "sha256": "d0ea1dfb1b3a4581f7b457060361f2546cdabb4068caa3908cb1ecc4c3f69e5c"
+    },
+    "five": {
+      "path": "/static/audio/en-us/49ca7af84a9a3867cb214290efb4592a825ee5f04039d6deb779211004d2a5d2.wav",
+      "durationMs": 1475,
+      "sha256": "13cc267bbad6228f0bbb338f3772a9959a1393f0a6f10999a40bece6f41ad8ac"
+    },
+    "food": {
+      "path": "/static/audio/en-us/8eef1e4300d090d7474cee4b40288179b47295e30a29d6b61ec90e10569bfb84.wav",
+      "durationMs": 1425,
+      "sha256": "1477584bd2b4ae83d0ad299543380718de938e362937fccf00e4eb1a888d0ef2"
+    },
+    "football": {
+      "path": "/static/audio/en-us/639e1c6b92019ebacc19fd76f3077e262a9a4f361233b31c0680637c4a22ab12.wav",
+      "durationMs": 1475,
+      "sha256": "1df352a0ee8a9a6e28d76db5722a47b0676683eb3205bf8fda531fe36420e531"
+    },
+    "fox": {
+      "path": "/static/audio/en-us/7c30d93b47f37efc5acee0971c78400188e7b8b83439b01247fa662dfd9a8405.wav",
+      "durationMs": 1425,
+      "sha256": "b94e43e9a1b080ac1576232e0999b718df6210023048a36728cc895a16590996"
+    },
+    "friend": {
+      "path": "/static/audio/en-us/6db42124063ac24c18288b2bc0a62d43284afbb732656c23c908b61d5d3d50f2.wav",
+      "durationMs": 1475,
+      "sha256": "64f5a260016f7cd93fb8a9714643a6e5e40c88055dd6a60658ec3d57f321da4d"
+    },
+    "goat": {
+      "path": "/static/audio/en-us/0cf68f9e446e15893a2c82a5dfbb64cdda651f4fcc8dcec15632910fa4b1b282.wav",
+      "durationMs": 1325,
+      "sha256": "db60ffa7d6d98a764fd0038f1331a103bfd283c3edf54f780268ae59d91bb21d"
+    },
+    "goodbye": {
+      "path": "/static/audio/en-us/e30367ce1fbf452fe222d587e4cebc3c5c981243c857eca51f5cf7b140ee8e28.wav",
+      "durationMs": 1525,
+      "sha256": "9c827b8a40a76b603a9d76b3689c1941480cc38af3c1c6ca4d952a8431c7d40e"
+    },
+    "grape": {
+      "path": "/static/audio/en-us/1d1abc6d6d868510d33afc9b5b0539b0960add4e8a2ed023de12d45b04a0f55d.wav",
+      "durationMs": 1375,
+      "sha256": "32c9d5ee0f6f03fcc9b65241fad4dd01a1532e3e6bf3b349abb4e7cd13e3c91a"
+    },
+    "green": {
+      "path": "/static/audio/en-us/65b9de387848300c02635a53b5c25704bddbb3b878c11ba165f05900e14a0468.wav",
+      "durationMs": 1450,
+      "sha256": "a9f9f74b69ad68e39fb8faf20efee3d2be1597b162bdbfab51b67df7588e67b6"
+    },
+    "happy": {
+      "path": "/static/audio/en-us/e5086e6cdef81ae76f49271913bed097fb17addfa7fda406a5c2b013701b6b7b.wav",
+      "durationMs": 1525,
+      "sha256": "21d9f21c13a5a2d2e0bd48ad65b1a66920cb6e0bab1299e8263fa2d7d6cf1028"
+    },
+    "hat": {
+      "path": "/static/audio/en-us/8c6727833728bd0425ced3e156463bc49e54e5eaf3342d9ac22a8bf19d744c92.wav",
+      "durationMs": 1225,
+      "sha256": "dad701043306d1948c24a89ac1d00ca6155f032feb8b09c83434fca0890e7715"
+    },
+    "hello": {
+      "path": "/static/audio/en-us/0e1e19d164d3d310a32b66426b5c7ba5399a026e4f36dd946232d9f6d50dc282.wav",
+      "durationMs": 1450,
+      "sha256": "9eb2c07f7269520addfcc7154ca6a45fbb3470de1590c77f653748eea68e6e77"
+    },
+    "help": {
+      "path": "/static/audio/en-us/eb9bbb472096f9760c677804afbe31c30e8a52861218aa81779b3eb3c37636ce.wav",
+      "durationMs": 1225,
+      "sha256": "6838b76fbe3133caef62981cf350836ac01ba25a1f6c69b94513e54717917b21"
+    },
+    "hen": {
+      "path": "/static/audio/en-us/b6aa5c32da517c7db38dca986dd70b65af5c9ae9889b1a43aca92aebece1d209.wav",
+      "durationMs": 1425,
+      "sha256": "1d8fa8ef6a69de3d9d314a22b9de18766fde6660ad19a41607f2aaabc645ad53"
+    },
+    "hospital": {
+      "path": "/static/audio/en-us/0499df37653146a9c8dfdedbdbb7453acfffef532fa8a79586da64dba99af60a.wav",
+      "durationMs": 1525,
+      "sha256": "a1cbd873eb84e465ce467ccd9b26ff1eb2768da654eb59d2e7b25f2845ef8aa1"
+    },
+    "hotel": {
+      "path": "/static/audio/en-us/9392b524b73547efb8388bf1492cf33180ea99aa7168b5ab0a1e211f7050da0b.wav",
+      "durationMs": 1500,
+      "sha256": "98a28f5ba6f8ecac6256ac40ddc5499ff8e1d9f331c5dc5d2a70d0685e3f7fd6"
+    },
+    "how much": {
+      "path": "/static/audio/en-us/49d44ad7894879801ff55d195b84fdf7bc6b525b0dde4967bcd1ca0e55319435.wav",
+      "durationMs": 1475,
+      "sha256": "a24b0f1c670d092cfcaabd504c8f52c3312d29b02a777a9f9f08a379e4f7cd8f"
+    },
+    "insect": {
+      "path": "/static/audio/en-us/e503609491233810355adbe91ea6128c053927bd68153525377e167d6bcdc44a.wav",
+      "durationMs": 1450,
+      "sha256": "a18be21d57cf759c4e37d73b3c9a575e5d2ad2251ec45c163b7e392b49779711"
+    },
+    "juice": {
+      "path": "/static/audio/en-us/51011c3889c0dbd274272bc800d908e26f8d6adddf884aeb9d45b5a9971ffe26.wav",
+      "durationMs": 1425,
+      "sha256": "b7d7c044c82b383334a9eb650df3117da752c1caca7f406550d9b6f3f804eea3"
+    },
+    "key": {
+      "path": "/static/audio/en-us/632ce9f7d8129dfb920f8a800f469d389b0f4fe67d8c83fa00e9857e1038363b.wav",
+      "durationMs": 1350,
+      "sha256": "fe4d6b64e1823cf7f57ef1d5446f27e83c85fd6562a3b312780fda05987aa7b1"
+    },
+    "king": {
+      "path": "/static/audio/en-us/55b314a323746820c030dd629d5bdb1c268380f746fd8a5d02b7ca14634f0f3d.wav",
+      "durationMs": 1450,
+      "sha256": "ce7e02fdc48bad6d29b2446214808d9aef2a93bbe165e1ce5f43c264d2561b9a"
+    },
+    "kite": {
+      "path": "/static/audio/en-us/421a0352396e753b9f704a7625d80cb3f2b2e1adc77e403c49483431bf619a84.wav",
+      "durationMs": 1350,
+      "sha256": "0f892fd2afc0df6b7044b6f7d02e334b20c3ce66715fa62bd0f9deb81f62d387"
+    },
+    "left": {
+      "path": "/static/audio/en-us/695428506b2152e6b0544d63673b37afc1fda2137b801aad81bc9bf5382e6ff3.wav",
+      "durationMs": 1400,
+      "sha256": "f1e1b4baaa1c79e1832829214ff39aa3661d663c1213a6644a4d4268658960ba"
+    },
+    "like": {
+      "path": "/static/audio/en-us/01d220d7cd68642ffa486b2ab5b56684f92be2648f40cfebdf3b43ae02489d5e.wav",
+      "durationMs": 1375,
+      "sha256": "daf54d6c33e819ea74403e80a8228381b555eab74975a2afd89a9e632502c49f"
+    },
+    "lion": {
+      "path": "/static/audio/en-us/724e9df6924929d5b58a9dc3026638f5a3175206ef0d17c463b019f83aa4ae13.wav",
+      "durationMs": 1475,
+      "sha256": "c90aae3c8ae837c3f6a6f1914df012e84b0d41fba9694356c3413baa82cc0d6a"
+    },
+    "listen": {
+      "path": "/static/audio/en-us/9f06bd9a5abd9bb82681f89175c0281a193344488f707786e90b8dce7c1e9fde.wav",
+      "durationMs": 1500,
+      "sha256": "c9ce6261162ad6af63c8b07b2d3a2085464fb33462f1404ded21764c7c274d6d"
+    },
+    "lost": {
+      "path": "/static/audio/en-us/cfc9a0e6ea9181509b7f3e82c80ac3182ab6d3a02fc0efc2d1dee808d87a56b3.wav",
+      "durationMs": 1475,
+      "sha256": "973d49f0338e6cbf26366c01a344fc1749fd74e048e995e3b902823d2ff7e7db"
+    },
+    "lunch": {
+      "path": "/static/audio/en-us/45f4d86eac78e9581d5ec7387975cb42026f494095ecfee441d2fdede460289f.wav",
+      "durationMs": 1425,
+      "sha256": "d2ccdfeea27b65af569334e2d591ab7c54f1942308e2df259d568546af772ac2"
+    },
+    "map": {
+      "path": "/static/audio/en-us/7598204496e7c6e81d9df28f213448a79d039457a03898ad53b763e2334a5322.wav",
+      "durationMs": 1275,
+      "sha256": "5c151c8acf8a32d8863c0d64007d7bae3b6000c31bed0a86d859f53434aa2ad0"
+    },
+    "meet": {
+      "path": "/static/audio/en-us/edf0a7f48587fd1d8a3edf9c366090548d00ae1517f21862db70b032b4aaa8f7.wav",
+      "durationMs": 1450,
+      "sha256": "8dcea80aaed4a08dc8003b6c2d29a4a2accd1ac78f9c0e0be68e6566e341d09e"
+    },
+    "menu": {
+      "path": "/static/audio/en-us/899d99a27b2bd9a6257208cc5e0be16bdc83ecaf69ae96bb50108cc6ea36952e.wav",
+      "durationMs": 1525,
+      "sha256": "4a78a690ff0e62c22fe2d2852e44ea2ab7eabf59fbcb71a8b112a8415a7cc50e"
+    },
+    "milk": {
+      "path": "/static/audio/en-us/4152152e2dfc629a6b1fc28f20ad93355f046e028bafddd47b283e7b71de94d5.wav",
+      "durationMs": 1375,
+      "sha256": "992d1d86c8bec1567b4bf83e75c5ab95c497fe78eaea8b01d3173c422874671f"
+    },
+    "moon": {
+      "path": "/static/audio/en-us/38683d16c14c12cbfd0b0f81b1645b2283c3ab54a0693097429d467d04fb4a3f.wav",
+      "durationMs": 1450,
+      "sha256": "d4cdd4767ee2f7c67125d602a5e1313dc0ad09080631cbabd008e071002c5d63"
+    },
+    "morning": {
+      "path": "/static/audio/en-us/cf3768d5d0e1980859a1b46967aae8b24963c9e5ac5115808a89e64f0616e5ac.wav",
+      "durationMs": 1425,
+      "sha256": "c492cc65ce85152dfdd0181e57271a2b01b327a409dce9bddc6cc2907bf9f41a"
+    },
+    "mother": {
+      "path": "/static/audio/en-us/0d6c34e3d25bccee96ebe736b74b709437c96ac51da7064cf1371feb54a4dce1.wav",
+      "durationMs": 1125,
+      "sha256": "190e898b42ea6998f41c28622e73f454f162d925b8085c0978a624d0abf6a014"
+    },
+    "name": {
+      "path": "/static/audio/en-us/ee648da4fa7eb3b76fb315c6c498950e85ebd0a9118b3cfb156e1d6a02ebed12.wav",
+      "durationMs": 1500,
+      "sha256": "4a72d7b4df17a27d0e5cb9e8baf5605883f09477128c3400f9d9bf61da281796"
+    },
+    "near": {
+      "path": "/static/audio/en-us/69c82d01fe540eba521812681a2a4e2a0797a17bd950cd7e5ec296044ea690bb.wav",
+      "durationMs": 1400,
+      "sha256": "faf747d20776faf8adaffd5149b780994039d337b185f00a1d93ef2941ad2f90"
+    },
+    "night": {
+      "path": "/static/audio/en-us/34aa593a1cd939d2053725c64b274eddff02089fe400da5d064828955c129ad5.wav",
+      "durationMs": 1350,
+      "sha256": "6c0055f1a7717c6611cb232d64a12b04ea5988a8be7e663beded9abc31932732"
+    },
+    "noodles": {
+      "path": "/static/audio/en-us/b53ab89a5511c656487d7c75e94888e88b6f118d0da01c912ddbb96f55b96c50.wav",
+      "durationMs": 1525,
+      "sha256": "d44ebb182d68e14d7e32f7eebaff3d082b1b4e45796af05c0a6d07756366da9a"
+    },
+    "nose": {
+      "path": "/static/audio/en-us/f868e77c80a7c54b5b62839fd7a218be74712d3b6934f987d8af9b455abfac88.wav",
+      "durationMs": 1525,
+      "sha256": "9174688ec7a52c3093c3ddd43f4ed317ab420f662585484572ff3cbc52bc89b4"
+    },
+    "octopus": {
+      "path": "/static/audio/en-us/9c3ae3f10aee60556b6b8a6ad918888b6fbba32895ca791792e1c45bb9b55128.wav",
+      "durationMs": 1600,
+      "sha256": "248499a4389c371793d8e339ee5221bfd1c3ac12b0c10e7878ae45e707028279"
+    },
+    "one": {
+      "path": "/static/audio/en-us/d9c68edabec74bb178398897c93503e23aed41db36c4f8f031890fa4ccdc59d9.wav",
+      "durationMs": 1375,
+      "sha256": "a6d83082593621dad5894150772e2473ce568ceba0f9ca8ab2441e43a1c51e32"
+    },
+    "open": {
+      "path": "/static/audio/en-us/740c8d259be14a0e43673710a17809657fcf6d1e9ebb06f9b19111a8d6c01a89.wav",
+      "durationMs": 1500,
+      "sha256": "a6c23781dd55b981a7d4f23fc288816d44bf29492fe816de4b467a779b31af80"
+    },
+    "orange": {
+      "path": "/static/audio/en-us/d8bfc18293976bb73fe2cfc23949247e6b2141cf82a89c2fb8a2fb6607c1b487.wav",
+      "durationMs": 1500,
+      "sha256": "6406d366df526b778cf13c2d5e79eca037e91c63083afdedc6227a32edb2aa2b"
+    },
+    "park": {
+      "path": "/static/audio/en-us/bbfcfb4f14dd6668655cb3cc28c23bd713db5539a26f2c790320d2e47be0057b.wav",
+      "durationMs": 1375,
+      "sha256": "4539d1d01dc99173e013685169ce5b68fbe4b1eea1325cb1c45b1a5347e91497"
+    },
+    "pencil": {
+      "path": "/static/audio/en-us/ba19875067e624e96d27a9fe9554bdc7696f35029c45c28e38e8f14ebb62e701.wav",
+      "durationMs": 1475,
+      "sha256": "fc9eb39fbbc552811c791973f775c99f6a1a731eba08afc8b80cdc8533af1a97"
+    },
+    "phone": {
+      "path": "/static/audio/en-us/b149f51a5e5f9e4a41264b7b30e50ed4a106e15a5af97f64dd60a590839cecc6.wav",
+      "durationMs": 1475,
+      "sha256": "279ecfdb28505445b9b2ffd0977658f331494742e50635f17b5551c3d008c023"
+    },
+    "photo": {
+      "path": "/static/audio/en-us/6efeea91739744c63fffed8f26cb0c967dddbd52251f2f10c64e0b9e78088f82.wav",
+      "durationMs": 1475,
+      "sha256": "17c62ad8c62a6ea8f29a594346d6c4b419cccb68a46b87ca0e02a1cf0610227d"
+    },
+    "pig": {
+      "path": "/static/audio/en-us/a6d5ce29a005cf975d66fa8544e0007af48ab8ee328005702f1ec212da33b067.wav",
+      "durationMs": 1375,
+      "sha256": "96cd01bc751ce4343d56d36717fb2ff75303beb91eae9bd7760a531ac2087872"
+    },
+    "plane": {
+      "path": "/static/audio/en-us/f2c1fb324d743ebe04f2c943444c67f0a2d1a7fa324d480a2b8a33b7c1c16043.wav",
+      "durationMs": 1450,
+      "sha256": "c2333351947b6496575eaa6a22c0fbbf069308d5f7b37c040cd0e87d9f9db19a"
+    },
+    "play": {
+      "path": "/static/audio/en-us/b0e9b09c1f007c71d77911d755c5ac341691b16f62a3a8cfab461b6461494e48.wav",
+      "durationMs": 1450,
+      "sha256": "78a835e1de724706986b82db60930d65ad7ef5ceb1646ca012033cfae4b8a545"
+    },
+    "please": {
+      "path": "/static/audio/en-us/32b01d0d5547282690abdb7d1b77817cb63757349c6549fc9f9cffaf9662c432.wav",
+      "durationMs": 1475,
+      "sha256": "efcd6f5afbc8913f29fdc917db7a968622e79aba2365052d35f7f13d67f64016"
+    },
+    "queen": {
+      "path": "/static/audio/en-us/012df2c859b5a2820b1cfffa50becfc32ad2b4236bfbb23f4fe44f52046df1c1.wav",
+      "durationMs": 1425,
+      "sha256": "a482e09c3cbe33fb098af1ef60a48fae260cb8ee8089a26a0da7e95b166182b9"
+    },
+    "rabbit": {
+      "path": "/static/audio/en-us/e5484151728fc4f79df848e5902cf30ca1ed068c9f4ccbc2bdaac9d66e2d3cda.wav",
+      "durationMs": 1425,
+      "sha256": "532d47739b54edbc3c92004505d576221e065b487719bfaa315f9e2d7b30a85f"
+    },
+    "rain": {
+      "path": "/static/audio/en-us/f6b625585342419623fcda7f2fb43daa19f8fd6840175001745a31ad3202f09a.wav",
+      "durationMs": 1450,
+      "sha256": "e221b9f69158c996d0f849c30face95c41b13c0c789388a2ad6bafbe6dfbac8f"
+    },
+    "read": {
+      "path": "/static/audio/en-us/f97be08225a3d1e7d37fae2b84582bcc0b86c6af043a9eccd3e5848540a34155.wav",
+      "durationMs": 1300,
+      "sha256": "f5e2beb5a0b9c0f07985eab72ca984361c957ea3d321da16aca81f171a7ea409"
+    },
+    "red": {
+      "path": "/static/audio/en-us/79b573b4f1dae840530141a250d081f2142d3ea274c68b2cb86b85dcfd5bfad1.wav",
+      "durationMs": 1250,
+      "sha256": "9622838c3701c952683e1c104aca6584f774dd93653201229abc88098f94e364"
+    },
+    "reservation": {
+      "path": "/static/audio/en-us/a7e83de38ea8775d99cf69d2e6cfcb9e83a7907931accf6608fabf73b58adb59.wav",
+      "durationMs": 1850,
+      "sha256": "83e101fd3968c2e7a9e47ec853f26b8ace2cf93c0a8f05bd46b70617ae516ed6"
+    },
+    "rice": {
+      "path": "/static/audio/en-us/cf3bea8ca797430234d6cb175a41fa8ff3103f57c2d1089a9baee3b839ec3f6d.wav",
+      "durationMs": 1450,
+      "sha256": "2d12c778003802f63d2ae179bf48e356ffc7058f72a094f867ad0d94ac37560d"
+    },
+    "right": {
+      "path": "/static/audio/en-us/fb8caa4be920104f41980038d48e845a2befcc843c161ad08f3f4f12fbea4bd3.wav",
+      "durationMs": 1350,
+      "sha256": "09724bd1dc6910c18d6d354ca39441e863c5f02cfbe8abc205ec23ab63c6b740"
+    },
+    "room": {
+      "path": "/static/audio/en-us/7e86a4c1219c4f97935dbba0d5d580323c8e085057aa039d28e3c7e2b2e895aa.wav",
+      "durationMs": 1425,
+      "sha256": "b161c72600c338eec89b4e3d9e97596c487d4bf12042e4d062b4335a92c49abb"
+    },
+    "run": {
+      "path": "/static/audio/en-us/dfef9b89e64aac561be2ebeb046dbd03f4dc15d80f0f8bd68a342b6180cd793f.wav",
+      "durationMs": 1350,
+      "sha256": "2578c52561f33d0b411d31217188583ffd9f16841b73f23a14dd6bf43f579795"
+    },
+    "school": {
+      "path": "/static/audio/en-us/67830bdd5becc17a06371f4dac6fd4ca852b0889f2388646c692a646f6104be7.wav",
+      "durationMs": 1500,
+      "sha256": "320045ed6430f1ba48e5f3dd023693cda54b757455b3e13beea642b753bceee6"
+    },
+    "ship": {
+      "path": "/static/audio/en-us/66ad9e9b6730767c3254b8e073fb47e6b5c5574c917d7c90cb635cb72d376661.wav",
+      "durationMs": 1250,
+      "sha256": "7c98a1a2f28255bdcfb0dfd03a5824768e1eb2c7c2b5433765bf1e58cd12ecea"
+    },
+    "shop": {
+      "path": "/static/audio/en-us/622c4a49d37c982a0f3ff9b195a17d8b7d94fa127e49d26bd2ec92270c5130ca.wav",
+      "durationMs": 1350,
+      "sha256": "5db4e3be130376c124a4ef920ead25b326a4d05a884a0752e156adac35f0653d"
+    },
+    "sing": {
+      "path": "/static/audio/en-us/e79ebe80550ce1b56532eeac907ebbdb77c79bd03368dfe2274291b90588a319.wav",
+      "durationMs": 1450,
+      "sha256": "60dc78880e04898198a1b6c3de8a070a06f7b8c78c435d8cce9c5d42d1e26dce"
+    },
+    "sister": {
+      "path": "/static/audio/en-us/b8653a4500dca695bd19879084db8a7216661160bab926899cb7df8cdf5eeb29.wav",
+      "durationMs": 1575,
+      "sha256": "28d90ef766ad293391ee5d3aebc3d73eb6f40131a040ef22b1619ae72c243a48"
+    },
+    "sleep": {
+      "path": "/static/audio/en-us/1b3d99447587bfdfd6d2a6773660899151afb0213211acd928e32dac7b37f333.wav",
+      "durationMs": 1375,
+      "sha256": "3f52158567162ef0b04d10ad7b2dd61f35695a7b0382903011fd5b0a921b0c57"
+    },
+    "sorry": {
+      "path": "/static/audio/en-us/9f5cbe8b1b7e32683d5d7b0aca145e547b95af17ac709e084e2413d481e54c91.wav",
+      "durationMs": 1475,
+      "sha256": "ba9a2f15278a30c07edcf4efa30ee30cb147185d46939922583ecdedabb002c8"
+    },
+    "straight": {
+      "path": "/static/audio/en-us/466e984ae865f092ac6db32b9af5b9114c6d580af85799170a53afc07f844304.wav",
+      "durationMs": 1450,
+      "sha256": "d15721165927a9957b72652644d70e84cda5f4ecd9f8626a080c3389edff419a"
+    },
+    "street": {
+      "path": "/static/audio/en-us/c4ae3d31861366c05a7256373b79f8922ed7880ce77b9aeaabc775e5d5672184.wav",
+      "durationMs": 1450,
+      "sha256": "00c64ac8d5aeebd4070e014f300085fabffaf1d9770e2182fd969ed6355fec17"
+    },
+    "sun": {
+      "path": "/static/audio/en-us/7e7d17e0cf4bdab6a44098005734df51ab6e53cb656369d76b9f1568b0083399.wav",
+      "durationMs": 1425,
+      "sha256": "235bf7e6ade316826945943280940bb3a2098358d8dbdcd2ee3a70a0070f2d2b"
+    },
+    "thanks": {
+      "path": "/static/audio/en-us/5e6cd2c96dcae34010586c74ddd4a38fe81919ee814b06845aea08a22ee3ecc7.wav",
+      "durationMs": 1400,
+      "sha256": "b51c507dc3bf49187a8f10897c87b4a71b7bb49fffa0dfef3fe49073f2132658"
+    },
+    "three": {
+      "path": "/static/audio/en-us/d438d968fc80ed800eca977472185d48644144679989772d0054ca611944f0cc.wav",
+      "durationMs": 1400,
+      "sha256": "22e4bbac7e9f5295e0886b3fb1830522b7b85ab83f0c13c5f29deee39c42576d"
+    },
+    "ticket": {
+      "path": "/static/audio/en-us/9397729ae05d98928e52951d586e7f7dbc5e7145bd15e3015d0143968d9d11ce.wav",
+      "durationMs": 1450,
+      "sha256": "2ab9ec89f1531f012973ce29e7e7a94194ecb5d2c984901cbafacad59a1f3f55"
+    },
+    "tiger": {
+      "path": "/static/audio/en-us/6eab0e588b3117888e95d91cb7bd1b0cd9fea1fafcf468390c7b4efd940a10f4.wav",
+      "durationMs": 1500,
+      "sha256": "e114feca3377db83c3588e60ea5034a3236e97dfb66f93b414e97bd24e0dcb7f"
+    },
+    "tired": {
+      "path": "/static/audio/en-us/3d622d0d5de9888a9b706c0684982cb1df345fc68bdc9c8ffbe11fa36953ac57.wav",
+      "durationMs": 1475,
+      "sha256": "cc57afba8fa347a9d8912c32cff7fe4fd297d38f4aba3a016a4c126a0d1bd09c"
+    },
+    "today": {
+      "path": "/static/audio/en-us/2e165cf23b9f5385bfcd03e76f534361364b2d5fffe54dc8aa36b5daa4b8c18e.wav",
+      "durationMs": 1475,
+      "sha256": "cac25331f8291cf3b805d4750ece221c218d48716fa4cc78d8a070fa5e972575"
+    },
+    "train": {
+      "path": "/static/audio/en-us/3b52ba02d43e2172bf9450a608e06bc5d8f44b1f49ed828675a0f31fb679833d.wav",
+      "durationMs": 1500,
+      "sha256": "11f9b82d648c8882f3168c187fc8760a746d0e1700820cbf09e722a3bd4a4a63"
+    },
+    "tree": {
+      "path": "/static/audio/en-us/224fca13029af7bdf8005f7bdee01630099571c2068742036c7902fd7dfa56b6.wav",
+      "durationMs": 1425,
+      "sha256": "3ce9f78b500c46585e93bb4dc28ed7adc89b96e6e794f852508b6f50f876b822"
+    },
+    "two": {
+      "path": "/static/audio/en-us/2ff7272a323100fdee646beb81bd8144cfb71a785868e88e8584b2f3076b8ca4.wav",
+      "durationMs": 1400,
+      "sha256": "02bd0d16f721f1c43ec683adc7d1f9d5af68fef716f7731888648a72a5f406c8"
+    },
+    "umbrella": {
+      "path": "/static/audio/en-us/069e4632d5f56c5b1e47c67a91da52855f9dee95fc3ffb69455d85df39d37bae.wav",
+      "durationMs": 1600,
+      "sha256": "7a35fbf4aef779d0a2e55337257e2052055496792281ce8d4ed36ead22871600"
+    },
+    "van": {
+      "path": "/static/audio/en-us/092d25e064ce0134d4172e122f5367d462088676181f6a71634f85bb4f0a6ddf.wav",
+      "durationMs": 1450,
+      "sha256": "3745e917ee71ae8a8c70bc8b65fe7d57e6f2d728eed333ba785c2ee39b84171a"
+    },
+    "water": {
+      "path": "/static/audio/en-us/18e60c195a104e655baf04d204cfe57eaea0f198912823bf0393fa742f7d5df9.wav",
+      "durationMs": 1425,
+      "sha256": "493db54051e3bd3745a2a04b33a6fbaa0b25b4504933f66ab012403c969e6181"
+    },
+    "whale": {
+      "path": "/static/audio/en-us/9c429597bc2e7505102de4c3d497266e9a7c3f56024da7209b79c86ccdba8e23.wav",
+      "durationMs": 1350,
+      "sha256": "79677398cbff8de941686050054850202359423d4265dc466bda482dae2e5349"
+    },
+    "where": {
+      "path": "/static/audio/en-us/bb0e67e6735639c979a4c5ac2ac53a63bc99655f3a8de33d9f7a0cca69acae23.wav",
+      "durationMs": 1375,
+      "sha256": "89adea63368f9df44fa4db9cc46ed4ac553f810175cf5899c6e4a017b7556eb3"
+    },
+    "white": {
+      "path": "/static/audio/en-us/4daec0894eedb0786cf22b3319f20128c9c3916249e50564f114aeaf9c28465b.wav",
+      "durationMs": 1325,
+      "sha256": "432932aacc14a5cf7ad1fe723b1d911344e208582a5417007eea3158f987ba5b"
+    },
+    "yellow": {
+      "path": "/static/audio/en-us/a2669e0d2fa05947be6cc21793b5e4f4c70c417637f3eae1fd318672b692d188.wav",
+      "durationMs": 1475,
+      "sha256": "6e0b2ba086bb717706139ba3672fdf3d53edbe2aa09639dc29672604c676bb8d"
+    },
+    "you": {
+      "path": "/static/audio/en-us/8313a49eaaefcf16d6cc146f671ebf79bbece5880f048562d64b0d1ed6f35449.wav",
+      "durationMs": 1350,
+      "sha256": "5461f5d1af10f1cc91de895f4ba85739caebfbcb80a36c44179cbfd9c5e4c513"
+    },
+    "zebra": {
+      "path": "/static/audio/en-us/a996b5d5782046e8371b7d32ef782bdbff3236704f5ffa3852480d46a204687a.wav",
+      "durationMs": 1525,
+      "sha256": "0a20de2c99c41c5afd13e699d309a075719b561e9726b317b72d844e2e55f1e4"
+    }
+  }
+}

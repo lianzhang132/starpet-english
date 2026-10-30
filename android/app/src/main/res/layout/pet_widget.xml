@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pet_widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="12dp" android:background="@drawable/pet_card_background">
+    <TextView android:id="@+id/pet_level" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:text="波波 · Lv. 1" android:textColor="#554D86" android:textSize="13sp" />
+    <ImageView android:id="@+id/widget_bobo" android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:src="@drawable/bobo" android:contentDescription="点击波波，打开英语学习" android:scaleType="fitCenter" />
+    <TextView android:id="@+id/pet_phrase" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:text="Hello, my friend!" android:textColor="#30294C" android:textSize="16sp" android:textStyle="bold" />
+    <TextView android:id="@+id/pet_translation" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:text="你好，我的朋友！" android:textColor="#746D91" android:textSize="12sp" />
+    <Button android:id="@+id/pet_next_phrase" android:layout_width="match_parent" android:layout_height="48dp"
+        android:text="换一句英语 ✦" android:textColor="#6B5CF6" android:textSize="12sp" android:backgroundTint="#E4DDFF" />
+</LinearLayout>

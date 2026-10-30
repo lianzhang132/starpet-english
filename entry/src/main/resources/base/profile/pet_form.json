@@ -1,0 +1,18 @@
+{
+  "forms": [
+    {
+      "name": "bobo_pet",
+      "displayName": "波波英语伙伴",
+      "description": "摸摸波波，每天学一句英语。",
+      "src": "./ets/widget/pages/PetCard.ets",
+      "uiSyntax": "arkts",
+      "isDefault": true,
+      "isDynamic": true,
+      "updateEnabled": true,
+      "scheduledUpdateTime": "08:00",
+      "updateDuration": 0,
+      "defaultDimension": "2*2",
+      "supportDimensions": ["2*2", "2*4"]
+    }
+  ]
+}

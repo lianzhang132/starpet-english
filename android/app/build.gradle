@@ -1,0 +1,56 @@
+plugins { id 'com.android.application' }
+def deployment = new groovy.json.JsonSlurper().parse(file('../../config/deployment.json'))
+def apiHost = new URI(deployment.apiOrigin).host
+def fallbackHost = deployment.apiFallbackOrigin ? new URI(deployment.apiFallbackOrigin).host : ''
+def mediaDiagnostics = providers.gradleProperty('starpetMediaDiagnostics').getOrElse('false')
+if (!(mediaDiagnostics in ['true', 'false'])) throw new GradleException('Invalid media diagnostics flag')
+
+android {
+    namespace 'com.starpet.english.compat'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.starpet.english.compat'
+        minSdk 26
+        targetSdk 35
+        versionCode 10801
+        versionName mediaDiagnostics == 'true' ? '1.8.1-diagnostic' : '1.8.1-compat'
+        buildConfigField 'boolean', 'MEDIA_DIAGNOSTICS', mediaDiagnostics
+        buildConfigField 'String', 'API_HOST', '"' + apiHost + '"'
+        buildConfigField 'String', 'API_FALLBACK_HOST', '"' + fallbackHost + '"'
+    }
+    buildFeatures { buildConfig true }
+    androidResources { noCompress += ['wav', 'mp4'] }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    sourceSets {
+        main.assets.srcDir layout.buildDirectory.dir('generated/starpetAssets')
+        main.res.srcDir layout.buildDirectory.dir('generated/starpetResources')
+    }
+    buildTypes {
+        release { minifyEnabled false }
+        preview {
+            initWith release
+            // Internal device testing only; keep the same local key for future updates.
+            signingConfig signingConfigs.debug
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+def bundleWeb = tasks.register('bundleStarPetWeb', Sync) {
+    from('../../server/app/static')
+    exclude 'downloads/**'
+    into(layout.buildDirectory.dir('generated/starpetAssets/static'))
+}
+def bundlePet = tasks.register('bundleStarPetImage', Copy) {
+    from('../../server/app/static/assets/bobo.png')
+    into(layout.buildDirectory.dir('generated/starpetResources/drawable-nodpi'))
+}
+tasks.named('preBuild').configure { dependsOn bundleWeb, bundlePet }
