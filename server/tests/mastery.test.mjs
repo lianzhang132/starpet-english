@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { accuracy, dueIds, normalizeMastery, recordAttempt } from '../app/static/mastery.mjs';
+import { accuracy, dueIds, normalizeMastery, recordAttempt, deferUncertainSpeech } from '../app/static/mastery.mjs';
 import { reviewQueue, isListeningQuestion } from '../app/static/review.mjs';
 
 test('correct answers grow intervals and incorrect answers return soon', () => {
@@ -29,6 +29,30 @@ test('immediate repeats cannot inflate long-term mastery or postpone review', ()
   recordAttempt(mastery, 'cat', true, first.dueAt);
   assert.equal(mastery.cat.level, 2);
   assert.equal(mastery.cat.dueAt, first.dueAt+3*86_400_000);
+});
+
+test('uncertain speech preserves mastery and defers automatic review without blocking a voluntary retry', () => {
+  const mastery = {};
+  const first = recordAttempt(mastery, 'speaking:hello:1', true, 100);
+  const due = first.dueAt;
+  const postponed = deferUncertainSpeech(mastery, 'speaking:hello:1', due);
+  assert.equal(postponed.level, 1);
+  assert.equal(postponed.attempts, 1);
+  assert.equal(postponed.dueAt, due);
+  assert.deepEqual(dueIds(normalizeMastery(mastery), due + 100), []);
+  assert.deepEqual(dueIds(normalizeMastery(mastery), due + 86_400_000), ['speaking:hello:1']);
+  const retry = recordAttempt(mastery, 'speaking:hello:1', true, due + 200);
+  assert.equal(retry.level, 2);
+  assert.equal(retry.dueAt, due + 200 + 3 * 86_400_000);
+  assert.equal(retry.deferredUntil, undefined);
+});
+
+test('first unmatched speech is deferred without inventing a failed attempt', () => {
+  const mastery = {};
+  deferUncertainSpeech(mastery, 'conversation:chat:one', 100);
+  assert.equal(mastery['conversation:chat:one'].attempts, 0);
+  assert.deepEqual(dueIds(mastery, 101), []);
+  assert.deepEqual(dueIds(mastery, 86_400_100), ['conversation:chat:one']);
 });
 
 test('due speaking and phonics are actionable and keep their audio type', () => {

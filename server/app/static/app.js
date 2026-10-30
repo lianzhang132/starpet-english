@@ -3,7 +3,7 @@ import { LearningSync } from './sync.mjs?v=1.5.4';
 import { DIALOGUE_TRANSLATIONS } from './dialogues.mjs';
 import { ALPHABET, PHONICS_SOUNDS, CVC_BLENDS, PHONICS_QUIZZES } from './phonics.mjs?v=1.5.4';
 import { CONVERSATION_MISSIONS } from './conversations.mjs';
-import { normalizeMastery, recordAttempt } from './mastery.mjs';
+import { normalizeMastery, recordAttempt, deferUncertainSpeech } from './mastery.mjs';
 import { reviewQueue, isListeningQuestion } from './review.mjs';
 import { planDaily, normalizeLessonProgress } from './study-plan.mjs';
 import { refreshStudyDay, studyExtrasSnapshot, restoreStudyExtras } from './study-session.mjs';
@@ -423,7 +423,9 @@ async function submitTake(generation=speechGeneration){
     take.retry=false;
     const fresh=!appState.speechReceipts.includes(requestId);
     if(fresh){
-      studyDay();recordAttempt(appState.mastery,`${conversation?'conversation':'speaking'}:${sceneId}:${conversation?turn.id:lineIndex}`,conversation?result.understood:result.passed);
+      studyDay();const itemId=`${conversation?'conversation':'speaking'}:${sceneId}:${conversation?turn.id:lineIndex}`;
+      if(conversation?result.understood:result.passed)recordAttempt(appState.mastery,itemId,true);
+      else deferUncertainSpeech(appState.mastery,itemId);
       if((conversation?result.understood:result.passed)&&Number.isInteger(result.xpAwarded))appState.xp+=Math.max(0,Math.min(12,result.xpAwarded));
       appState.speechReceipts=[...appState.speechReceipts,requestId].slice(-200);
     }

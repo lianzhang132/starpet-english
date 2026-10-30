@@ -4,6 +4,7 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 import {readSpeechResponse} from '../app/static/speech-request.mjs';
 import {speakingFeedback} from '../app/static/speaking-feedback.mjs';
+import {deferUncertainSpeech} from '../app/static/mastery.mjs';
 
 const response=(value,status=200)=>({ok:status>=200&&status<300,status,json:async()=>value});
 
@@ -30,7 +31,7 @@ function harness(results,{conversation=false}={}){
     recentTake:take,speechGeneration:1,speechPhase:'idle',appState:state,dialogueFinished:false,
     document:{querySelector:selector=>selector==='#audio-consent'?consent:status},
     apiFetch:async(url,options)=>{requests.push({url,options});return results.shift()},
-    speechButton:()=>{},stopEnglish:()=>{},studyDay:()=>studyDays++,recordAttempt:()=>attempts++,save:()=>{},renderDialogue:()=>{},toast:()=>{},
+    speechButton:()=>{},stopEnglish:()=>{},studyDay:()=>studyDays++,recordAttempt:()=>attempts++,deferUncertainSpeech,save:()=>{},renderDialogue:()=>{},toast:()=>{},
     speak:async value=>{said.push(value);return true},
     addUnique:(list,value)=>{if(!list.includes(value))list.push(value)},
     readSpeechResponse,speakingFeedback,AbortController,setTimeout,clearTimeout,TypeError
@@ -60,6 +61,17 @@ test('an unsuccessful replay never grants XP; a zero-XP pass still retains learn
   await failed.run();assert.equal(failed.state.xp,0);assert.equal(failed.state.learnedSentences.length,0);
   const passed=harness([response({passed:true,xpAwarded:0,replayed:true})]);
   await passed.run();assert.equal(passed.state.xp,0);assert.deepEqual(passed.state.learnedSentences,['breakfast:0']);
+});
+
+test('an unmatched recording defers review without reducing previous speaking mastery',async()=>{
+  const h=harness([response({passed:false,transcript:'wrong',xpAwarded:0})]);
+  h.state.mastery['speaking:breakfast:0']={level:3,attempts:4,correct:4,lastSeen:1,dueAt:2};
+  await h.run();
+  assert.equal(h.state.mastery['speaking:breakfast:0'].level,3);
+  assert.equal(h.state.mastery['speaking:breakfast:0'].attempts,4);
+  assert.ok(h.state.mastery['speaking:breakfast:0'].deferredUntil>Date.now());
+  assert.equal(h.counts().attempts,0);
+  assert.equal(h.state.xp,0);
 });
 
 test('conversation metadata replay preserves understanding and continuation without speaking an absent reply',async()=>{

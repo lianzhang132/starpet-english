@@ -604,7 +604,8 @@ def parent_report(device_id: str) -> dict[str, object]:
     mastery = json.loads(progress["mastery"]) if progress else {}
     now_ms = int(datetime.now(UTC).timestamp() * 1000)
     due_count = sum(1 for item in mastery.values() if isinstance(item, dict)
-                    and isinstance(item.get("dueAt"), int) and item["dueAt"] <= now_ms)
+                    and isinstance(item.get("dueAt"), int)
+                    and max(item["dueAt"], item.get("deferredUntil", 0) if isinstance(item.get("deferredUntil", 0), int) else 0) <= now_ms)
     weak_count = sum(1 for item in mastery.values() if isinstance(item, dict)
                      and item.get("attempts", 0) > 0 and item.get("level") == 0)
     activities = json.loads(progress["activity_state"]) if progress else {}

@@ -25,3 +25,12 @@ test('when all topics have been tried only a scheduled review can invite', () =>
   assert.equal(plan.reviewAt, 1000);
   assert.equal(plan.reviewMissions, 'chat-intro:1000,chat-color:1000,chat-animal:1000');
 });
+
+test('an uncertain first response is not treated as a new unsolicited invitation', () => {
+  const plan = petInvitationPlan(missions, {
+    'conversation:chat-intro:name': { attempts: 0, dueAt: 0, deferredUntil: 9000 }
+  });
+  assert.equal(plan.newMissions, 'chat-color,chat-animal');
+  assert.equal(plan.reviewMission, 'chat-intro');
+  assert.equal(plan.reviewAt, 9000);
+});

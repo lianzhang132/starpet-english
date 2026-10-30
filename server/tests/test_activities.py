@@ -1,6 +1,7 @@
 from test_api import client
 from app import speech, main
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 
 
 def test_speech_retry_replays_credit_without_double_counting_and_rejects_id_reuse(monkeypatch):
@@ -23,6 +24,17 @@ def test_audio_minimum_matches_one_second(monkeypatch):
     monkeypatch.setattr(speech, "available", lambda: True)
     url = "/api/v1/practice/speaking?deviceId=duration-device&sceneId=breakfast&lineIndex=0"
     assert client.post(url, content=b"\0" * 31998, headers={"Content-Type": "application/octet-stream"}).status_code == 422
+
+
+def test_parent_report_excludes_uncertain_speech_until_deferred_time():
+    now = int(datetime.now(timezone.utc).timestamp() * 1000)
+    payload = {"deviceId": "uncertain-speech-report", "xp": 0, "stars": 0, "streak": 0,
+               "revision": 1, "mastery": {
+                   "speaking:breakfast:0": {"level": 2, "attempts": 2, "correct": 2, "lastSeen": 1,
+                                             "dueAt": now - 1000, "deferredUntil": now + 86400000}}}
+    assert client.post("/api/v1/progress", json=payload).status_code == 200
+    assert client.get("/api/v1/progress/uncertain-speech-report").json()["mastery"] == payload["mastery"]
+    assert client.get("/api/v1/report/uncertain-speech-report").json()["dueCount"] == 0
 
 
 def test_concurrent_speech_retry_commits_one_receipt_and_one_attempt():

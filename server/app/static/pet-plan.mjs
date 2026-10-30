@@ -7,7 +7,9 @@ export function petInvitationPlan(missions, mastery) {
     const firstTurn = scene.turns?.[0];
     if (!firstTurn) continue;
     const item = mastery[`conversation:${scene.id}:${firstTurn.id}`];
-    if (!item || !item.attempts) {
+    if (item && Number.isSafeInteger(item.deferredUntil) && item.deferredUntil > 0) {
+      reviews.push({ sceneId: scene.id, dueAt: Math.max(item.dueAt || 0, item.deferredUntil) });
+    } else if (!item || !item.attempts) {
       newMissions.push(scene.id);
     } else if (Number.isSafeInteger(item.dueAt) && item.dueAt > 0) {
       reviews.push({ sceneId: scene.id, dueAt: item.dueAt });

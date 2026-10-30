@@ -12,8 +12,18 @@ export function normalizeMastery(value) {
       lastSeen: Number.isSafeInteger(item.lastSeen) ? Math.max(0, item.lastSeen) : 0,
       dueAt: Number.isSafeInteger(item.dueAt) ? Math.max(0, item.dueAt) : 0
     };
+    if (Number.isSafeInteger(item.deferredUntil) && item.deferredUntil > 0) safe[id].deferredUntil = item.deferredUntil;
   }
   return safe;
+}
+
+// An unmatched speech recognition result is uncertain, not evidence of a mistake.
+// Preserve the original due date so a successful voluntary retry can still advance.
+export function deferUncertainSpeech(mastery, itemId, now = Date.now()) {
+  const previous = normalizeMastery({[itemId]: mastery[itemId]})[itemId]
+    || {level:0, attempts:0, correct:0, lastSeen:0, dueAt:0};
+  mastery[itemId] = {...previous, deferredUntil: now + DAY};
+  return mastery[itemId];
 }
 
 export function recordAttempt(mastery, itemId, correct, now = Date.now()) {
@@ -34,8 +44,8 @@ export function recordAttempt(mastery, itemId, correct, now = Date.now()) {
 
 export function dueIds(mastery, now = Date.now()) {
   return Object.entries(normalizeMastery(mastery))
-    .filter(([, item]) => Number(item.dueAt) <= now)
-    .sort((a, b) => Number(a[1].dueAt) - Number(b[1].dueAt) || a[1].level - b[1].level)
+    .filter(([, item]) => Math.max(item.dueAt, item.deferredUntil || 0) <= now)
+    .sort((a, b) => Math.max(a[1].dueAt, a[1].deferredUntil || 0) - Math.max(b[1].dueAt, b[1].deferredUntil || 0) || a[1].level - b[1].level)
     .map(([id]) => id);
 }
 
